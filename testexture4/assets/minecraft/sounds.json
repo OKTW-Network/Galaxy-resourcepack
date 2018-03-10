@@ -1,0 +1,14 @@
+{
+  "gun.shot": {
+    "category": "master",
+    "sounds": [
+      "gun/shot"
+    ]
+  },
+  "gun.overheat": {
+    "category": "master",
+    "sounds": [
+      "gun/overheat"
+    ]
+  }
+}
