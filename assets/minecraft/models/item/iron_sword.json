@@ -8,7 +8,7 @@
 		{ "predicate": {"damaged": 0, "damage": 0.984}, "model": "item/bill/"},
 		{ "predicate": {"damaged": 0, "damage": 0.988}, "model": "item/bill/"},
 		{ "predicate": {"damaged": 0, "damage": 0.992}, "model": "item/bill/"},
-		{ "predicate": {"damaged": 0, "damage": 0.996}, "model": "item/bill/"},
+		{ "predicate": {"damaged": 0, "damage": 0.996}, "model": "item/bill/tools/wrench"},
 		{ "predicate": {"damaged": 1, "damage": 0}, "model": "item/iron_sword"}
 	]
 }
