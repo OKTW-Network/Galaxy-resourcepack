@@ -2,9 +2,10 @@
 	"credit": "Made with Blockbench, a free, modern block model editor by JannisX11",
 	"parent": "block/block",
 	"textures": {
-		"0": "custom/crafting_table",
+		"0": "custom/crafting_table_side",
 		"1": "custom/crafting_table_top",
-		"particle": "custom/crafting_table"
+		"2": "custom/crafting_table_bottom",
+		"particle": "custom/crafting_table_side"
 	},
 	"elements": [
 		{
@@ -44,7 +45,7 @@
 				},
 				"down": {
 					"uv": [0, 0, 16, 16],
-					"texture": "#1",
+					"texture": "#2",
 					"cullface": "down",
 					"tintindex": 0
 				}
