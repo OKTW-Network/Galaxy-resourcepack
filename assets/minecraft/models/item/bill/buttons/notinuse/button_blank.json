@@ -1,0 +1,57 @@
+{
+	"credit": "Made with Blockbench, a free, modern block model editor by JannisX11",
+	"textures": {
+		"0": "custom/button_blank",
+		"particle": "custom/button_blank"
+	},
+	"elements": [
+		{
+			"name": "cube",
+			"from": [7.5, 0, 0],
+			"to": [8.5, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 1, 16], "texture": "#0"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"south": {"uv": [0, 0, 1, 16], "texture": "#0"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"up": {
+					"uv": [0, 0, 16, 1],
+					"texture": "#0",
+					"rotation": 90
+				},
+				"down": {
+					"uv": [0, 0, 16, 1],
+					"texture": "#0",
+					"rotation": 270
+				}
+			},
+			"type": "cube"
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"scale": [0.45, 0.45, 0.45],
+			"rotation": [0, 90, 0],
+			"translation": [0, 2.5, 0]
+		},
+		"thirdperson_lefthand": {
+			"scale": [0.45, 0.45, 0.45],
+			"rotation": [0, 90, 0],
+			"translation": [0, 2.5, 0]
+		},
+		"firstperson_righthand": {
+			"scale": [0.5, 0.5, 0.5],
+			"rotation": [0, 90, 0],
+			"translation": [2, 4, 0]
+		},
+		"firstperson_lefthand": {
+			"scale": [0.5, 0.5, 0.5],
+			"rotation": [0, 90, 0],
+			"translation": [2, 4, 0]
+		},
+		"head": {"scale": [1, 1, 1], "rotation": [0, 90, 0]},
+		"ground": {"scale": [0.75, 0.75, 0.75]},
+		"fixed": {"scale": [1, 1, 1], "rotation": [0, 90, 0]},
+		"gui": {"scale": [1, 1, 1], "rotation": [0, 90, 0]}
+	}
+}
