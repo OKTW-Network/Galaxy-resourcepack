@@ -8,8 +8,8 @@
 		{ "predicate": {"damaged": 0, "damage": 0.9955156950672646}, "model": "item/bill/pistol/b_ran_l"},
 		{ "predicate": {"damaged": 0, "damage": 0.9961563100576553}, "model": "item/bill/pistol/b_gra_l"},
 		{ "predicate": {"damaged": 0, "damage": 0.9967969250480461}, "model": "item/bill/pistol/origin"},
-		{ "predicate": {"damaged": 0, "damage": 0.9974375400384369}, "model": "item/bill/sniper/reservered"},
-		{ "predicate": {"damaged": 0, "damage": 0.9980781550288277}, "model": "item/bill/sniper/reservered"},
+		{ "predicate": {"damaged": 0, "damage": 0.9974375400384369}, "model": "item/bill/sniper/diamond_sword"},
+		{ "predicate": {"damaged": 0, "damage": 0.9980781550288277}, "model": "item/bill/sniper/diamond_sword"},
 		{ "predicate": {"damaged": 0, "damage": 0.9987187700192184}, "model": "item/bill/sniper/origin_aiming"},
 		{ "predicate": {"damaged": 0, "damage": 0.9993593850096092}, "model": "item/bill/sniper/origin"},
 		{ "predicate": {"damaged": 1, "damage": 0}, "model": "item/diamond_sword"}
