@@ -49,8 +49,7 @@
 					"cullface": "down",
 					"tintindex": 0
 				}
-			},
-			"type": "cube"
+			}
 		}
 	],
 	"display": {
@@ -80,9 +79,9 @@
 			"translation": [0, 0, 0]
 		},
 		"ground": {
-			"scale": [0.15, 0.15, 0.15],
+			"scale": [0.125, 0.125, 0.125],
 			"rotation": [0, 0, 0],
-			"translation": [0, 0, 0]
+			"translation": [0, 3, 0]
 		},
 		"fixed": {
 			"scale": [0.25, 0.25, 0.25],
