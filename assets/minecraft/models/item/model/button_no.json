@@ -1,6 +1,6 @@
 {
     "parent": "item/diamond_hoe",
     "textures": {
-        "layer0": "custom/button_o"
+        "layer0": "custom/button_no"
     }
 }
