@@ -1,10 +1,12 @@
 {
 	"credit": "Made with Blockbench, a free, modern block model editor by JannisX11",
 	"textures": {
+		"0": "custom/concrete_silver",
 		"1": "custom/hardened_clay_stained_cyan",
 		"4": "custom/concrete_white",
 		"5": "custom/concrete_gray",
-		"8": "custom/concrete_orange"
+		"8": "custom/concrete_orange",
+		"particle": "custom/concrete_silver"
 	},
 	"elements": [
 		{
@@ -175,19 +177,19 @@
 			"faces": {
 				"north": {
 					"uv": [0, 0, 0.3000000000000007, 0.25],
-					"texture": "#8"
+					"texture": "#0"
 				},
 				"east": {
 					"uv": [0, 0, 0.9499999999999993, 0.25],
-					"texture": "#8"
+					"texture": "#0"
 				},
 				"south": {
 					"uv": [0, 0, 0.3000000000000007, 0.25],
-					"texture": "#8"
+					"texture": "#0"
 				},
 				"west": {
 					"uv": [0, 0, 0.9499999999999993, 0.25],
-					"texture": "#8"
+					"texture": "#0"
 				},
 				"up": {
 					"uv": [
@@ -196,7 +198,7 @@
 						0.3000000000000007,
 						0.9499999999999993
 					],
-					"texture": "#8"
+					"texture": "#0"
 				},
 				"down": {
 					"uv": [
@@ -205,7 +207,7 @@
 						0.3000000000000007,
 						0.9499999999999993
 					],
-					"texture": "#8"
+					"texture": "#0"
 				}
 			}
 		},
