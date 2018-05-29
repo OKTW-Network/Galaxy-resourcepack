@@ -5,6 +5,8 @@
     },
 	"overrides": [
 		{ "predicate": {"damaged": 0, "damage": 0}, "model": "item/stone_sword"},
+		{ "predicate": {"damaged": 0, "damage": 0.916030534351145}, "model": "item/model/part_base"},
+		{ "predicate": {"damaged": 0, "damage": 0.9236641221374046}, "model": "item/model/part_rawbase"},
 		{ "predicate": {"damaged": 0, "damage": 0.9312977099236641}, "model": "item/model/part_scope"},
 		{ "predicate": {"damaged": 0, "damage": 0.9389312977099237}, "model": "item/model/part_battery"},
 		{ "predicate": {"damaged": 0, "damage": 0.9465648854961832}, "model": "item/model/part_laser"},
