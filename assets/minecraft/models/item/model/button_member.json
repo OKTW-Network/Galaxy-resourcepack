@@ -1,6 +1,34 @@
 {
-    "parent": "item/diamond_hoe",
-    "textures": {
-        "layer0": "custom/button_member"
-    }
+	"credit": "Made with Blockbench, a free, modern block model editor by JannisX11",
+	"textures": {
+		"0": "custom/button_member",
+		"particle": "custom/button_member"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 0, 16],
+			"shade": false,
+			"faces": {
+				"north": {"uv": [12, 8, 8, 12], "texture": "#0"},
+				"east": {"uv": [0, 0, 0, 16], "texture": "#missing"},
+				"south": {"uv": [8, 8, 12, 12], "texture": "#0"},
+				"west": {"uv": [0, 0, 0, 16], "texture": "#missing"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"down": {"uv": [0, 16, 16, 0], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 0, 8]
+		},
+		"gui": {
+			"scale": [1.125, 1.125, 1.125],
+			"rotation": [90, 0, 0]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, 0, 8]
+		}
+	}
 }
