@@ -1,0 +1,21 @@
+{
+	"credit": "Made with Blockbench, a free, modern block model editor by JannisX11",
+	"textures": {
+		"0": "custom/progress_22",
+		"particle": "custom/progress_22"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [26, 16, 0],
+			"faces": {
+				"north": {"uv": [16, 0, 0, 9.8], "texture": "#0"},
+				"east": {"uv": [0, 0, 0, 16], "texture": "#missing"},
+				"south": {"uv": [0, 0, 16, 9.8], "texture": "#0"},
+				"west": {"uv": [0, 0, 0, 16], "texture": "#missing"},
+				"up": {"uv": [0, 0, 16, 0], "texture": "#missing"},
+				"down": {"uv": [0, 0, 16, 0], "texture": "#missing"}
+			}
+		}
+	]
+}
