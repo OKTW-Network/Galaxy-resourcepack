@@ -5,6 +5,10 @@
     },
 	"overrides": [
 		{ "predicate": {"damaged": 0, "damage": 0}, "model": "item/diamond_hoe"},
+		{"predicate": {"damaged": 0, "damage": 0.9391415759128764}, "model": "item/model/button_gui_tqbl"},
+		{"predicate": {"damaged": 0, "damage": 0.9397821909032671}, "model": "item/model/button_gui_tqbr"},
+		{"predicate": {"damaged": 0, "damage": 0.9404228058936579}, "model": "item/model/button_gui_tqtl"},
+		{"predicate": {"damaged": 0, "damage": 0.9410634208840487}, "model": "item/model/button_gui_tqtr"},
 		{"predicate": {"damaged": 0, "damage": 0.9417040358744395}, "model": "item/model/button_gui_v_progress_0"},
 		{"predicate": {"damaged": 0, "damage": 0.9423446508648302}, "model": "item/model/button_gui_v_progress_10"},
 		{"predicate": {"damaged": 0, "damage": 0.942985265855221}, "model": "item/model/button_gui_v_progress_9"},
