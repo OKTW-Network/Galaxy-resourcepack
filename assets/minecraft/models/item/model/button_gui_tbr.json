@@ -1,0 +1,33 @@
+{
+	"credit": "Made with Blockbench, a free, modern block model editor by JannisX11, model design by bill96012",
+	"textures": {
+		"0": "custom/background_2",
+		"particle": "custom/background_2"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 0],
+			"shade": false,
+			"faces": {
+				"north": {"uv": [16, 8, 8, 16], "texture": "#0"},
+				"east": {"uv": [0, 0, 0, 16], "texture": "#missing"},
+				"south": {"uv": [8, 8, 16, 16], "texture": "#0"},
+				"west": {"uv": [0, 0, 0, 16], "texture": "#missing"},
+				"up": {"uv": [0, 0, 16, 0], "texture": "#missing"},
+				"down": {"uv": [0, 0, 16, 0], "texture": "#missing"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 0, 8]
+		},
+		"gui": {
+			"scale": [1.125, 1.125, 1]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, 0, 8]
+		}
+	}
+}
