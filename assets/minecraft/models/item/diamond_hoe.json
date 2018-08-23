@@ -5,7 +5,8 @@
     },
 	"overrides": [
 		{ "predicate": {"damaged": 0, "damage": 0}, "model": "item/diamond_hoe"},
-		{"predicate": {"damaged": 0, "damage": 0.9295323510570147}, "model": "item/diamond_hoe"},
+		{"predicate": {"damaged": 0, "damage": 0.9288917360666239}, "model": "item/model/button_setting"},
+		{"predicate": {"damaged": 0, "damage": 0.9295323510570147}, "model": "item/model/button_planet_add"},
 		{"predicate": {"damaged": 0, "damage": 0.9301729660474055}, "model": "item/model/button_9"},
 		{"predicate": {"damaged": 0, "damage": 0.9308135810377963}, "model": "item/model/button_8"},
 		{"predicate": {"damaged": 0, "damage": 0.9314541960281871}, "model": "item/model/button_7"},
