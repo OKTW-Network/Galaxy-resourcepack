@@ -1,19 +1,20 @@
 {
-	"credit": "Made with Blockbench, a free, modern block model editor by JannisX11",
+	"credit": "Made with Blockbench, a free, modern block model editor by JannisX11, model design by OKTW",
 	"textures": {
 		"0": "custom/button_galaxy_joined",
+		"1": "custom/colors",
 		"particle": "custom/button_galaxy_joined"
 	},
 	"elements": [
 		{
-			"from": [0, 0, 0],
-			"to": [16, 0, 16],
+			"from": [0, -0.5, 0],
+			"to": [16, 0.5, 16],
 			"shade": false,
 			"faces": {
-				"north": {"uv": [12, 8, 8, 12], "texture": "#0"},
-				"east": {"uv": [0, 0, 0, 16], "texture": "#missing"},
-				"south": {"uv": [8, 8, 12, 12], "texture": "#0"},
-				"west": {"uv": [0, 0, 0, 16], "texture": "#missing"},
+				"north": {"uv": [0, 15, 1, 16], "texture": "#1"},
+				"east": {"uv": [0, 15, 1, 16], "texture": "#1"},
+				"south": {"uv": [0, 15, 1, 16], "texture": "#1"},
+				"west": {"uv": [0, 15, 1, 16], "texture": "#1"},
 				"up": {"uv": [0, 0, 16, 16], "texture": "#0"},
 				"down": {"uv": [0, 16, 16, 0], "texture": "#0"}
 			}
@@ -21,14 +22,42 @@
 	],
 	"display": {
 		"thirdperson_righthand": {
-			"translation": [0, 0, 8]
+			"translation": [0, 1.75, 3],
+			"scale": [0.25, 0.25, 0.25],
+			"rotation": [90, 0, 0]
 		},
 		"gui": {
 			"scale": [1.125, 1.125, 1.125],
 			"rotation": [90, 0, 0]
 		},
 		"thirdperson_lefthand": {
-			"translation": [0, 0, 8]
+			"translation": [0, 1.75, 3],
+			"scale": [0.25, 0.25, 0.25],
+			"rotation": [90, 0, 0]
+		},
+		"fixed": {
+			"scale": [2, 2, 2],
+			"rotation": [90, 0, 180],
+			"translation": [0, 0, -15.125]
+		},
+		"ground": {
+			"scale": [0.5, 0.5, 0.5],
+			"translation": [0, 5, 0]
+		},
+		"head": {
+			"scale": [0.75, 0.75, 0.75],
+			"rotation": [90, 0, 180],
+			"translation": [0, 0, -13]
+		},
+		"firstperson_lefthand": {
+			"scale": [0.5, 0.5, 0.5],
+			"rotation": [85, 0, 10],
+			"translation": [8.5, 0, -5]
+		},
+		"firstperson_righthand": {
+			"scale": [0.5, 0.5, 0.5],
+			"rotation": [85, 0, 10],
+			"translation": [8.5, 0, -5]
 		}
 	}
 }
