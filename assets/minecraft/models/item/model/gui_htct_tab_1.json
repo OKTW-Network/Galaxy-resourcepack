@@ -29,7 +29,7 @@
 		"gui": {
 			"scale": [2.25, 1.125, 1.125],
 			"rotation": [90, 0, 0],
-			"translation": [-45, 0, -80]
+			"translation": [-45, 0, 1]
 		},
 		"thirdperson_lefthand": {
 			"translation": [0, 0.65, 3],
