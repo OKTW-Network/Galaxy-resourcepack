@@ -1,9 +1,9 @@
 {
-	"credit": "Made with Blockbench, a free, modern block model editor by JannisX11, model design by bill96012",
+	"credit": "Made with Blockbench, a free, modern block model editor by JannisX11, model design by OKTW",
 	"parent": "block/block",
 	"textures": {
-		"0": "custom/missing",
-		"particle": "custom/missing"
+		"0": "custom/teleporter_frame",
+		"particle": "custom/teleporter_frame"
 	},
 	"elements": [
 		{
