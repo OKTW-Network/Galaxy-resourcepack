@@ -1,0 +1,19 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/buildpack-deps:stable-curl-browsers-legacy
+    steps:
+      - checkout
+      - run:
+          name: Pack
+          command: zip -r resourcepack.zip ./*
+      - run:
+          name: Create pack folder
+          command: mkdir packed/
+      - run:
+          name: Create pack folder
+          command: mv resourcepack.zip packed/
+      - store_artifacts:
+          path: packed/
+          destination: .
