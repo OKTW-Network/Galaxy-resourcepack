@@ -1,5 +1,5 @@
 {
-	"credit": "Made with Blockbench, a free, modern block model editor by JannisX11, model design by bill96012",
+	"credit": "Made with Blockbench, a free, modern block model editor by JannisX11, model design by OKTW",
 	"textures": {
 		"0": "custom/concrete_black",
 		"1": "custom/concrete_light_blue",
@@ -1083,7 +1083,7 @@
 		},
 		"ground": {
 			"scale": [0.5, 0.5, 0.5],
-			"translation": [0, -1, 1],
+			"translation": [0, 0, 1],
 			"rotation": [0, 0, 90]
 		}
 	},
