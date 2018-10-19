@@ -1,5 +1,5 @@
 {
-	"credit": "Made with Blockbench, a free, modern block model editor by JannisX11, model design by OKTW",
+	"credit": "Made with Blockbench, model design by OKTW",
 	"parent": "block/block",
 	"textures": {
 		"0": "custom/teleporter_frame",
@@ -7,6 +7,7 @@
 	},
 	"elements": [
 		{
+			"name": "cube",
 			"from": [-4, -4, -4],
 			"to": [20, 20, 20],
 			"faces": {
@@ -28,12 +29,12 @@
 		"thirdperson_righthand": {
 			"rotation": [75, 45, 0],
 			"translation": [0, 2.5, 0],
-			"scale": [0.247, 0.247, 0.247]
+			"scale": [0.25, 0.25, 0.25]
 		},
 		"thirdperson_lefthand": {
 			"rotation": [75, 45, 0],
 			"translation": [0, 2.5, 0],
-			"scale": [0.247, 0.247, 0.247]
+			"scale": [0.25, 0.25, 0.25]
 		},
 		"firstperson_righthand": {
 			"scale": [0.2675, 0.2675, 0.2675],
@@ -49,7 +50,7 @@
 			"translation": [0, 3, 0]
 		},
 		"fixed": {
-			"scale": [0.325, 0.325, 0.325],
+			"scale": [0.335, 0.335, 0.335],
 			"rotation": [0, 0, 0],
 			"translation": [0, 0, 0]
 		},
