@@ -1,53 +1,65 @@
 {
-	"credit": "Made with Blockbench, a free, modern block model editor by JannisX11, model design by OKTW",
+	"credit": "Made with Blockbench, model design by OKTW",
 	"textures": {
-		"0": "custom/progress_0",
+		"0": "custom/progress_arrow",
 		"1": "custom/colors",
-		"particle": "custom/progress_0"
+		"particle": "custom/progress_arrow"
 	},
 	"elements": [
 		{
-			"from": [-16, -0.5, 0],
-			"to": [16, 0.5, 16],
+			"from": [-10, -0.5, -1],
+			"to": [26, 0, 17],
 			"shade": false,
 			"faces": {
-				"north": {"uv": [0, 15, 1, 16], "texture": "#1"},
-				"east": {"uv": [0, 15, 1, 16], "texture": "#1"},
-				"south": {"uv": [0, 15, 1, 16], "texture": "#1"},
-				"west": {"uv": [0, 15, 1, 16], "texture": "#1"},
+				"north": {"uv": [6, 9, 7, 10], "texture": "#1"},
+				"east": {"uv": [6, 9, 7, 10], "texture": "#1"},
+				"south": {"uv": [6, 9, 7, 10], "texture": "#1"},
+				"west": {"uv": [6, 9, 7, 10], "texture": "#1"},
+				"up": {"uv": [6, 9, 7, 10], "texture": "#1"},
+				"down": {"uv": [6, 9, 7, 10], "texture": "#1"}
+			}
+		},
+		{
+			"from": [-8, 1, 0],
+			"to": [24, 1, 16],
+			"faces": {
+				"north": {"uv": [15, 0, 16, 1], "texture": "#1"},
+				"east": {"uv": [15, 0, 16, 1], "texture": "#1"},
+				"south": {"uv": [15, 0, 16, 1], "texture": "#1"},
+				"west": {"uv": [15, 0, 16, 1], "texture": "#1"},
 				"up": {"uv": [3.85, 5.875, 12.1, 10.375], "texture": "#0"},
-				"down": {"uv": [3.85, 10.375, 12.1, 5.875], "texture": "#0"}
+				"down": {"uv": [15, 0, 16, 1], "texture": "#1"}
 			}
 		}
 	],
 	"display": {
 		"thirdperson_righthand": {
-			"translation": [1.75, 1.75, 3],
+			"translation": [0, 1.75, 3],
 			"scale": [0.25, 0.25, 0.25],
 			"rotation": [90, 0, 0]
 		},
 		"gui": {
-			"scale": [1.125, 1.125, 1.125],
-			"rotation": [90, 0, 0]
+			"rotation": [90, 0, 0],
+			"translation": [-9, 0, 0]
 		},
 		"thirdperson_lefthand": {
-			"translation": [1.75, 1.75, 3],
+			"translation": [0, 1.75, 3],
 			"scale": [0.25, 0.25, 0.25],
 			"rotation": [90, 0, 0]
 		},
 		"fixed": {
-			"scale": [2, 2, 2],
+			"scale": [1.778, 2, 1.778],
 			"rotation": [90, 0, 180],
-			"translation": [0, 0, -15.125]
+			"translation": [14.225, 0, -16.125]
 		},
 		"ground": {
 			"scale": [0.5, 0.5, 0.5],
-			"translation": [4, 5, 0]
+			"translation": [0, 5, 0]
 		},
 		"head": {
 			"scale": [0.75, 0.75, 0.75],
 			"rotation": [90, 0, 180],
-			"translation": [-6, 0, -13]
+			"translation": [0, 0, -13]
 		},
 		"firstperson_lefthand": {
 			"scale": [0.5, 0.5, 0.5],

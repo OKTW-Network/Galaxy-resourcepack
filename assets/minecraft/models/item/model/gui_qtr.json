@@ -1,22 +1,21 @@
 {
-	"credit": "Made with Blockbench, a free, modern block model editor by JannisX11, model design by OKTW",
+	"credit": "Made with Blockbench, model design by OKTW",
 	"textures": {
-		"0": "custom/background",
 		"1": "custom/colors",
-		"particle": "custom/background"
+		"2": "custom/background"
 	},
 	"elements": [
 		{
-			"from": [0, -0.5, 0],
-			"to": [16, 0.5, 16],
+			"from": [-1, -0.5, -1],
+			"to": [17, 0, 17],
 			"shade": false,
 			"faces": {
-				"north": {"uv": [0, 15, 1, 16], "texture": "#1"},
-				"east": {"uv": [0, 15, 1, 16], "texture": "#1"},
-				"south": {"uv": [0, 15, 1, 16], "texture": "#1"},
-				"west": {"uv": [0, 15, 1, 16], "texture": "#1"},
-				"up": {"uv": [12, 4, 16, 8], "texture": "#0"},
-				"down": {"uv": [12, 8, 16, 4], "texture": "#0"}
+				"north": {"uv": [6, 9, 7, 10], "texture": "#1"},
+				"east": {"uv": [6, 9, 7, 10], "texture": "#1"},
+				"south": {"uv": [6, 9, 7, 10], "texture": "#1"},
+				"west": {"uv": [6, 9, 7, 10], "texture": "#1"},
+				"up": {"uv": [12, 4, 16, 8], "texture": "#2"},
+				"down": {"uv": [6, 9, 7, 10], "texture": "#1"}
 			}
 		}
 	],
@@ -27,7 +26,6 @@
 			"rotation": [90, 0, 0]
 		},
 		"gui": {
-			"scale": [1.125, 1.125, 1.125],
 			"rotation": [90, 0, 0]
 		},
 		"thirdperson_lefthand": {
@@ -36,9 +34,9 @@
 			"rotation": [90, 0, 0]
 		},
 		"fixed": {
-			"scale": [2, 2, 2],
+			"scale": [1.778, 2, 1.778],
 			"rotation": [90, 0, 180],
-			"translation": [0, 0, -15.125]
+			"translation": [0, 0, -16.125]
 		},
 		"ground": {
 			"scale": [0.5, 0.5, 0.5],

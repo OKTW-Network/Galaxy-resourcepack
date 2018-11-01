@@ -1,5 +1,5 @@
 {
-	"credit": "Made with Blockbench, a free, modern block model editor by JannisX11, model design by OKTW",
+	"credit": "Made with Blockbench, model design by OKTW",
 	"textures": {
 		"1": "custom/colors",
 		"2": "custom/icon_info"
@@ -10,12 +10,12 @@
 			"to": [17, 0, 17],
 			"shade": false,
 			"faces": {
-				"north": {"uv": [6, 11, 7, 12], "texture": "#1"},
-				"east": {"uv": [6, 11, 7, 12], "texture": "#1"},
-				"south": {"uv": [6, 11, 7, 12], "texture": "#1"},
-				"west": {"uv": [6, 11, 7, 12], "texture": "#1"},
-				"up": {"uv": [6, 11, 7, 12], "texture": "#1"},
-				"down": {"uv": [6, 12, 7, 11], "texture": "#1"}
+				"north": {"uv": [6, 9, 7, 10], "texture": "#1"},
+				"east": {"uv": [6, 9, 7, 10], "texture": "#1"},
+				"south": {"uv": [6, 9, 7, 10], "texture": "#1"},
+				"west": {"uv": [6, 9, 7, 10], "texture": "#1"},
+				"up": {"uv": [6, 9, 7, 10], "texture": "#1"},
+				"down": {"uv": [6, 9, 7, 10], "texture": "#1"}
 			}
 		},
 		{
