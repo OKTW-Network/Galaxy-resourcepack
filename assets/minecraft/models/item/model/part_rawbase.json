@@ -1,8 +1,9 @@
 {
-	"credit": "Made with Blockbench, a free, modern block model editor by JannisX11, model design by OKTW",
+	"credit": "Made with Blockbench, model design by OKTW",
 	"textures": {
 		"2": "custom/clay",
-		"6": "custom/obsidian"
+		"6": "custom/obsidian",
+		"particle": "custom/clay"
 	},
 	"elements": [
 		{
@@ -10,11 +11,11 @@
 			"to": [1, 1, 15],
 			"faces": {
 				"north": {"uv": [0, 0, 1, 1], "texture": "#6"},
-				"east": {"uv": [0, 0, 1, 15], "texture": "#6", "rotation": 90},
+				"east": {"uv": [0, 0, 1, 15], "rotation": 90, "texture": "#6"},
 				"south": {"uv": [0, 14, 1, 15], "texture": "#6"},
-				"west": {"uv": [0, 0, 1, 15], "texture": "#6", "rotation": 270},
+				"west": {"uv": [0, 0, 1, 15], "rotation": 270, "texture": "#6"},
 				"up": {"uv": [0, 0, 1, 15], "texture": "#6"},
-				"down": {"uv": [0, 0, 1, 15], "texture": "#6", "rotation": 180}
+				"down": {"uv": [0, 0, 1, 15], "rotation": 180, "texture": "#6"}
 			}
 		},
 		{
@@ -22,18 +23,18 @@
 			"to": [16, 1, 16],
 			"faces": {
 				"north": {"uv": [15, 1, 16, 2], "texture": "#6"},
-				"east": {"uv": [15, 1, 16, 16], "texture": "#6", "rotation": 90},
+				"east": {"uv": [15, 1, 16, 16], "rotation": 90, "texture": "#6"},
 				"south": {"uv": [15, 15, 16, 16], "texture": "#6"},
-				"west": {"uv": [15, 1, 16, 16], "texture": "#6", "rotation": 270},
+				"west": {"uv": [15, 1, 16, 16], "rotation": 270, "texture": "#6"},
 				"up": {"uv": [15, 1, 16, 16], "texture": "#6"},
-				"down": {"uv": [15, 1, 16, 16], "texture": "#6", "rotation": 180}
+				"down": {"uv": [15, 1, 16, 16], "rotation": 180, "texture": "#6"}
 			}
 		},
 		{
 			"from": [0, 0, 15],
 			"to": [15, 1, 16],
 			"faces": {
-				"north": {"uv": [0, 15, 15, 16], "texture": "#6", "rotation": 180},
+				"north": {"uv": [0, 15, 15, 16], "rotation": 180, "texture": "#6"},
 				"east": {"uv": [15, 15, 16, 16], "texture": "#6"},
 				"south": {"uv": [0, 15, 15, 16], "texture": "#6"},
 				"west": {"uv": [0, 15, 1, 16], "texture": "#6"},
@@ -45,7 +46,7 @@
 			"from": [1, 0, 0],
 			"to": [16, 1, 1],
 			"faces": {
-				"north": {"uv": [1, 0, 16, 1], "texture": "#6", "rotation": 180},
+				"north": {"uv": [1, 0, 16, 1], "rotation": 180, "texture": "#6"},
 				"east": {"uv": [15, 0, 16, 1], "texture": "#6"},
 				"south": {"uv": [1, 0, 16, 1], "texture": "#6"},
 				"west": {"uv": [1, 0, 2, 1], "texture": "#6"},
