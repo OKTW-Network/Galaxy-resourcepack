@@ -5,6 +5,7 @@
     },
 	"overrides": [
 		{ "predicate": {"damaged": 0, "damage": 0}, "model": "item/diamond_sword"},
+		{ "predicate": {"damaged": 0, "damage": 0.00064061499}, "model": "item/model/sword_ch_on"},
 		{ "predicate": {"damaged": 0, "damage": 0.9916720051249199}, "model": "item/model/sword_scabbard"},
 		{ "predicate": {"damaged": 0, "damage": 0.9923126201153107}, "model": "item/model/sword_off"},
 		{ "predicate": {"damaged": 0, "damage": 0.9929532351057015}, "model": "item/model/sword_on"},
