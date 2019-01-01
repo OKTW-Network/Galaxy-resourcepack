@@ -1,5 +1,5 @@
 {
-	"credit": "Made with Blockbench, model design by OKTW",
+	"credit": "Made with Blockbench, model design by OKTW team",
 	"textures": {
 		"0": "galaxy/colors",
 		"1": "galaxy/glass_orange",
@@ -7,15 +7,16 @@
 	},
 	"elements": [
 		{
+			"name": "blade",
 			"from": [7.825, 5, 7.325],
 			"to": [8.175, 22, 8.45],
 			"faces": {
-				"north": {"uv": [0, 0, 1, 1], "texture": "#1", "cullface": "north"},
-				"east": {"uv": [0, 0, 1, 1], "texture": "#1", "cullface": "east"},
-				"south": {"uv": [0, 0, 1, 1], "texture": "#1", "cullface": "south"},
-				"west": {"uv": [0, 0, 1, 1], "texture": "#1", "cullface": "west"},
-				"up": {"uv": [0, 0, 1, 1], "texture": "#1", "cullface": "up"},
-				"down": {"uv": [0, 0, 1, 1], "texture": "#1", "cullface": "down"}
+				"north": {"uv": [0, 0, 1, 1], "texture": "#1"},
+				"east": {"uv": [0, 0, 1, 1], "texture": "#1"},
+				"south": {"uv": [0, 0, 1, 1], "texture": "#1"},
+				"west": {"uv": [0, 0, 1, 1], "texture": "#1"},
+				"up": {"uv": [0, 0, 1, 1], "texture": "#1"},
+				"down": {"uv": [0, 0, 1, 1], "texture": "#1"}
 			}
 		},
 		{
@@ -296,24 +297,18 @@
 	],
 	"display": {
 		"thirdperson_righthand": {
-			"rotation": [0, 0, 0],
 			"translation": [0, 4.15, 1.75],
 			"scale": [1.05, 1.05, 1.05]
 		},
 		"firstperson_righthand": {
-			"scale": [1, 1, 0.68],
-			"translation": [3, 4.5, 0],
-			"rotation": [5, 0, 0]
-		},
-		"firstperson_lefthand": {
-			"scale": [1, 1, 0.68],
 			"rotation": [5, 0, 0],
-			"translation": [3, 4.5, 0]
+			"translation": [3, 4.5, 0],
+			"scale": [1, 1, 0.68]
 		},
 		"gui": {
-			"scale": [0.9, 0.9, 0.9],
 			"rotation": [-90, 135, 90],
-			"translation": [-1.75, -1.75, 0]
+			"translation": [-1.75, -1.75, 0],
+			"scale": [0.9, 0.9, 0.9]
 		},
 		"thirdperson_lefthand": {
 			"translation": [0, 4.15, 1.75],
@@ -321,18 +316,18 @@
 		},
 		"head": {
 			"rotation": [180, 90, 0],
-			"scale": [1.5, 1.5, 1.5],
-			"translation": [0, 16, 0]
+			"translation": [0, 16, 0],
+			"scale": [1.5, 1.5, 1.5]
 		},
 		"ground": {
-			"scale": [0.5, 0.5, 0.5],
 			"rotation": [25, 0, 0],
-			"translation": [0, 3, -0.75]
+			"translation": [0, 3, -0.75],
+			"scale": [0.5, 0.5, 0.5]
 		},
 		"fixed": {
-			"scale": [1.5, 1.5, 1.5],
+			"rotation": [0, -90, 0],
 			"translation": [0, -4.5, -1],
-			"rotation": [0, -90, 0]
+			"scale": [1.5, 1.5, 1.5]
 		}
 	},
 	"groups": [
