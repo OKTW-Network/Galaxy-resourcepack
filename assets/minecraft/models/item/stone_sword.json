@@ -5,6 +5,7 @@
     },
 	"overrides": [
 		{ "predicate": {"damaged": 0, "damage": 0}, "model": "item/stone_sword"},
+		{ "##inGameDMG": 114, "predicate": {"damaged": 0, "damage": 0.8702290076335878}, "model": "galaxy/upgrade_base"},
 		{ "##inGameDMG": 115, "predicate": {"damaged": 0, "damage": 0.8778625954198473}, "model": "galaxy/upgrade_cooling_lv5"},
 		{ "##inGameDMG": 116, "predicate": {"damaged": 0, "damage": 0.8854961832061069}, "model": "galaxy/upgrade_cooling_lv4"},
 		{ "##inGameDMG": 117, "predicate": {"damaged": 0, "damage": 0.8931297709923664}, "model": "galaxy/upgrade_cooling_lv3"},
