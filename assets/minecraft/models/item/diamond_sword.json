@@ -5,6 +5,11 @@
     },
 	"overrides": [
 		{ "predicate": {"damaged": 0, "damage": 0}, "model": "item/diamond_sword"},
+		{ "##inGameDMG": 1535, "predicate": {"damaged": 0, "damage": 0.9833440102498398}, "model": "galaxy/upgrade_range_lv5"},
+		{ "##inGameDMG": 1536, "predicate": {"damaged": 0, "damage": 0.9839846252402306}, "model": "galaxy/upgrade_range_lv4"},
+		{ "##inGameDMG": 1537, "predicate": {"damaged": 0, "damage": 0.9846252402306214}, "model": "galaxy/upgrade_range_lv3"},
+		{ "##inGameDMG": 1538, "predicate": {"damaged": 0, "damage": 0.9852658552210122}, "model": "galaxy/upgrade_range_lv2"},
+		{ "##inGameDMG": 1539, "predicate": {"damaged": 0, "damage": 0.9859064702114029}, "model": "galaxy/upgrade_range_lv1"},
 		{ "##inGameDMG": 1540, "predicate": {"damaged": 0, "damage": 0.9865470852017937}, "model": "galaxy/upgrade_cooling_lv5"},
 		{ "##inGameDMG": 1541, "predicate": {"damaged": 0, "damage": 0.9871877001921845}, "model": "galaxy/upgrade_cooling_lv4"},
 		{ "##inGameDMG": 1542, "predicate": {"damaged": 0, "damage": 0.9878283151825753}, "model": "galaxy/upgrade_cooling_lv3"},
