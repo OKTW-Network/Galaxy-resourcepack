@@ -1,0 +1,6 @@
+{
+	"parent": "galaxy/gui_progress",
+	"textures": {
+		"arrow": "galaxy/progress_blocked"
+	}
+}

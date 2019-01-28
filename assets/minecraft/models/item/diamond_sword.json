@@ -26,7 +26,7 @@
 		{ "##inGameDMG": 1543, "predicate": {"damaged": 0, "damage": 0.988468930172966},  "model": "galaxy/upgrade_cooling_lv2"},
 		{ "##inGameDMG": 1544, "predicate": {"damaged": 0, "damage": 0.9891095451633568}, "model": "galaxy/upgrade_cooling_lv1"},
 		{ "##inGameDMG": 1545, "predicate": {"damaged": 0, "damage": 0.9897501601537476}, "model": "galaxy/upgrade_base"},
-		{ "##inGameDMG": 1546, "predicate": {"damaged": 0, "damage": 0.9903907751441384}, "model": "galaxy/diamond_sword"},
+		{ "##inGameDMG": 1546, "predicate": {"damaged": 0, "damage": 0.9903907751441384}, "model": "item/diamond_sword"},
 		{ "##inGameDMG": 1547, "predicate": {"damaged": 0, "damage": 0.9910313901345291}, "model": "galaxy/sword_ch_on"},
 		{ "##inGameDMG": 1548, "predicate": {"damaged": 0, "damage": 0.9916720051249199}, "model": "galaxy/sword_scabbard"},
 		{ "##inGameDMG": 1549, "predicate": {"damaged": 0, "damage": 0.9923126201153107}, "model": "galaxy/sword_off"},

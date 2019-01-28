@@ -1,26 +1,6 @@
-{
-	"credit": "Made with Blockbench, a free, modern block model editor by JannisX11, model design by bill96012",
+{	
+	"parent": "item/generated",
 	"textures": {
-		"0": "galaxy/blank",
-		"particle": "galaxy/blank"
-	},
-	"elements": [
-		{
-			"from": [0, 0, 0],
-			"to": [16, 16, 0],
-			"faces": {
-				"north": {"uv": [16, 1, 0, 10], "texture": "#0"},
-				"east": {"uv": [0, 0, 0, 16], "texture": "#missing"},
-				"south": {"uv": [1.25, 6, 14.75, 10.5], "texture": "#0"},
-				"west": {"uv": [0, 0, 0, 16], "texture": "#missing"},
-				"up": {"uv": [0, 0, 16, 0], "texture": "#missing"},
-				"down": {"uv": [0, 0, 16, 0], "texture": "#missing"}
-			}
-		}
-	],
-	"display": {
-		"gui": {
-			"scale": [1.125, 1.125, 1.125]
-		}
+		"layer0": "galaxy/blank"
 	}
 }
