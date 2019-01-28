@@ -6,6 +6,10 @@
 	"overrides": [
 		
 		{"predicate": {"damaged": 0, "damage": 0}, "model": "item/diamond_hoe"},
+		{"predicate": {"damaged": 0, "damage": 0.9160794362588085}, "model": "galaxy/gui_upgrade_solt"},
+		{"predicate": {"damaged": 0, "damage": 0.9167200512491992}, "model": "galaxy/gui_v_progress_blocked"},
+		{"predicate": {"damaged": 0, "damage": 0.9173606662395899}, "model": "galaxy/gui_v_progress_12"},
+		{"predicate": {"damaged": 0, "damage": 0.9180012812299807}, "model": "galaxy/gui_v_progress_11"},
 		{"predicate": {"damaged": 0, "damage": 0.9186418962203715}, "model": "galaxy/gui_num_none"},
 		{"predicate": {"damaged": 0, "damage": 0.9192825112107623}, "model": "galaxy/button_unclickable_ok"},
 		{"predicate": {"damaged": 0, "damage": 0.9199231262011531}, "model": "galaxy/button_unclickable_arrow_right"},
@@ -102,7 +106,7 @@
 		{"predicate": {"damaged": 0, "damage": 0.9782190903267136}, "model": "galaxy/button_power_off"},
 		{"predicate": {"damaged": 0, "damage": 0.9788597053171044}, "model": "galaxy/button_power_on"},
 		{"predicate": {"damaged": 0, "damage": 0.9795003203074952}, "model": "galaxy/button_upgrade"},
-		{"predicate": {"damaged": 0, "damage": 0.980140935297886},  "model": "galaxy/gui_arrow"},
+		{"predicate": {"damaged": 0, "damage": 0.980140935297886},  "model": "galaxy/gui_progress_blocked"},
 		{"predicate": {"damaged": 0, "damage": 0.9807815502882767}, "model": "galaxy/button_manager"},
 		{"predicate": {"damaged": 0, "damage": 0.9814221652786675}, "model": "galaxy/button_member"},
 		{"predicate": {"damaged": 0, "damage": 0.9820627802690583}, "model": "galaxy/button_guest"},
