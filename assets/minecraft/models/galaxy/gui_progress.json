@@ -5,8 +5,8 @@
 	},
 	"elements": [
 		{
-			"from": [-10, -0.5, -0.75],
-			"to": [26, 0, 17.25],
+			"from": [-10, -0.5, -1],
+			"to": [26, 0, 17],
 			"shade": false,
 			"faces": {
 				"north": {"uv": [0, 15, 1, 16], "texture": "#0"},
@@ -58,7 +58,8 @@
 		},
 		"gui": {
 			"rotation": [90, 0, 0],
-			"translation": [-9, 0.25, 0]
+			"translation": [-9, 0, 0],
+			"scale": [1, 0.5, 1]
 		},
 		"head": {
 			"rotation": [90, 0, 180],

@@ -1,6 +1,6 @@
 {
 	"parent": "galaxy/gui_num",
 	"textures": {
-		"num": "galaxy/num_5"
+		"num": "galaxy/gui/num_5"
 	}
 }

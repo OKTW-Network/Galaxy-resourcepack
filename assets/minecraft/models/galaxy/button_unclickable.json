@@ -1,9 +1,9 @@
 {
-	"credit": "Made with Blockbench, a free, modern block model editor by JannisX11, model design by OKTW",
+	"credit": "Made with Blockbench, model design by OKTW team",
 	"textures": {
-		"0": "galaxy/button_unclickable_blank",
+		"0": "galaxy/gui/button_unclickable_blank",
 		"1": "galaxy/colors",
-		"particle": "galaxy/button_unclickable_blank"
+		"particle": "galaxy/gui/button_unclickable_blank"
 	},
 	"elements": [
 		{
@@ -35,41 +35,42 @@
 	],
 	"display": {
 		"thirdperson_righthand": {
+			"rotation": [90, 0, 0],
 			"translation": [0, 1.75, 3],
-			"scale": [0.25, 0.25, 0.25],
-			"rotation": [90, 0, 0]
-		},
-		"gui": {
-			"rotation": [90, 0, 0]
+			"scale": [0.25, 0.25, 0.25]
 		},
 		"thirdperson_lefthand": {
+			"rotation": [90, 0, 0],
 			"translation": [0, 1.75, 3],
-			"scale": [0.25, 0.25, 0.25],
-			"rotation": [90, 0, 0]
-		},
-		"fixed": {
-			"scale": [1.778, 2, 1.778],
-			"rotation": [90, 0, 180],
-			"translation": [0, 0, -16.125]
-		},
-		"ground": {
-			"scale": [0.5, 0.5, 0.5],
-			"translation": [0, 5, 0]
-		},
-		"head": {
-			"scale": [0.75, 0.75, 0.75],
-			"rotation": [90, 0, 180],
-			"translation": [0, 0, -13]
-		},
-		"firstperson_lefthand": {
-			"scale": [0.5, 0.5, 0.5],
-			"rotation": [85, 0, 10],
-			"translation": [8.5, 0, -5]
+			"scale": [0.25, 0.25, 0.25]
 		},
 		"firstperson_righthand": {
-			"scale": [0.5, 0.5, 0.5],
 			"rotation": [85, 0, 10],
-			"translation": [8.5, 0, -5]
+			"translation": [8.5, 0, -5],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"firstperson_lefthand": {
+			"rotation": [85, 0, 10],
+			"translation": [8.5, 0, -5],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"ground": {
+			"translation": [0, 5, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"gui": {
+			"rotation": [90, 0, 0],
+			"scale": [1, 0.5, 1]
+		},
+		"head": {
+			"rotation": [90, 0, 180],
+			"translation": [0, 0, -13],
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"fixed": {
+			"rotation": [90, 0, 180],
+			"translation": [0, 0, -16.125],
+			"scale": [1.778, 2, 1.778]
 		}
 	}
 }

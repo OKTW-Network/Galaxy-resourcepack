@@ -1,6 +1,6 @@
 {	
 	"parent": "galaxy/button",
 	"textures": {
-		"icon": "galaxy/icon_member_setting"
+		"icon": "galaxy/gui/icon_member_setting"
 	}
 }

@@ -1,6 +1,6 @@
 {	
 	"parent": "galaxy/button",
 	"textures": {
-		"icon": "galaxy/icon_list"
+		"icon": "galaxy/gui/icon_list"
 	}
 }

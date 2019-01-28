@@ -1,6 +1,6 @@
 {
 	"parent": "galaxy/gui_progress",
 	"textures": {
-		"arrow": "galaxy/progress_4"
+		"arrow": "galaxy/gui/progress_4"
 	}
 }

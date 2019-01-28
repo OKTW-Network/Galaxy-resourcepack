@@ -1,9 +1,9 @@
 {
 	"credit": "Made with Blockbench, model design by OKTW team",
 	"textures": {
-		"0": "galaxy/button_blank",
+		"0": "galaxy/gui/button_blank",
 		"1": "galaxy/colors",
-		"particle": "galaxy/button_blank"
+		"particle": "galaxy/gui/button_blank"
 	},
 	"elements": [
 		{
@@ -59,7 +59,8 @@
 			"scale": [0.5, 0.5, 0.5]
 		},
 		"gui": {
-			"rotation": [90, 0, 0]
+			"rotation": [90, 0, 0],
+			"scale": [1, 0.5, 1]
 		},
 		"head": {
 			"rotation": [90, 0, 180],

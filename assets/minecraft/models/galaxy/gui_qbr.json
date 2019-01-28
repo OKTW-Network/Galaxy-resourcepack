@@ -1,21 +1,6 @@
 {
 	"parent": "galaxy/gui_cover",
 	"textures": {
-		"0": "galaxy/background"
-	},
-	"elements": [
-		{
-			"from": [-1, -0.5, -1],
-			"to": [17, 0, 17],
-			"shade": false,
-			"faces": {
-				"north": {"uv": [0, 15, 1, 16], "texture": "#1"},
-				"east": {"uv": [0, 15, 1, 16], "texture": "#1"},
-				"south": {"uv": [0, 15, 1, 16], "texture": "#1"},
-				"west": {"uv": [0, 15, 1, 16], "texture": "#1"},
-				"up": {"uv": [6.75, 6.75, 9, 9], "texture": "#0"},
-				"down": {"uv": [0, 16, 1, 15], "texture": "#1"}
-			}
-		}
-	]
+		"cover": "galaxy/gui/background_qbr"
+	}
 }

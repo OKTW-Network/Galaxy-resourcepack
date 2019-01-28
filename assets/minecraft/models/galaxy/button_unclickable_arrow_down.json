@@ -1,6 +1,6 @@
 {	
 	"parent": "galaxy/button_unclickable",
 	"textures": {
-		"icon": "galaxy/icon_unclickable_arrow_down"
+		"icon": "galaxy/gui/icon_unclickable_arrow_down"
 	}
 }
