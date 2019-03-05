@@ -1,6 +1,0 @@
-{
-    "parent": "item/generated",
-    "textures": {
-        "layer0": "galaxy/upgrade_damage_lv1"
-    }
-}
