@@ -5,6 +5,11 @@
     },
 	"overrides": [
 		{ "predicate": {"damaged": 0, "damage": 0}, "model": "item/diamond_sword"},
+		{ "##inGameDMG": 1520, "predicate": {"damaged": 0, "damage": 0.9737347853939782}, "model": "galaxy/upgrade_damage_lv5"},
+		{ "##inGameDMG": 1521, "predicate": {"damaged": 0, "damage": 0.974375400384369},  "model": "galaxy/upgrade_damage_lv4"},
+		{ "##inGameDMG": 1522, "predicate": {"damaged": 0, "damage": 0.9750160153747598}, "model": "galaxy/upgrade_damage_lv3"},
+		{ "##inGameDMG": 1523, "predicate": {"damaged": 0, "damage": 0.9756566303651505}, "model": "galaxy/upgrade_damage_lv2"},
+		{ "##inGameDMG": 1524, "predicate": {"damaged": 0, "damage": 0.9762972453555413}, "model": "galaxy/upgrade_damage_lv1"},
 		{ "##inGameDMG": 1525, "predicate": {"damaged": 0, "damage": 0.9769378603459321}, "model": "galaxy/upgrade_through_lv5"},
 		{ "##inGameDMG": 1526, "predicate": {"damaged": 0, "damage": 0.9775784753363229}, "model": "galaxy/upgrade_through_lv4"},
 		{ "##inGameDMG": 1527, "predicate": {"damaged": 0, "damage": 0.9782190903267136}, "model": "galaxy/upgrade_through_lv3"},
@@ -41,7 +46,7 @@
 		{ "##inGameDMG": 1558, "predicate": {"damaged": 0, "damage": 0.9980781550288277}, "model": "galaxy/sword_magi_on"},
 		{ "##inGameDMG": 1559, "predicate": {"damaged": 0, "damage": 0.9987187700192184}, "model": "galaxy/sniper_aiming"},
 		{ "##inGameDMG": 1560, "predicate": {"damaged": 0, "damage": 0.9993593850096092}, "model": "galaxy/sniper"},
-		{ "predicate": {"damaged": 0, "damage": 1.0}, "model": "item/diamond_sword"},
+		{ "##inGameDMG": 1561, "predicate": {"damaged": 0, "damage": 1.0}, "model": "item/diamond_sword"},
 		{ "predicate": {"damaged": 1, "damage": 0}, "model": "item/diamond_sword"}
 	]
 }
