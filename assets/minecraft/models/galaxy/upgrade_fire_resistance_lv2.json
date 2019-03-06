@@ -1,0 +1,6 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "galaxy/upgrade_fire_resistance_lv2"
+    }
+}

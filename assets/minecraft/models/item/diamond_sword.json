@@ -5,6 +5,11 @@
     },
 	"overrides": [
 		{ "predicate": {"damaged": 0, "damage": 0}, "model": "item/diamond_sword"},
+		{ "##inGameDMG": 1510, "predicate": {"damaged": 0, "damage": 0.9673286354900705}, "model": "galaxy/upgrade_fire_resistance_lv5"},
+		{ "##inGameDMG": 1511, "predicate": {"damaged": 0, "damage": 0.9679692504804612}, "model": "galaxy/upgrade_fire_resistance_lv4"},
+		{ "##inGameDMG": 1512, "predicate": {"damaged": 0, "damage": 0.968609865470852},  "model": "galaxy/upgrade_fire_resistance_lv3"},
+		{ "##inGameDMG": 1513, "predicate": {"damaged": 0, "damage": 0.9692504804612428}, "model": "galaxy/upgrade_fire_resistance_lv2"},
+		{ "##inGameDMG": 1514, "predicate": {"damaged": 0, "damage": 0.9698910954516336}, "model": "galaxy/upgrade_fire_resistance_lv1"},
 		{ "##inGameDMG": 1515, "predicate": {"damaged": 0, "damage": 0.9705317104420243}, "model": "galaxy/upgrade_distance_lv5"},
 		{ "##inGameDMG": 1516, "predicate": {"damaged": 0, "damage": 0.9711723254324151}, "model": "galaxy/upgrade_distance_lv4"},
 		{ "##inGameDMG": 1517, "predicate": {"damaged": 0, "damage": 0.9718129404228059}, "model": "galaxy/upgrade_distance_lv3"},
