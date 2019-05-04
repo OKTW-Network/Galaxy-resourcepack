@@ -1,0 +1,21 @@
+{
+	"credit": "Made with Blockbench, model design by OKTW team",
+	"textures": {
+		"0": "galaxy/blank",
+		"particle": "galaxy/blank"
+	},
+	"elements": [
+		{
+			"from": [7.75, 7.75, 7.75],
+			"to": [8.25, 8.25, 8.25],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#0"}
+			}
+		}
+	]
+}
