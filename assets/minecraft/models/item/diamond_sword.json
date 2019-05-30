@@ -65,7 +65,7 @@
 		{ "predicate": {"custom_model_data": 2020703}, "model": "galaxy/upgrade_fire_resistance_lv4"},
 		{ "predicate": {"custom_model_data": 2020704}, "model": "galaxy/upgrade_fire_resistance_lv5"},
 		
-		{ "predicate": {"custom_model_data": 9999999}, "model": "galaxy/test_object"}
+		{ "predicate": {"custom_model_data": 9999999}, "model": "galaxy/test_item"}
 		
 	]
 }

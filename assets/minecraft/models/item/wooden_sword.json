@@ -4,21 +4,15 @@
         "layer0": "item/wooden_sword"
     },
 	"overrides": [
-	
-		{ "##NormalItem": 1, "predicate": {"damaged": 1, "damage": 0}, "model": "item/wooden_sword"},
 		
-		{ "##content": ["galaxyBlock"],
-		  "##DURability": 0, "predicate": {"damaged": 0, "damage": 0}, "model": "item/wooden_sword"},
-		{ "##DUR": 50, "predicate": {"damaged": 0, "damage": 0.8474576271186441}, "model": "item/wooden_sword"},
-		{ "##DUR": 51, "predicate": {"damaged": 0, "damage": 0.8644067796610169}, "model": "item/wooden_sword"},
-		{ "##DUR": 52, "predicate": {"damaged": 0, "damage": 0.8813559322033898}, "model": "item/wooden_sword"},
-		{ "##DUR": 53, "predicate": {"damaged": 0, "damage": 0.8983050847457627}, "model": "item/wooden_sword"},
-		{ "##DUR": 54, "predicate": {"damaged": 0, "damage": 0.9152542372881356}, "model": "galaxy/block_teleporter_frame"},
-		{ "##DUR": 55, "predicate": {"damaged": 0, "damage": 0.9322033898305085}, "model": "galaxy/block_teleporter_core_advance"},
-		{ "##DUR": 56, "predicate": {"damaged": 0, "damage": 0.9491525423728814}, "model": "galaxy/block_teleporter_core_basic"},
-		{ "##DUR": 57, "predicate": {"damaged": 0, "damage": 0.9661016949152542}, "model": "galaxy/block_elevator"},
-		{ "##DUR": 58, "predicate": {"damaged": 0, "damage": 0.9830508474576271}, "model": "galaxy/block_ht_crafting_table"},
-		{ "##DUR": 59, "predicate": {"damaged": 0, "damage": 1.0}, "model": "item/wooden_sword"}
+		{ "##catgory": ["galaxyBlock"],
+		  "predicate": {"custom_model_data": 1010100}, "model": "galaxy/block_ht_crafting_table"},
+		{ "predicate": {"custom_model_data": 1010200}, "model": "galaxy/block_elevator"},
+		{ "predicate": {"custom_model_data": 1010300}, "model": "galaxy/block_teleporter_core_basic"},
+		{ "predicate": {"custom_model_data": 1010301}, "model": "galaxy/block_teleporter_core_advance"},
+		{ "predicate": {"custom_model_data": 1010302}, "model": "galaxy/block_teleporter_frame"},
+		
+		{ "predicate": {"custom_model_data": 9999999}, "model": "galaxy/test_block"}
 		
 	]
 }
