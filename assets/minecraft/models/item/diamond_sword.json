@@ -12,6 +12,8 @@
 		{ "predicate": {"custom_model_data": 1010202}, "model": "galaxy/pistol_laser_gra"},
 		{ "predicate": {"custom_model_data": 1010300}, "model": "galaxy/sniper"},
 		{ "predicate": {"custom_model_data": 1010301}, "model": "galaxy/sniper_aiming"},
+		{ "predicate": {"custom_model_data": 1010400}, "model": "galaxy/railgun"},
+		{ "predicate": {"custom_model_data": 1010401}, "model": "galaxy/railgun_aiming"},
 		{ "predicate": {"custom_model_data": 1020100}, "model": "galaxy/sword_katana_off"},
 		{ "predicate": {"custom_model_data": 1020101}, "model": "galaxy/sword_katana_on"},
 		{ "predicate": {"custom_model_data": 1020102}, "model": "galaxy/sword_katana_scabbard"},
@@ -26,6 +28,9 @@
 		{ "predicate": {"custom_model_data": 1020501}, "model": "galaxy/sword_ranbo_on"},
 		{ "predicate": {"custom_model_data": 1020600}, "model": "galaxy/sword_plasum_off"},
 		{ "predicate": {"custom_model_data": 1020601}, "model": "galaxy/sword_plasum_on"},
+		{ "predicate": {"custom_model_data": 1020700}, "model": "galaxy/sword_nanosaber_off"},
+		{ "predicate": {"custom_model_data": 1020701}, "model": "galaxy/sword_nanosaber_on"},
+		{ "predicate": {"custom_model_data": 1020702}, "model": "galaxy/sword_nanosaber_scabbard"},
 		
 		{ "##catgory": "galaxyUpgrade",
 		  "predicate": {"custom_model_data": 2010100}, "model": "galaxy/upgrade_base"},
