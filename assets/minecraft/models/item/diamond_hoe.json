@@ -121,7 +121,7 @@
 		{ "predicate": {"custom_model_data": 2009002}, "model": "galaxy/button_unclickable_arrow_left"},
 		{ "predicate": {"custom_model_data": 2009003}, "model": "galaxy/button_unclickable_arrow_right"},
 		{ "predicate": {"custom_model_data": 2009004}, "model": "galaxy/button_unclickable_ok"},
-		{ "predicate": {"custom_model_data": 2010000}, "model": "galaxy/button_members"},
+		{ "predicate": {"custom_model_data": 2010000}, "model": "galaxy/button_people"},
 		{ "predicate": {"custom_model_data": 2010001}, "model": "galaxy/button_guest"},
 		{ "predicate": {"custom_model_data": 2010002}, "model": "galaxy/button_member"},
 		{ "predicate": {"custom_model_data": 2010003}, "model": "galaxy/button_manager"},
