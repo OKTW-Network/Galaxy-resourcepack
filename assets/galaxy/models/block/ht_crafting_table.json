@@ -1,0 +1,12 @@
+{
+	"parent": "galaxy:block/_template_spawner",
+	"textures": {
+		"north": "galaxy:block/h_crafting_table_side",
+		"east": "galaxy:block/h_crafting_table_side",
+		"south": "galaxy:block/h_crafting_table_side",
+		"west": "galaxy:block/h_crafting_table_side",
+		"up": "galaxy:block/h_crafting_table_top",
+		"down": "galaxy:block/h_crafting_table_bottom",
+		"particle": "galaxy:block/h_crafting_table_side"
+	}
+}

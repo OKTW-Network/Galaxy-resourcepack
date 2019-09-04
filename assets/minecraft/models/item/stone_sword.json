@@ -6,17 +6,17 @@
 	"overrides": [
 		
 		{ "##catgory": "galaxyPart",
-		  "predicate": {"custom_model_data": 1010100}, "model": "galaxy/part_rawbase"},
-		{ "predicate": {"custom_model_data": 1010101}, "model": "galaxy/part_base"},
-		{ "predicate": {"custom_model_data": 1010102}, "model": "galaxy/part_coolant"},
-		{ "predicate": {"custom_model_data": 1010103}, "model": "galaxy/part_cpu"},
-		{ "predicate": {"custom_model_data": 1010200}, "model": "galaxy/part_scope"},
-		{ "predicate": {"custom_model_data": 1010300}, "model": "galaxy/part_battery"},
-		{ "predicate": {"custom_model_data": 1010400}, "model": "galaxy/part_laser"},
-		{ "predicate": {"custom_model_data": 1010500}, "model": "galaxy/part_butt"},
-		{ "predicate": {"custom_model_data": 1010501}, "model": "galaxy/part_trigger"},
-		{ "predicate": {"custom_model_data": 1010502}, "model": "galaxy/part_handle"},
-		{ "predicate": {"custom_model_data": 1010503}, "model": "galaxy/part_barrel"}
+		  "predicate": {"custom_model_data": 1010100}, "model": "galaxy:item/part/rawbase"},
+		{ "predicate": {"custom_model_data": 1010101}, "model": "galaxy:item/part/base"},
+		{ "predicate": {"custom_model_data": 1010102}, "model": "galaxy:item/part/coolant"},
+		{ "predicate": {"custom_model_data": 1010103}, "model": "galaxy:item/part/cpu"},
+		{ "predicate": {"custom_model_data": 1010200}, "model": "galaxy:item/part/scope"},
+		{ "predicate": {"custom_model_data": 1010300}, "model": "galaxy:item/part/battery"},
+		{ "predicate": {"custom_model_data": 1010400}, "model": "galaxy:item/part/laser"},
+		{ "predicate": {"custom_model_data": 1010500}, "model": "galaxy:item/part/butt"},
+		{ "predicate": {"custom_model_data": 1010501}, "model": "galaxy:item/part/trigger"},
+		{ "predicate": {"custom_model_data": 1010502}, "model": "galaxy:item/part/handle"},
+		{ "predicate": {"custom_model_data": 1010503}, "model": "galaxy:item/part/barrel"}
 		
 	]
 }

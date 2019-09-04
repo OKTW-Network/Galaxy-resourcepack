@@ -1,0 +1,6 @@
+{
+	"parent": "galaxy:gui/cover/_template_vertical_progress",
+	"textures": {
+		"arrow": "galaxy:gui/vertical_progress_4"
+	}
+}

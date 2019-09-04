@@ -1,0 +1,12 @@
+{
+	"parent": "galaxy:block/_template_spawner",
+	"textures": {
+		"north": "galaxy:block/elevator",
+		"east": "galaxy:block/elevator",
+		"south": "galaxy:block/elevator",
+		"west": "galaxy:block/elevator",
+		"up": "galaxy:block/elevator",
+		"down": "galaxy:block/elevator",
+		"particle": "galaxy:block/elevator"
+	}
+}

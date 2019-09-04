@@ -1,0 +1,6 @@
+{	
+	"parent": "galaxy:gui/button/_template_unclickable_1x1",
+	"textures": {
+		"icon": "galaxy:gui/icon_unclickable_arrow_up"
+	}
+}

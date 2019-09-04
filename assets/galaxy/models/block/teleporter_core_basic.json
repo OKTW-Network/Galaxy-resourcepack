@@ -1,0 +1,12 @@
+{
+	"parent": "galaxy:block/_template_spawner",
+	"textures": {
+		"north": "galaxy:block/teleporter_core_basic",
+		"east": "galaxy:block/teleporter_core_basic",
+		"south": "galaxy:block/teleporter_core_basic",
+		"west": "galaxy:block/teleporter_core_basic",
+		"up": "galaxy:block/teleporter_core_basic",
+		"down": "galaxy:block/teleporter_core_basic",
+		"particle": "galaxy:block/teleporter_core_basic"
+	}
+}

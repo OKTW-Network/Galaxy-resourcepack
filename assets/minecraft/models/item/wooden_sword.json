@@ -6,13 +6,13 @@
 	"overrides": [
 		
 		{ "##catgory": ["galaxyBlock"],
-		  "predicate": {"custom_model_data": 1010100}, "model": "galaxy/block_ht_crafting_table"},
-		{ "predicate": {"custom_model_data": 1010200}, "model": "galaxy/block_elevator"},
-		{ "predicate": {"custom_model_data": 1010300}, "model": "galaxy/block_teleporter_core_basic"},
-		{ "predicate": {"custom_model_data": 1010301}, "model": "galaxy/block_teleporter_core_advance"},
-		{ "predicate": {"custom_model_data": 1010302}, "model": "galaxy/block_teleporter_frame"},
+		  "predicate": {"custom_model_data": 1010100}, "model": "galaxy:block/ht_crafting_table"},
+		{ "predicate": {"custom_model_data": 1010200}, "model": "galaxy:block/elevator"},
+		{ "predicate": {"custom_model_data": 1010300}, "model": "galaxy:block/teleporter_core_basic"},
+		{ "predicate": {"custom_model_data": 1010301}, "model": "galaxy:block/teleporter_core_advance"},
+		{ "predicate": {"custom_model_data": 1010302}, "model": "galaxy:block/teleporter_frame"},
 		
-		{ "predicate": {"custom_model_data": 9999999}, "model": "galaxy/test_block"}
+		{ "predicate": {"custom_model_data": 9999999}, "model": "galaxy:block/test_block"}
 		
 	]
 }

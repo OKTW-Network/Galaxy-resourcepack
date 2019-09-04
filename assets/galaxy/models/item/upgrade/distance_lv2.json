@@ -1,0 +1,6 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "galaxy:item/upgrade_distance_lv2"
+    }
+}

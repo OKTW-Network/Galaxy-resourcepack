@@ -1,6 +1,0 @@
-{	
-	"parent": "galaxy/button",
-	"textures": {
-		"icon": "galaxy/gui/icon_arrow_down"
-	}
-}

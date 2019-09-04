@@ -1,0 +1,6 @@
+{
+	"parent": "galaxy:gui/cover/_template_htct_tab",
+	"textures": {
+		"tab": "galaxy:gui/htct_tab_5"
+	}
+}

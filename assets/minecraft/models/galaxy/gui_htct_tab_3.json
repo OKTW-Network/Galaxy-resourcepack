@@ -1,6 +1,0 @@
-{
-	"parent": "galaxy/gui_htct_tab",
-	"textures": {
-		"tab": "galaxy/gui/htct_tab_3"
-	}
-}

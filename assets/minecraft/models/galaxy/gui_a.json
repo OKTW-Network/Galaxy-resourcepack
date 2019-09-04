@@ -1,6 +1,0 @@
-{
-	"parent": "galaxy/gui_cover",
-	"textures": {
-		"cover": "galaxy/gui/background_a"
-	}
-}
