@@ -6,7 +6,9 @@
 	"overrides": [
 		
 		{ "##catgory": "galaxyTool",
-		  "predicate": {"custom_model_data": 1010100}, "model": "galaxy/tool_wrench"}
+		  "predicate": {"custom_model_data": 1010100}, "model": "galaxy:item/tool/wrench"},
+		{ "predicate": {"custom_model_data": 1010200}, "model": "galaxy:item/tool/scanner_off"},
+		{ "predicate": {"custom_model_data": 1010201}, "model": "galaxy:item/tool/scanner_on"}
 		
 	]
 }
