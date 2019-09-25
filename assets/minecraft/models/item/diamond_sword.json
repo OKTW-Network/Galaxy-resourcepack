@@ -30,7 +30,8 @@
 		{ "predicate": {"custom_model_data": 1020601}, "model": "galaxy:item/weapon/sword_plasum_on"},
 		{ "predicate": {"custom_model_data": 1020700}, "model": "galaxy:item/weapon/sword_nanosaber_off"},
 		{ "predicate": {"custom_model_data": 1020701}, "model": "galaxy:item/weapon/sword_nanosaber_on"},
-		{ "predicate": {"custom_model_data": 1020702}, "model": "galaxy:item/weapon/sword_nanosaber_scabbard"},
+		{ "predicate": {"custom_model_data": 1020702}, "model": "galaxy:item/weapon/sword_nanosaber_on_empower"},
+		{ "predicate": {"custom_model_data": 1020703}, "model": "galaxy:item/weapon/sword_nanosaber_scabbard"},
 		
 		{ "##catgory": "galaxyUpgrade",
 		  "predicate": {"custom_model_data": 2010100}, "model": "galaxy:item/upgrade/base"},
