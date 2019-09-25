@@ -12,6 +12,7 @@
 		{ "predicate": {"custom_model_data": 1010301}, "model": "galaxy:block/teleporter_core_advance"},
 		{ "predicate": {"custom_model_data": 1010302}, "model": "galaxy:block/teleporter_frame"},
 		
+        { "predicate": {"custom_model_data": 9999998}, "model": "galaxy:block/test_invert_block"},
 		{ "predicate": {"custom_model_data": 9999999}, "model": "galaxy:block/test_block"}
 		
 	]
