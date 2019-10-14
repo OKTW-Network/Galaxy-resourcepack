@@ -127,6 +127,7 @@
 		{ "predicate": {"custom_model_data": 2010003}, "model": "galaxy:gui/button/manager"},
 		{ "predicate": {"custom_model_data": 2011000}, "model": "galaxy:gui/button/galaxy_setting"},
 		{ "predicate": {"custom_model_data": 2011001}, "model": "galaxy:gui/button/galaxy_joined"},
+		{ "predicate": {"custom_model_data": 2011002}, "model": "galaxy:gui/button/galaxy_add"},
 		{ "predicate": {"custom_model_data": 2012000}, "model": "galaxy:gui/button/galaxy"},
 		{ "predicate": {"custom_model_data": 2012001}, "model": "galaxy:gui/button/planet_o"},
 		{ "predicate": {"custom_model_data": 2012002}, "model": "galaxy:gui/button/planet_n"},
