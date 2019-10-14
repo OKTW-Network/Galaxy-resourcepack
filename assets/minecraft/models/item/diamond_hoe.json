@@ -116,6 +116,7 @@
 		{ "predicate": {"custom_model_data": 2008006}, "model": "galaxy:gui/button/write"},
 		{ "predicate": {"custom_model_data": 2008007}, "model": "galaxy:gui/button/leave"},
 		{ "predicate": {"custom_model_data": 2008008}, "model": "galaxy:gui/button/all"},
+		{ "predicate": {"custom_model_data": 2008009}, "model": "galaxy:gui/button/message"},
 		{ "predicate": {"custom_model_data": 2009000}, "model": "galaxy:gui/button/unclickable_arrow_up"},
 		{ "predicate": {"custom_model_data": 2009001}, "model": "galaxy:gui/button/unclickable_arrow_down"},
 		{ "predicate": {"custom_model_data": 2009002}, "model": "galaxy:gui/button/unclickable_arrow_left"},
