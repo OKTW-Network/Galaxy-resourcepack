@@ -1,5 +1,5 @@
 {
-	"parent": "galaxy:block/_template_spawner",
+	"parent": "galaxy:block/_template_armorstand",
 	"textures": {
 		"north": "galaxy:block/h_crafting_table_side",
 		"east": "galaxy:block/h_crafting_table_side",
