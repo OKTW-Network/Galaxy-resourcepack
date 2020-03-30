@@ -1,5 +1,6 @@
 {
 	"credit": "Made with Blockbench, model design by OKTW",
+    "gui_light": "front",
 	"textures": {
 		"0": "galaxy:universal/colors",
 		"1": "galaxy:item/cpu_core",

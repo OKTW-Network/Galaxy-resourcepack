@@ -8,7 +8,8 @@
 		{ "##catgory": "galaxyTool",
 		  "predicate": {"custom_model_data": 1010100}, "model": "galaxy:item/tool/wrench"},
 		{ "predicate": {"custom_model_data": 1010200}, "model": "galaxy:item/tool/scanner_off"},
-		{ "predicate": {"custom_model_data": 1010201}, "model": "galaxy:item/tool/scanner_on"}
-		
+		{ "predicate": {"custom_model_data": 1010201}, "model": "galaxy:item/tool/scanner_on"},
+		{ "predicate": {"custom_model_data": 1010300}, "model": "galaxy:item/tool/magnet_off"},
+		{ "predicate": {"custom_model_data": 1010301}, "model": "galaxy:item/tool/magnet_on"}
 	]
 }

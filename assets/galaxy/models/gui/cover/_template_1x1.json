@@ -1,5 +1,6 @@
 {
 	"credit": "Made with Blockbench, model design by OKTW team",
+    "gui_light": "front",
 	"textures": {
 		"1": "galaxy:universal/colors"
 	},

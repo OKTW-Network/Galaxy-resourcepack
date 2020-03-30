@@ -1,5 +1,6 @@
 {
 	"credit": "Made with Blockbench, model design by OKTW",
+    "gui_light": "front",
 	"textures": {
 		"2": "galaxy:origin/clay",
 		"6": "galaxy:origin/obsidian",

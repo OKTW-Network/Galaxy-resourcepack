@@ -1,5 +1,6 @@
 {
-	"credit": "Made with Blockbench, a free, modern block model editor by JannisX11, model design by OKTW",
+	"credit": "Made with Blockbench, model design by OKTW",
+    "gui_light": "front",
 	"textures": {
 		"2": "galaxy:origin/hardened_clay",
 		"6": "galaxy:origin/obsidian"
