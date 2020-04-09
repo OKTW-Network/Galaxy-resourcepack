@@ -3,7 +3,7 @@
 "armor.effect.jump_boost": "Jump Boost",
 "armor.effect.night_vision": "Night Vision Goggle",
 "armor.effect.speed_boost": "Speed Boost",
-"command.spawn.countdown": "Teleportation will start in %s seconds.",
+"command.home.countdown": "Teleportation will start in %s seconds.",
 "command.Sign.line_invalid": "Line must be between 1 and 4.",
 "command.Sign.not_sign": "Please focus on a sign.",
 "command.Sign.success": "The sign has been changed.",

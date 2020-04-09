@@ -3,7 +3,7 @@
 "armor.effect.night_vision": "夜視鏡",
 "armor.effect.jump_boost": "跳躍增強",
 "armor.effect.speed_boost": "速度增強",
-"command.spawn.countdown": "%s 秒後傳送",
+"command.home.countdown": "%s 秒後傳送",
 "command.Sign.line_invalid": "修改失敗，必須輸入欲修改行數(1,2,3,4)",
 "command.Sign.not_sign": "修改失敗，指令必須面對告示牌使用",
 "command.Sign.too_many_words": "修改失敗，內容超過16字元",
