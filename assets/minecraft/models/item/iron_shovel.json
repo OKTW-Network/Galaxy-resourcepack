@@ -1,0 +1,12 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "item/iron_shovel"
+    },
+	"overrides": [
+		
+		{ "##catgory": ["armorstandDisplay"],
+		  "predicate": {"custom_model_data": 101000}, "model": "galaxy:block/planet_terminal"}
+		
+	]
+}

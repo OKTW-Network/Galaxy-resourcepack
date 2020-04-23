@@ -1,0 +1,49 @@
+{
+	"credit": "Made with Blockbench, model design by OKTW team",
+	"parent": "galaxy:block/_template_armorstand",
+	"textures": {
+		"1": "galaxy:block/teleport_station_side_edge_vent",
+		"2": "galaxy:block/teleport_station_top_edge",
+		"3": "galaxy:block/teleport_station_energy_2"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 2],
+			"to": [16, 15.5, 5],
+			"faces": {
+				"up": {"uv": [0, 0, 3, 16], "texture": "#3"}
+			}
+		},
+		{
+			"from": [0, 14.5, 8.5],
+			"to": [16, 15, 9],
+			"rotation": {"angle": -45, "axis": "x", "origin": [8, 8, 8], "rescale": true},
+			"faces": {
+				"south": {"uv": [0, 2, 16, 3], "texture": "#2"}
+			}
+		},
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 2],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"up": {"uv": [0, 0, 16, 2], "texture": "#2"}
+			}
+		},
+		{
+			"from": [0, 13, 10],
+			"to": [16, 13.5, 10.5],
+			"rotation": {"angle": -45, "axis": "x", "origin": [8, 8, 8], "rescale": true},
+			"faces": {
+				"up": {"uv": [0, 2, 16, 3], "texture": "#2"}
+			}
+		},
+		{
+			"from": [0, 0, 5],
+			"to": [16, 16, 16],
+			"faces": {
+				"up": {"uv": [0, 3, 16, 14], "texture": "#2"}
+			}
+		}
+	]
+}
