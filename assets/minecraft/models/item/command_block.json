@@ -3,8 +3,7 @@
 	"overrides": [
 		
 		{ "##catgory": "galaxyBlock",
-		  "predicate": {"custom_model_data": 1000100}, "model": "galaxy:block/planet_terminal"},
-		{ "predicate": {"custom_model_data": 1000200}, "model": "galaxy:block/teleport_station_top_center"},
+		  "predicate": {"custom_model_data": 1000200}, "model": "galaxy:block/teleport_station_top_center"},
 		{ "predicate": {"custom_model_data": 1000201}, "model": "galaxy:block/teleport_station_top_corner_1"},
 		{ "predicate": {"custom_model_data": 1000202}, "model": "galaxy:block/teleport_station_top_corner_2"},
 		{ "predicate": {"custom_model_data": 1000203}, "model": "galaxy:block/teleport_station_top_edge_clear_1"},

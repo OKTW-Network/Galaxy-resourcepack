@@ -1,0 +1,7 @@
+{
+	"parent": "galaxy:animation/planet_terminal/_template",
+	"textures": {
+		"0": "galaxy:animation/planet_terminal/27",
+		"1": "galaxy:animation/planet_terminal_background/6"
+	}
+}

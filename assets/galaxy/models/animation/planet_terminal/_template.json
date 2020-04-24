@@ -1,10 +1,5 @@
 {
 	"credit": "Made with Blockbench, model design by OKTW team",
-	"textures": {
-		"0": "galaxy:block/planet_terminal_intro",
-		"1": "galaxy:block/planet_terminal_intro_background",
-		"particle": "galaxy:block/planet_terminal_intro"
-	},
 	"elements": [
 		{
 			"from": [-2, 2.375, 7.98],
