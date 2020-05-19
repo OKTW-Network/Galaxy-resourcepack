@@ -1,7 +1,7 @@
 {
 	"parent": "galaxy:animation/planet_terminal/_template",
 	"textures": {
-		"0": "galaxy:animation/planet_terminal/35",
-		"1": "galaxy:animation/planet_terminal_background/7"
+		"0": "galaxy:animation/planet_terminal/foreground/35",
+		"1": "galaxy:animation/planet_terminal/background/7"
 	}
 }
