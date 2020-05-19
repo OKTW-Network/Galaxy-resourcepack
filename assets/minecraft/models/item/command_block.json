@@ -39,6 +39,7 @@
 		{ "predicate": {"custom_model_data": 2010502}, "model": "galaxy:item/part/handle"},
 		{ "predicate": {"custom_model_data": 2010503}, "model": "galaxy:item/part/barrel"},
 		
+        { "predicate": {"custom_model_data": 9999997}, "model": "galaxy:block/test_visibility"},
         { "predicate": {"custom_model_data": 9999998}, "model": "galaxy:block/test_invert_block"},
 		{ "predicate": {"custom_model_data": 9999999}, "model": "galaxy:block/test_block"}
 		

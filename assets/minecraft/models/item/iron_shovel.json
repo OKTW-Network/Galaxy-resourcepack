@@ -64,7 +64,34 @@
         { "predicate": {"custom_model_data": 101055}, "model": "galaxy:animation/planet_terminal/55"},
         { "predicate": {"custom_model_data": 101056}, "model": "galaxy:animation/planet_terminal/56"},
         { "predicate": {"custom_model_data": 101057}, "model": "galaxy:animation/planet_terminal/57"},
-		{ "predicate": {"custom_model_data": 101999}, "model": "galaxy:animation/planet_terminal/demo"}
+		{ "predicate": {"custom_model_data": 101999}, "model": "galaxy:animation/planet_terminal/demo"},
+        
+        { "predicate": {"custom_model_data": 201000}, "model": "galaxy:animation/teleport_station_effect/corner_bottom/0"},
+        { "predicate": {"custom_model_data": 201001}, "model": "galaxy:animation/teleport_station_effect/corner_bottom/1"},
+        { "predicate": {"custom_model_data": 201002}, "model": "galaxy:animation/teleport_station_effect/corner_bottom/2"},
+        { "predicate": {"custom_model_data": 201003}, "model": "galaxy:animation/teleport_station_effect/corner_bottom/3"},
+        { "predicate": {"custom_model_data": 201004}, "model": "galaxy:animation/teleport_station_effect/corner_bottom/4"},
+        { "predicate": {"custom_model_data": 201005}, "model": "galaxy:animation/teleport_station_effect/edge_bottom/0"},
+        { "predicate": {"custom_model_data": 201006}, "model": "galaxy:animation/teleport_station_effect/edge_bottom/1"},
+        { "predicate": {"custom_model_data": 201007}, "model": "galaxy:animation/teleport_station_effect/edge_bottom/2"},
+        { "predicate": {"custom_model_data": 201008}, "model": "galaxy:animation/teleport_station_effect/edge_bottom/3"},
+        { "predicate": {"custom_model_data": 201009}, "model": "galaxy:animation/teleport_station_effect/edge_bottom/4"},
+        { "predicate": {"custom_model_data": 201010}, "model": "galaxy:animation/teleport_station_effect/corner_top/0"},
+        { "predicate": {"custom_model_data": 201011}, "model": "galaxy:animation/teleport_station_effect/corner_top/1"},
+        { "predicate": {"custom_model_data": 201012}, "model": "galaxy:animation/teleport_station_effect/corner_top/2"},
+        { "predicate": {"custom_model_data": 201013}, "model": "galaxy:animation/teleport_station_effect/corner_top/3"},
+        { "predicate": {"custom_model_data": 201014}, "model": "galaxy:animation/teleport_station_effect/corner_top/4"},
+        { "predicate": {"custom_model_data": 201015}, "model": "galaxy:animation/teleport_station_effect/edge_top/0"},
+        { "predicate": {"custom_model_data": 201016}, "model": "galaxy:animation/teleport_station_effect/edge_top/1"},
+        { "predicate": {"custom_model_data": 201017}, "model": "galaxy:animation/teleport_station_effect/edge_top/2"},
+        { "predicate": {"custom_model_data": 201018}, "model": "galaxy:animation/teleport_station_effect/edge_top/3"},
+        { "predicate": {"custom_model_data": 201019}, "model": "galaxy:animation/teleport_station_effect/edge_top/4"},
+        { "predicate": {"custom_model_data": 201994}, "model": "galaxy:animation/teleport_station_effect/corner_bottom/demo"},
+        { "predicate": {"custom_model_data": 201995}, "model": "galaxy:animation/teleport_station_effect/edge_bottom/demo"},
+        { "predicate": {"custom_model_data": 201996}, "model": "galaxy:animation/teleport_station_effect/corner_top/demo"},
+        { "predicate": {"custom_model_data": 201997}, "model": "galaxy:animation/teleport_station_effect/edge_top/demo"},
+		{ "predicate": {"custom_model_data": 201998}, "model": "galaxy:animation/teleport_station_effect/demo_bottom"},
+        { "predicate": {"custom_model_data": 201999}, "model": "galaxy:animation/teleport_station_effect/demo_top"}
 		
 	]
 }

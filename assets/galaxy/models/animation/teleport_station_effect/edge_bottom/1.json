@@ -1,0 +1,6 @@
+{
+	"parent": "galaxy:animation/teleport_station_effect/edge_bottom/_template",
+	"textures": {
+		"0": "galaxy:animation/teleport_station_effect/1"
+	}
+}
