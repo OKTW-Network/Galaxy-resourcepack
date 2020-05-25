@@ -164,6 +164,7 @@
 "Respond.Teleporting": "傳送進行中",
 "Respond.TeleportNothing": "沒有東西可以傳送",
 "Respond.weaponDelivered": "武器已經送到您的物品庫了",
+"Respond.disconnect.returnToLobby": "星系受異量輻射影響，已撤離至星船。",
 "traveler.event.get_dust": "獲得 %s 星塵 (擁有 %s 星塵)",
 "traveler.memberRemovedNotice": "你已經不再是這個星系的成員，已自動切換至訪客模式。"
 }

@@ -164,6 +164,7 @@
 "Respond.Teleporting": "Another teleportation is executing",
 "Respond.TeleportNothing": "Nothing to teleport.",
 "Respond.weaponDelivered": "Weapon has been delivered to your weapon inventory.",
+"Respond.disconnect.returnToLobby": "The galaxy was affected by abnormal amounts of radiation, retreated to the spaceship.",
 "traveler.event.get_dust": "You got %s Star Dust (%s).",
 "traveler.memberRemovedNotice": "You have been removed from this galaxy, automatically switched to visitor mode."
 }
