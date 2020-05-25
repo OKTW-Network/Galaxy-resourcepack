@@ -1,12 +1,10 @@
 {
   "gun.shot": {
-    "category": "master",
     "sounds": [
       "galaxy:gun/shot"
     ]
   },
   "gun.overheat": {
-    "category": "master",
     "sounds": [
       "galaxy:gun/overheat"
     ]
