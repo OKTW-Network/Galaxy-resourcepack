@@ -3,10 +3,6 @@
 "armor.effect.jump_boost": "Jump Boost",
 "armor.effect.night_vision": "Night Vision Goggle",
 "armor.effect.speed_boost": "Speed Boost",
-"command.Sign.line_invalid": "Line must be between 1 and 4.",
-"command.Sign.not_sign": "Please focus on a sign.",
-"command.Sign.success": "The sign has been changed.",
-"command.Sign.too_many_words": "Content exceeds 16 characters.",
 "block.HT_CRAFTING_TABLE": "High Tech Crafting Table",
 "block.ELEVATOR": "Elevator",
 "block.TELEPORTER": "Teleporter",
@@ -73,7 +69,7 @@
 "UI.Button.Yes": "Yes",
 "UI.Button.Refuse": "Refuse",
 "UI.Button.Accept": "Accept",
-"UI.Button.JoinRequest": "Join request",
+"UI.Button.JoinRequest": "Request for join",
 "UI.Button.JoinRequestSent": "Join request sent",
 "UI.Button.ManageGalaxy": "Manage Galaxy",
 "UI.Button.PlanetList": "Planet List",
@@ -165,6 +161,6 @@
 "Respond.TeleportNothing": "Nothing to teleport.",
 "Respond.weaponDelivered": "Weapon has been delivered to your weapon inventory.",
 "Respond.disconnect.returnToLobby": "The galaxy was affected by abnormal amounts of radiation, retreated to the spaceship.",
-"traveler.event.get_dust": "You got %s Star Dust (%s).",
+"traveler.event.get_dust": "Gain %s Star Dust (%s).",
 "traveler.memberRemovedNotice": "You have been removed from this galaxy, automatically switched to visitor mode."
 }
