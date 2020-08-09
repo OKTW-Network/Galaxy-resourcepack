@@ -1,6 +1,5 @@
 {
 	"credit": "Made with Blockbench, model design by OKTW team",
-    "gui_light": "front",
 	"elements": [
 		{
 			"from": [-5.5, -0.5, 5.75],
@@ -11,6 +10,7 @@
 			}
 		}
 	],
+	"gui_light": "front",
 	"display": {
 		"thirdperson_righthand": {
 			"rotation": [90, 0, 0],
@@ -38,7 +38,7 @@
 		},
 		"gui": {
 			"rotation": [90, 0, 0],
-			"translation": [-45, 0, 0],
+			"translation": [-45, 0, 0.25],
 			"scale": [4, 0.5, 4]
 		},
 		"head": {
