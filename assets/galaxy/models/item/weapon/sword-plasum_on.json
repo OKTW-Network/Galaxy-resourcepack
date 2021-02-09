@@ -1,6 +1,5 @@
 {
 	"credit": "Made with Blockbench, model design by OKTW team",
-    "gui_light": "front",
 	"textures": {
 		"0": "galaxy:universal/colors",
 		"2": "galaxy:item/plasum_energy",
@@ -445,30 +444,31 @@
 			}
 		}
 	],
+	"gui_light": "front",
 	"display": {
 		"thirdperson_righthand": {
-			"rotation": [3, 0, 0],
-			"translation": [0, 5.05, 2.25],
-			"scale": [1.25, 1.25, 1.25]
+			"rotation": [1, 0, 0],
+			"translation": [0, 5.75, 2],
+			"scale": [1.375, 1.375, 1.375]
 		},
 		"thirdperson_lefthand": {
-			"rotation": [3, 0, 0],
-			"translation": [0, 5.05, 2.25],
-			"scale": [1.25, 1.25, 1.25]
+			"rotation": [1, 0, 0],
+			"translation": [0, 5.75, 2],
+			"scale": [1.375, 1.375, 1.375]
 		},
 		"firstperson_righthand": {
-			"rotation": [3, 0, -2],
-			"translation": [1.25, 5.875, 0],
-			"scale": [1.4, 1.225, 1.225]
+			"rotation": [4, 0, -2],
+			"translation": [1.75, 6.375, 0],
+			"scale": [1.65, 1.375, 1.375]
 		},
 		"firstperson_lefthand": {
-			"rotation": [3, 0, -2],
-			"translation": [1.25, 5.875, 0],
-			"scale": [1.4, 1.225, 1.225]
+			"rotation": [4, 0, -2],
+			"translation": [1.75, 6.375, 0],
+			"scale": [1.65, 1.375, 1.375]
 		},
 		"ground": {
 			"rotation": [25, 0, 0],
-			"translation": [0, 3, -0.5],
+			"translation": [0, 3, 1.5],
 			"scale": [0.7, 0.7, 0.7]
 		},
 		"gui": {

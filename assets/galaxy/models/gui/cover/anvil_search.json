@@ -1,27 +1,21 @@
 {
 	"credit": "Made with Blockbench, model design by OKTW team",
-    "gui_light": "front",
 	"textures": {
-		"0": "galaxy:universal/colors"
+		"0": "galaxy:gui/cover_anvil_search",
+		"particle": "galaxy:gui/cover_anvil_search"
 	},
 	"elements": [
 		{
-			"from": [-10, -0.5, -1],
-			"to": [26, 0, 17],
+			"name": "cover",
+			"from": [-14.5, -0.5, -2],
+			"to": [30.5, 0, 18],
 			"shade": false,
 			"faces": {
-				"up": {"uv": [8.5, 14.5, 9.5, 15.5], "texture": "#0"}
+				"up": {"uv": [0, 0, 10.125, 4.5], "texture": "#0"}
 			}
-		},
-		{
-			"name": "arrow",
-			"from": [-8, 1, 0],
-			"to": [24, 1, 16],
-			"faces": {
-				"up": {"uv": [4, 6, 12, 10], "texture": "#arrow"}
-            }
 		}
 	],
+	"gui_light": "front",
 	"display": {
 		"thirdperson_righthand": {
 			"scale": [0, 0, 0]
@@ -40,8 +34,8 @@
 		},
 		"gui": {
 			"rotation": [90, 0, 0],
-			"translation": [-9, 0, -10],
-			"scale": [1, 0.5, 1]
+			"translation": [4, 14, -10.25],
+			"scale": [3.6, 0.5, 3.6]
 		},
 		"head": {
 			"scale": [0, 0, 0]
