@@ -1,12 +1,12 @@
 {
 	"parent": "galaxy:block/_template_armorstand",
 	"textures": {
-		"north": "galaxy:block/h_crafting_table_side",
-		"east": "galaxy:block/h_crafting_table_side",
-		"south": "galaxy:block/h_crafting_table_side",
-		"west": "galaxy:block/h_crafting_table_side",
-		"up": "galaxy:block/h_crafting_table_top",
-		"down": "galaxy:block/h_crafting_table_bottom",
-		"particle": "galaxy:block/h_crafting_table_side"
+		"north": "galaxy:block/ht_crafting_table_side",
+		"east": "galaxy:block/ht_crafting_table_side",
+		"south": "galaxy:block/ht_crafting_table_side",
+		"west": "galaxy:block/ht_crafting_table_side",
+		"up": "galaxy:block/ht_crafting_table_top",
+		"down": "galaxy:block/ht_crafting_table_bottom",
+		"particle": "galaxy:block/ht_crafting_table_side"
 	}
 }
