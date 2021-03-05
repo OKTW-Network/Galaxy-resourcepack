@@ -25,6 +25,11 @@
     { "predicate": {"custom_model_data": 1010301}, "model": "galaxy:block/teleporter_core_advance"},
     { "predicate": {"custom_model_data": 1010302}, "model": "galaxy:block/teleporter_frame"},
     { "predicate": {"custom_model_data": 1010400}, "model": "galaxy:block/angel_block"},
+    { "predicate": {"custom_model_data": 1010500}, "model": "galaxy:block/pipe"},
+    { "predicate": {"custom_model_data": 1010501}, "model": "galaxy:block/pipe_extended"},
+    { "predicate": {"custom_model_data": 1010502}, "model": "galaxy:block/pipe_port_export"},
+    { "predicate": {"custom_model_data": 1010503}, "model": "galaxy:block/pipe_port_import"},
+    { "predicate": {"custom_model_data": 1010504}, "model": "galaxy:block/pipe_port_storage"},
 
     { "##catgory": "galaxyTool",
       "predicate": {"custom_model_data": 2010100}, "model": "galaxy:item/tool/wrench"},
