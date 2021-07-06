@@ -4,7 +4,7 @@
       "layer0": "item/diamond_hoe"
   },
   "overrides": [
-    { "##catgory": "guiCover",
+    { "##category": "guiCover",
       "predicate": {"custom_model_data": 1001000}, "model": "galaxy:gui/cover/blank"},
     { "predicate": {"custom_model_data": 1002000}, "model": "galaxy:gui/cover/edge_alone"},
     { "predicate": {"custom_model_data": 1003000}, "model": "galaxy:gui/cover/tube_end_top"},
@@ -90,7 +90,7 @@
     { "predicate": {"custom_model_data": 1013000}, "model": "galaxy:gui/cover/big_slot-bottom_right"},
     { "predicate": {"custom_model_data": 1014000}, "model": "galaxy:gui/cover/anvil_search"},
     
-    { "##catgory": "guiButton",
+    { "##category": "guiButton",
       "predicate": {"custom_model_data": 2001000}, "model": "galaxy:gui/button/blank"},
     { "predicate": {"custom_model_data": 2002000}, "model": "galaxy:gui/button/arrow_up"},
     { "predicate": {"custom_model_data": 2002001}, "model": "galaxy:gui/button/arrow_down"},

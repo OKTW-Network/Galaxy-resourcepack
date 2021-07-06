@@ -1,7 +1,7 @@
 {
   "parent": "block/command_block",
   "overrides": [
-    { "##catgory": "galaxyBlock",
+    { "##category": "galaxyBlock",
       "predicate": {"custom_model_data": 1000100}, "model": "galaxy:block/teleport_station_top_center"},
     { "predicate": {"custom_model_data": 1000101}, "model": "galaxy:block/teleport_station_top_corner_1"},
     { "predicate": {"custom_model_data": 1000102}, "model": "galaxy:block/teleport_station_top_corner_2"},
@@ -31,14 +31,14 @@
     { "predicate": {"custom_model_data": 1010503}, "model": "galaxy:block/pipe_port_import"},
     { "predicate": {"custom_model_data": 1010504}, "model": "galaxy:block/pipe_port_storage"},
 
-    { "##catgory": "galaxyTool",
+    { "##category": "galaxyTool",
       "predicate": {"custom_model_data": 2010100}, "model": "galaxy:item/tool/wrench"},
     { "predicate": {"custom_model_data": 2010200}, "model": "galaxy:item/tool/crowbar"},
     { "predicate": {"custom_model_data": 2010300}, "model": "galaxy:item/tool/magnet_off"},
     { "predicate": {"custom_model_data": 2010301}, "model": "galaxy:item/tool/magnet_on"},
     { "predicate": {"custom_model_data": 2010400}, "model": "galaxy:item/misc/bee_balloon"},
 
-    { "##catgory": "galaxyWeapon",
+    { "##category": "galaxyWeapon",
       "predicate": {"custom_model_data": 3010100}, "model": "galaxy:item/weapon/pistol-ori"},
     { "predicate": {"custom_model_data": 3010200}, "model": "galaxy:item/weapon/pistol-laser"},
     { "predicate": {"custom_model_data": 3010201}, "model": "galaxy:item/weapon/pistol-laser_aim"},
@@ -66,7 +66,7 @@
     { "predicate": {"custom_model_data": 3020702}, "model": "galaxy:item/weapon/sword-nanosaber_on_empower"},
     { "predicate": {"custom_model_data": 3020703}, "model": "galaxy:item/weapon/sword-nanosaber_scabbard"},
     
-    { "##catgory": "galaxyMaterial",
+    { "##category": "galaxyMaterial",
       "predicate": {"custom_model_data": 4010100}, "model": "galaxy:item/material/rawbase"},
     { "predicate": {"custom_model_data": 4010101}, "model": "galaxy:item/material/base"},
     { "predicate": {"custom_model_data": 4010102}, "model": "galaxy:item/material/coolant"},
@@ -79,7 +79,7 @@
     { "predicate": {"custom_model_data": 4010502}, "model": "galaxy:item/material/handle"},
     { "predicate": {"custom_model_data": 4010503}, "model": "galaxy:item/material/barrel"},
     
-    { "##catgory": "galaxyUpgrade",
+    { "##category": "galaxyUpgrade",
       "predicate": {"custom_model_data": 5000100}, "model": "galaxy:item/upgrade/base"},
     { "predicate": {"custom_model_data": 5010100}, "model": "galaxy:item/upgrade/cooling_lv1"},
     { "predicate": {"custom_model_data": 5010101}, "model": "galaxy:item/upgrade/cooling_lv2"},
@@ -121,5 +121,5 @@
     { "predicate": {"custom_model_data": 9999997}, "model": "galaxy:block/test_visibility"},
     { "predicate": {"custom_model_data": 9999998}, "model": "galaxy:block/test_invert_block"},
     { "predicate": {"custom_model_data": 9999999}, "model": "galaxy:block/test_block"}
-	]
+  ]
 }

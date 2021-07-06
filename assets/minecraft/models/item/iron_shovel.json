@@ -4,7 +4,7 @@
       "layer0": "item/iron_shovel"
   },
   "overrides": [
-    { "##catgory": "controlableAnimation",
+    { "##category": "controlableAnimation",
       "predicate": {"custom_model_data": 101000}, "model": "galaxy:animation/planet_terminal/0"},
     { "predicate": {"custom_model_data": 101001}, "model": "galaxy:animation/planet_terminal/1"},
     { "predicate": {"custom_model_data": 101002}, "model": "galaxy:animation/planet_terminal/2"},
