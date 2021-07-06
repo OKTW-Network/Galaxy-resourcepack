@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:item/template_spawn_egg",
+  "overrides": [
+    { "##category": "galaxyTool",
+      "predicate": {"custom_model_data": 2010100}, "model": "galaxy:item/tool/wrench"},
+    { "predicate": {"custom_model_data": 2010200}, "model": "galaxy:item/tool/crowbar"}
+  ]
+}
