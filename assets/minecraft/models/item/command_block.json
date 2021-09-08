@@ -117,6 +117,11 @@
     { "predicate": {"custom_model_data": 5010703}, "model": "galaxy:item/upgrade/fire_resistance_lv4"},
     { "predicate": {"custom_model_data": 5010704}, "model": "galaxy:item/upgrade/fire_resistance_lv5"},
 
+    { "##category": "galaxyBlockItem",
+      "predicate": {"custom_model_data": 6010100}, "model": "galaxy:item/block/pipe_port_export"},
+    { "predicate": {"custom_model_data": 6010101}, "model": "galaxy:item/block/pipe_port_import"},
+    { "predicate": {"custom_model_data": 6010102}, "model": "galaxy:item/block/pipe_port_storage"},
+
     { "predicate": {"custom_model_data": 9999996}, "model": "galaxy:block/test_size"},
     { "predicate": {"custom_model_data": 9999997}, "model": "galaxy:block/test_visibility"},
     { "predicate": {"custom_model_data": 9999998}, "model": "galaxy:block/test_invert_block"},
