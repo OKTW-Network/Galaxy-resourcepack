@@ -1,0 +1,63 @@
+{
+	"credit": "Made with Blockbench, model design by OKTW team",
+	"parent": "galaxy:block/_template_armorstand",
+	"ambientocclusion": false,
+	"textures": {
+		"trashcan": "galaxy:block/trashcan",
+		"particle": "minecraft:block/glass",
+		"glass": "minecraft:block/glass"
+	},
+	"elements": [
+		{
+			"name": "Glass shell",
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#glass"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#glass"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#glass"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#glass"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#glass"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#glass"}
+			}
+		},
+		{
+			"name": "Pot outside",
+			"from": [2, 0.1, 2],
+			"to": [14, 3, 14],
+			"faces": {
+				"north": {"uv": [9, 14, 15, 15.5], "texture": "#trashcan"},
+				"east": {"uv": [9, 14, 15, 15.5], "texture": "#trashcan"},
+				"south": {"uv": [9, 14, 15, 15.5], "texture": "#trashcan"},
+				"west": {"uv": [9, 14, 15, 15.5], "texture": "#trashcan"},
+				"up": {"uv": [9, 1, 15, 7], "texture": "#trashcan"},
+				"down": {"uv": [1, 1, 7, 7], "texture": "#trashcan"}
+			}
+		},
+		{
+			"name": "Pot inside",
+			"from": [13, 3, 13],
+			"to": [3, 2, 3],
+			"faces": {
+				"north": {"uv": [9, 14, 15, 14.5], "texture": "#trashcan"},
+				"east": {"uv": [9, 14, 15, 14.5], "texture": "#trashcan"},
+				"south": {"uv": [9, 14, 15, 14.5], "texture": "#trashcan"},
+				"west": {"uv": [9, 14, 15, 14.5], "texture": "#trashcan"},
+				"up": {"uv": [9.5, 8.5, 14.5, 13.5], "texture": "#trashcan"}
+			}
+		},
+		{
+			"name": "Cactus",
+			"from": [4, 2, 4],
+			"to": [12, 14, 12],
+			"faces": {
+				"north": {"uv": [2, 9, 6, 15], "texture": "#trashcan"},
+				"east": {"uv": [2, 9, 6, 15], "texture": "#trashcan"},
+				"south": {"uv": [2, 9, 6, 15], "texture": "#trashcan"},
+				"west": {"uv": [2, 9, 6, 15], "texture": "#trashcan"},
+				"up": {"uv": [10, 9, 14, 13], "texture": "#trashcan"},
+				"down": {"uv": [4, 5, 12, 13], "texture": "#missing"}
+			}
+		}
+	]
+}
