@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: circleci/buildpack-deps:stable-curl-browsers-legacy
+      - image: cimg/base:stable
     steps:
       - checkout
       - run:
