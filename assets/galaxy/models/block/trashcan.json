@@ -3,9 +3,11 @@
 	"parent": "galaxy:block/_template_armorstand",
 	"ambientocclusion": false,
 	"textures": {
+		"2": "galaxy:universal/glass_with_hole",
+		"3": "galaxy:universal/clear_glass",
 		"trashcan": "galaxy:block/trashcan",
-		"particle": "minecraft:block/glass",
-		"glass": "minecraft:block/glass"
+		"particle": "galaxy:origin/glass",
+		"glass": "galaxy:origin/glass"
 	},
 	"elements": [
 		{
@@ -17,13 +19,13 @@
 				"east": {"uv": [0, 0, 16, 16], "texture": "#glass"},
 				"south": {"uv": [0, 0, 16, 16], "texture": "#glass"},
 				"west": {"uv": [0, 0, 16, 16], "texture": "#glass"},
-				"up": {"uv": [0, 0, 16, 16], "texture": "#glass"},
-				"down": {"uv": [0, 0, 16, 16], "texture": "#glass"}
+				"up": {"uv": [0, 0, 16, 16], "texture": "#2"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#3"}
 			}
 		},
 		{
 			"name": "Pot outside",
-			"from": [2, 0.1, 2],
+			"from": [2, 0, 2],
 			"to": [14, 3, 14],
 			"faces": {
 				"north": {"uv": [9, 14, 15, 15.5], "texture": "#trashcan"},
