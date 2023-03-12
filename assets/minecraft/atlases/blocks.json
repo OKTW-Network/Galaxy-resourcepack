@@ -1,0 +1,24 @@
+{
+  "sources": [
+    {
+      "type": "directory",
+      "source": "origin",
+      "prefix": "origin/"
+    },
+    {
+      "type": "directory",
+      "source": "universal",
+      "prefix": "universal/"
+    },
+    {
+      "type": "directory",
+      "source": "gui",
+      "prefix": "gui/"
+    },
+    {
+      "type": "directory",
+      "source": "effect",
+      "prefix": "effect/"
+    }
+  ]
+}
