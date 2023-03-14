@@ -19,6 +19,11 @@
       "type": "directory",
       "source": "effect",
       "prefix": "effect/"
+    },
+    {
+      "type": "directory",
+      "source": "animation",
+      "prefix": "animation/"
     }
   ]
 }
