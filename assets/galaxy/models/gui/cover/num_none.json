@@ -1,6 +1,0 @@
-{
-	"parent": "galaxy:gui/cover/_template_num",
-	"textures": {
-		"num": "galaxy:gui/num_none"
-	}
-}

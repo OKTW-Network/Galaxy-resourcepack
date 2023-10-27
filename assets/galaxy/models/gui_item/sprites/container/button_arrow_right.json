@@ -1,0 +1,6 @@
+{
+	"parent": "galaxy:gui_item/sprites/container/button",
+	"textures": {
+		"icon": "galaxy:gui_item/sprites/icon/arrow_right"
+	}
+}

@@ -1,6 +1,0 @@
-{
-	"parent": "galaxy:gui/cover/_template_1x1",
-	"textures": {
-		"cover": "galaxy:gui/background_tqbr"
-	}
-}

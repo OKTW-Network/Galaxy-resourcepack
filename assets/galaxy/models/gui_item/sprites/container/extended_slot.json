@@ -1,0 +1,6 @@
+{
+	"parent": "galaxy:gui_item/_slot_3x3_at_top_left",
+	"textures": {
+		"slot": "galaxy:gui_item/sprites/container/extended_slot"
+	}
+}

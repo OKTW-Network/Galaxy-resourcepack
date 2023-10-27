@@ -12,13 +12,8 @@
     },
     {
       "type": "directory",
-      "source": "gui",
-      "prefix": "gui/"
-    },
-    {
-      "type": "directory",
-      "source": "effect",
-      "prefix": "effect/"
+      "source": "gui_item",
+      "prefix": "gui_item/"
     },
     {
       "type": "directory",

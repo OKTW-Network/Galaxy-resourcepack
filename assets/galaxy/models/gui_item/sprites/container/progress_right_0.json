@@ -1,0 +1,6 @@
+{
+	"parent": "galaxy:gui_item/_slot_2x1_at_left-progress_horizontal",
+	"textures": {
+		"pattern": "galaxy:gui_item/sprites/container/progress_right_0"
+	}
+}

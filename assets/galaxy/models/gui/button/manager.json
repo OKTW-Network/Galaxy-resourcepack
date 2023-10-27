@@ -1,6 +1,0 @@
-{	
-	"parent": "galaxy:gui/button/_template_1x1",
-	"textures": {
-		"icon": "galaxy:gui/icon_manager"
-	}
-}

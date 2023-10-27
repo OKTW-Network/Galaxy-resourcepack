@@ -1,0 +1,45 @@
+{
+  "providers": [
+    {
+      "type": "space",
+      "advances": {
+        "\u0028": 0,
+        "\u0029": -1,
+        "\u002B": 18,
+        "\u002C": -19,
+        "\u002D": -18,
+        "\u002E": 1,
+        "\u003B": -1,
+        "\u003C": -1,
+        "\u003E": -161
+      }
+    },
+    {
+      "type": "bitmap",
+      "file": "galaxy:gui_font/sprites/container/info.png",
+      "height": 18,
+      "ascent": -22,
+      "chars": [
+        "\u0041"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "galaxy:gui_font/sprites/container/progress_right.png",
+      "height": 18,
+      "ascent": -22,
+      "chars": [
+        "\u0042"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "galaxy:gui_font/sprites/container/progress_down.png",
+      "height": 18,
+      "ascent": -22,
+      "chars": [
+        "\u0043"
+      ]
+    }
+  ]
+}

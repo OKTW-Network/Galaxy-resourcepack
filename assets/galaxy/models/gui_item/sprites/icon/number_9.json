@@ -1,0 +1,6 @@
+{
+	"parent": "galaxy:gui_item/_slot_1x1",
+	"textures": {
+		"icon": "galaxy:gui_item/sprites/icon/number_9"
+	}
+}

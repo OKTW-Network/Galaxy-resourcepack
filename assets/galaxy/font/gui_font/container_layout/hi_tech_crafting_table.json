@@ -1,0 +1,14 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "galaxy:gui_font/container_layout/hi_tech_crafting_table.png",
+      "height": 54,
+      "ascent": -4,
+      "chars": [
+        "\u0041",
+        "\u0042"
+      ]
+    }
+  ]
+}

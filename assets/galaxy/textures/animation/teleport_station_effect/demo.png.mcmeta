@@ -3,12 +3,14 @@
 	"interpolate": false,
     "frametime": 1,
     "frames": [
-        {"index": 1, "time": 40},
-        2,
+        {"index": 0, "time": 40},
+        1,
+		2,
         3,
         {"index": 4, "time": 20},
         3,
-        2
+        2,
+		1
     ]
   }
 }
