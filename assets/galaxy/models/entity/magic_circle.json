@@ -1,0 +1,49 @@
+{
+	"credit": "Made with Blockbench, model design by OKTW team",
+    "gui_light": "front",
+	"textures": {
+		"0": "galaxy:entity/magic_circle",
+		"particle": "galaxy:entity/magic_circle"
+	},
+	"elements": [
+		{
+			"from": [-16, 0, -16],
+			"to": [32, 0.25, 32],
+			"faces": {
+				"up": {"uv": [0, 0, 16, 16], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 1, 2.25],
+			"scale": [0.06, 0.06, 0.06]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, 1, 2.25],
+			"scale": [0.06, 0.06, 0.06]
+		},
+		"firstperson_righthand": {
+			"scale": [0, 0, 0]
+		},
+		"firstperson_lefthand": {
+			"scale": [0, 0, 0]
+		},
+		"ground": {
+			"translation": [0, 4, 0]
+		},
+		"gui": {
+			"rotation": [90, 0, 0],
+			"scale": [0.3, 0.3, 0.3]
+		},
+		"head": {
+			"translation": [0, -14.665, 0],
+			"scale": [2.2855, 2.2855, 2.2855]
+		},
+		"fixed": {
+			"rotation": [-90, 180, 0],
+			"translation": [0, 0, -14],
+			"scale": [2, 2, 2]
+		}
+	}
+}

@@ -1,12 +1,6 @@
 {
-	"parent": "galaxy:block/_template_armorstand",
-	"textures": {
-		"north": "galaxy:block/elevator",
-		"east": "galaxy:block/elevator",
-		"south": "galaxy:block/elevator",
-		"west": "galaxy:block/elevator",
-		"up": "galaxy:block/elevator",
-		"down": "galaxy:block/elevator",
-		"particle": "galaxy:block/elevator"
-	}
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "galaxy:block/elevator"
+  }
 }

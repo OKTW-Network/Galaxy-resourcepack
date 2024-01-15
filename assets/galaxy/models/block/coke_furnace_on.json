@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "top": "galaxy:block/coke_furnace_top",
+    "front": "galaxy:block/coke_furnace_front_on",
+    "side": "galaxy:block/coke_furnace_side"
+  }
+}

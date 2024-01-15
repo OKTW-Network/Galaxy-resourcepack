@@ -3,7 +3,7 @@
     "gui_light": "front",
 	"textures": {
 		"0": "galaxy:universal/colors",
-		"1_0": "galaxy:item/katana"
+		"1_0": "galaxy:item/katana_steel_colors"
 	},
 	"elements": [
 		{

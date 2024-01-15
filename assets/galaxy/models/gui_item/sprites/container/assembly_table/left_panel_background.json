@@ -1,0 +1,13 @@
+{
+	"parent": "galaxy:gui_item/_slot_1x1",
+	"textures": {
+		"main_field": "galaxy:gui_item/sprites/container/main_field"
+	},
+	"display": {
+		"gui": {
+			"rotation": [90, 0, 0],
+			"translation": [-36, 18, 0],
+			"scale": [3, 1, 3]
+		}
+	}
+}

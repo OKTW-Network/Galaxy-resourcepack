@@ -1,0 +1,6 @@
+{
+  "parent": "galaxy:block/face/_template",
+  "textures": {
+    "face": "galaxy:block/hi_tech_crafting_table_side"
+  }
+}

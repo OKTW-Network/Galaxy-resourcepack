@@ -1,0 +1,11 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/written_book"
+  },
+  "overrides": [
+    { "predicate": {"custom_model_data": 100}, "model": "galaxy:blank"},
+
+    { "predicate": {"custom_model_data": 101}, "model": "galaxy:item/book_galaxy_delta"}
+  ]
+}

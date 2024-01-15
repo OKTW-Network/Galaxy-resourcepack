@@ -1,0 +1,12 @@
+{
+	"parent": "galaxy:block/armor_stand/_template",
+	"textures": {
+		"north": "galaxy:block/angel_block_side_0",
+		"east": "galaxy:block/angel_block_side_1",
+		"south": "galaxy:block/angel_block_side_0",
+		"west": "galaxy:block/angel_block_side_1",
+		"up": "galaxy:block/angel_block_top",
+		"down": "galaxy:block/angel_block_bottom",
+		"particle": "galaxy:block/angel_block_side_0"
+	}
+}

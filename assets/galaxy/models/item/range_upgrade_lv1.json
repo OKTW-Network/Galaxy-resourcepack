@@ -1,0 +1,8 @@
+{
+	"parent": "galaxy:item/_upgrade_max_lv5",
+	"textures": {
+		"icon": "galaxy:item/range_upgrade",
+		"card": "galaxy:item/upgrade_card_block",
+		"leg1": "galaxy:item/upgrade_leg_activated"
+	}
+}

@@ -1,0 +1,10 @@
+{
+	"parent": "galaxy:item/_upgrade",
+	"textures": {
+		"leg1": "galaxy:item/upgrade_leg_deactivated",
+		"leg2": "galaxy:item/upgrade_leg_deactivated",
+		"leg3": "galaxy:item/upgrade_leg_deactivated",
+		"leg4": "galaxy:item/upgrade_leg_deactivated",
+		"leg5": "galaxy:item/upgrade_leg_deactivated"
+	}
+}

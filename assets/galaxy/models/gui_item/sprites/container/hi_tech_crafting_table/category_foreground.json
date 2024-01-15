@@ -1,0 +1,6 @@
+{
+	"parent": "galaxy:gui_item/_slot_1x1_3x_at_bottom_right",
+	"textures": {
+		"foreground": "galaxy:gui_item/sprites/container/hi_tech_crafting_table/category_foreground"
+	}
+}

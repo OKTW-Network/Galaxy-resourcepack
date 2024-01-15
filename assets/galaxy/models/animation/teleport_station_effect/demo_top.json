@@ -1,6 +1,6 @@
 {
 	"credit": "Made with Blockbench, model design by OKTW team",
-	"parent": "galaxy:block/_template_armorstand",
+	"parent": "galaxy:block/armor_stand/_template",
 	"textures": {
 		"0": "galaxy:animation/teleport_station_effect/demo",
 		"particle": "galaxy:animation/teleport_station_effect/demo"

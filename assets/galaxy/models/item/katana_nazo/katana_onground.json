@@ -1,0 +1,15 @@
+{
+	"parent": "galaxy:item/katana_nazo/katana",
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [90, 0, 90],
+			"translation": [0, -2.5, -11.475],
+			"scale": [1.35, 1.35, 1.35]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [90, 0, 90],
+			"translation": [0, -2.5, -11.475],
+			"scale": [1.35, 1.35, 1.35]
+		}
+	}
+}

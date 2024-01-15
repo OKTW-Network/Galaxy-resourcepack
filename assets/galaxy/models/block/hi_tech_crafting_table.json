@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "top": "galaxy:block/hi_tech_crafting_table_top",
+    "bottom": "galaxy:block/hi_tech_crafting_table_bottom",
+    "side": "galaxy:block/hi_tech_crafting_table_side",
+    "particle": "#top"
+  }
+}

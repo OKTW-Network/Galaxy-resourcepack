@@ -1,0 +1,19 @@
+{
+	"credit": "Made with Blockbench, model design by OKTW team",
+	"parent": "galaxy:block/armor_stand/_template",
+	"textures": {
+		"0": "galaxy:block/teleport_station_middle_left",
+		"1": "galaxy:block/teleport_station_middle_right",
+		"particle": "galaxy:block/teleport_station_middle_left"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#0"}
+			}
+		}
+	]
+}

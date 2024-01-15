@@ -1,0 +1,12 @@
+{
+	"parent": "galaxy:block/armor_stand/_template",
+	"textures": {
+		"north": "galaxy:block/teleporter_core_advance",
+		"east": "galaxy:block/teleporter_core_advance",
+		"south": "galaxy:block/teleporter_core_advance",
+		"west": "galaxy:block/teleporter_core_advance",
+		"up": "galaxy:block/teleporter_core_advance",
+		"down": "galaxy:block/teleporter_core_advance",
+		"particle": "galaxy:block/teleporter_core_advance"
+	}
+}

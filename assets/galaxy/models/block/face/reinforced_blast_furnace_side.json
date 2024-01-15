@@ -1,0 +1,6 @@
+{
+  "parent": "galaxy:block/face/_template",
+  "textures": {
+    "face": "galaxy:block/reinforced_blast_furnace_side"
+  }
+}

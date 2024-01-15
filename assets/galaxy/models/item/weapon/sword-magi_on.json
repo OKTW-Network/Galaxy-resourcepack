@@ -5,7 +5,7 @@
 		"0": "galaxy:universal/colors",
 		"1": "galaxy:item/magi_effect",
 		"particle": "galaxy:item/magi_effect",
-		"1_0": "galaxy:item/katana"
+		"1_0": "galaxy:item/katana_steel_colors"
 	},
 	"elements": [
 		{

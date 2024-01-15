@@ -1,0 +1,12 @@
+{
+	"parent": "galaxy:block/armor_stand/_template",
+	"textures": {
+		"north": "galaxy:block/hi_tech_crafting_table_side",
+		"east": "galaxy:block/hi_tech_crafting_table_side",
+		"south": "galaxy:block/hi_tech_crafting_table_side",
+		"west": "galaxy:block/hi_tech_crafting_table_side",
+		"up": "galaxy:block/hi_tech_crafting_table_top",
+		"down": "galaxy:block/hi_tech_crafting_table_bottom",
+		"particle": "galaxy:block/hi_tech_crafting_table_side"
+	}
+}

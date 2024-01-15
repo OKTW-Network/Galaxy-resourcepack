@@ -1,0 +1,23 @@
+{
+	"parent": "galaxy:gui_item/_slot_3x3_at_top_left",
+	"textures": {
+		"slot": "galaxy:gui_item/sprites/container/slot_central",
+		"slot_top": "galaxy:gui_item/sprites/container/extended_slot_top",
+		"slot_top_left": "galaxy:gui_item/sprites/container/extended_slot_top_left",
+		"slot_top_right": "galaxy:gui_item/sprites/container/extended_slot_top_right",
+		"slot_bottom": "galaxy:gui_item/sprites/container/extended_slot_bottom",
+		"slot_bottom_left": "galaxy:gui_item/sprites/container/extended_slot_bottom_left",
+		"slot_bottom_right": "galaxy:gui_item/sprites/container/extended_slot_bottom_right",
+		"slot_left": "galaxy:gui_item/sprites/container/extended_slot_left",
+		"slot_right": "galaxy:gui_item/sprites/container/extended_slot_right",
+		"main_field_border": "galaxy:gui_item/sprites/container/main_field",
+		"main_field_border_top": "galaxy:gui_item/sprites/container/main_field_top",
+		"main_field_border_top_left": "galaxy:gui_item/sprites/container/main_field_top_left",
+		"main_field_border_top_right": "galaxy:gui_item/sprites/container/main_field_top_right",
+		"main_field_border_bottom": "galaxy:gui_item/sprites/container/main_field_bottom",
+		"main_field_border_bottom_left": "galaxy:gui_item/sprites/container/main_field_bottom_left",
+		"main_field_border_bottom_right": "galaxy:gui_item/sprites/container/main_field_bottom_right",
+		"main_field_border_left": "galaxy:gui_item/sprites/container/main_field_left",
+		"main_field_border_right": "galaxy:gui_item/sprites/container/main_field_right"
+	}
+}

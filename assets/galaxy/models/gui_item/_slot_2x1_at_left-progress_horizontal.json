@@ -11,11 +11,11 @@
 	"elements": [
 		{
 			"name": "foreground",
-			"from": [5, 1, 5],
-			"to": [17, 1, 11],
+			"from": [5, 16, 5],
+			"to": [17, 16, 11],
 			"shade": false,
 			"faces": {
-				"up": {"uv": [9, 0, 0, 9], "texture": "#foreground"}
+				"up": {"uv": [0, 0, 9, 4.5], "texture": "#foreground"}
 			}
 		},
 		{
@@ -29,29 +29,29 @@
 		},
 		{
 			"name": "sub_field",
-			"from": [5, -5, 5],
-			"to": [17, -5, 11],
+			"from": [5, -6, 5],
+			"to": [17, -6, 11],
 			"shade": false,
 			"faces": {
-				"up": {"uv": [9, 0, 0, 9], "texture": "#sub_field"}
+				"up": {"uv": [0, 0, 9, 4.5], "texture": "#sub_field"}
 			}
 		},
 		{
 			"name": "main_field",
-			"from": [5, -7, 5],
-			"to": [17, -7, 11],
+			"from": [5, -9, 5],
+			"to": [17, -9, 11],
 			"shade": false,
 			"faces": {
-				"up": {"uv": [9, 0, 0, 9], "texture": "#main_field"}
+				"up": {"uv": [0, 0, 9, 4.5], "texture": "#main_field"}
 			}
 		},
 		{
 			"name": "background",
-			"from": [5, -8, 5],
-			"to": [17, -8, 11],
+			"from": [5, -16, 5],
+			"to": [17, -16, 11],
 			"shade": false,
 			"faces": {
-				"up": {"uv": [9, 0, 0, 9], "texture": "#background"}
+				"up": {"uv": [0, 0, 9, 4.5], "texture": "#background"}
 			}
 		}
 	],
@@ -74,8 +74,8 @@
 		},
 		"gui": {
 			"rotation": [90, 0, 0],
-			"translation": [0, 0, -10],
-			"scale": [3, 0.1, 3]
+			"translation": [0, 0, 0],
+			"scale": [3, 1, 3]
 		},
 		"head": {
 			"scale": [0, 0, 0]

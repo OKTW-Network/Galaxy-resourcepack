@@ -1,5 +1,5 @@
 {
-	"parent": "galaxy:block/_template_armorstand",
+	"parent": "minecraft:block/cube",
 	"textures": {
 		"north": "galaxy:block/angel_block_side_0",
 		"east": "galaxy:block/angel_block_side_1",

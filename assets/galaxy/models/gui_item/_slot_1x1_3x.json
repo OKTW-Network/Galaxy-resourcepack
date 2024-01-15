@@ -1,0 +1,10 @@
+{
+	"parent": "galaxy:gui_item/_slot_1x1",
+	"display": {
+		"gui": {
+			"rotation": [90, 0, 0],
+			"translation": [0, 0, 0],
+			"scale": [3, 1, 3]
+		}
+	}
+}

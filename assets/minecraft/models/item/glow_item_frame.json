@@ -1,0 +1,44 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/item_frame"
+  },
+  "overrides": [
+    { "predicate": {"custom_model_data": 100}, "model": "galaxy:blank"},
+
+    { "predicate": {"custom_model_data": 1000000}, "model": "galaxy:block/test_block"},
+    { "predicate": {"custom_model_data": 1000001}, "model": "galaxy:block/test_inverted_block"},
+    { "predicate": {"custom_model_data": 1000002}, "model": "galaxy:block/test_translucent"},
+    { "predicate": {"custom_model_data": 1010000}, "model": "galaxy:block/hi_tech_crafting_table"},
+    { "predicate": {"custom_model_data": 1010100}, "model": "galaxy:block/face/hi_tech_crafting_table_side"},
+    { "predicate": {"custom_model_data": 1010101}, "model": "galaxy:block/face/hi_tech_crafting_table_top"},
+    { "predicate": {"custom_model_data": 1010102}, "model": "galaxy:block/face/hi_tech_crafting_table_bottom"},
+    { "predicate": {"custom_model_data": 1020000}, "model": "galaxy:block/coke_furnace"},
+    { "predicate": {"custom_model_data": 1020001}, "model": "galaxy:block/coke_furnace_on"},
+    { "predicate": {"custom_model_data": 1020100}, "model": "galaxy:block/face/coke_furnace_front"},
+    { "predicate": {"custom_model_data": 1020101}, "model": "galaxy:block/face/coke_furnace_side"},
+    { "predicate": {"custom_model_data": 1020102}, "model": "galaxy:block/face/coke_furnace_top"},
+    { "predicate": {"custom_model_data": 1020200}, "model": "galaxy:block/face/coke_furnace_front_on"},
+    { "predicate": {"custom_model_data": 1030000}, "model": "galaxy:block/reinforced_blast_furnace"},
+    { "predicate": {"custom_model_data": 1030001}, "model": "galaxy:block/reinforced_blast_furnace_on"},
+    { "predicate": {"custom_model_data": 1030100}, "model": "galaxy:block/face/reinforced_blast_furnace_front"},
+    { "predicate": {"custom_model_data": 1030101}, "model": "galaxy:block/face/reinforced_blast_furnace_side"},
+    { "predicate": {"custom_model_data": 1030102}, "model": "galaxy:block/face/reinforced_blast_furnace_top"},
+    { "predicate": {"custom_model_data": 1030200}, "model": "galaxy:block/face/reinforced_blast_furnace_front_on"},
+    { "predicate": {"custom_model_data": 1040000}, "model": "galaxy:block/assembly_table"},
+    { "predicate": {"custom_model_data": 1040100}, "model": "galaxy:block/face/assembly_table_side"},
+    { "predicate": {"custom_model_data": 1040101}, "model": "galaxy:block/face/assembly_table_top"},
+    { "predicate": {"custom_model_data": 1040102}, "model": "galaxy:block/face/assembly_table_bottom"},
+    { "predicate": {"custom_model_data": 1050000}, "model": "galaxy:block/elevator"},
+    { "predicate": {"custom_model_data": 1050100}, "model": "galaxy:block/face/elevator_all"},
+    
+    { "predicate": {"custom_model_data": 2010000}, "model": "galaxy:entity/katana_showcase-1"},
+    { "predicate": {"custom_model_data": 2010001}, "model": "galaxy:entity/katana_showcase-2"},
+    { "predicate": {"custom_model_data": 2010002}, "model": "galaxy:entity/katana_showcase-3"},
+    { "predicate": {"custom_model_data": 2010003}, "model": "galaxy:entity/katana_showcase-4"},
+
+    { "predicate": {"custom_model_data": 3010000}, "model": "galaxy:item/wrench"},
+    { "predicate": {"custom_model_data": 3020000}, "model": "galaxy:item/crowbar"},
+    { "predicate": {"custom_model_data": 3030000}, "model": "galaxy:item/empower_lens"}
+  ]
+}

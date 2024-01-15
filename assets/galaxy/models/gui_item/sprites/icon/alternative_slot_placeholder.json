@@ -1,0 +1,67 @@
+{
+	"credit": "Made with Blockbench, model design by OKTW team",
+	"textures": {
+		"cover": "galaxy:universal/gui_colors"
+	},
+	"elements": [
+		{
+			"from": [-4.94975, 0, 6.36396],
+			"to": [0.44975, 0, 9.36396],
+			"rotation": {"angle": 45, "axis": "y", "origin": [0, 0, 0]},
+			"faces": {
+				"up": {"uv": [4.25, 0.25, 4.75, 0.75], "texture": "#cover"}
+			}
+		},
+		{
+			"from": [6.36396, 0, -4.94975],
+			"to": [11.76346, 0, -1.94975],
+			"rotation": {"angle": -45, "axis": "y", "origin": [0, 0, 0]},
+			"faces": {
+				"up": {"uv": [4.25, 0.25, 4.75, 0.75], "texture": "#cover"}
+			}
+		},
+		{
+			"from": [13.26346, 0, -4.94975],
+			"to": [16.26346, 0, 0.44975],
+			"rotation": {"angle": -45, "axis": "y", "origin": [0, 0, 0]},
+			"faces": {
+				"up": {"uv": [4.25, 0.25, 4.75, 0.75], "texture": "#cover"}
+			}
+		},
+		{
+			"from": [10.86396, 0, 1.94975],
+			"to": [16.26346, 0, 4.94975],
+			"rotation": {"angle": -45, "axis": "y", "origin": [0, 0, 0]},
+			"faces": {
+				"up": {"uv": [4.25, 0.25, 4.75, 0.75], "texture": "#cover"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"scale": [0, 0, 0]
+		},
+		"thirdperson_lefthand": {
+			"scale": [0, 0, 0]
+		},
+		"firstperson_righthand": {
+			"scale": [0, 0, 0]
+		},
+		"firstperson_lefthand": {
+			"scale": [0, 0, 0]
+		},
+		"ground": {
+			"scale": [0, 0, 0]
+		},
+		"gui": {
+			"rotation": [90, 0, 0]
+		},
+		"head": {
+			"scale": [0, 0, 0]
+		},
+		"fixed": {
+			"scale": [0, 0, 0]
+		}
+	}
+}

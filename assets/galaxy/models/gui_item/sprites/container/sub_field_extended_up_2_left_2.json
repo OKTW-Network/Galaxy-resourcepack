@@ -1,0 +1,6 @@
+{
+	"parent": "galaxy:gui_item/_slot_1x1_3x_at_bottom_right",
+	"textures": {
+		"sub_field": "galaxy:gui_item/sprites/container/sub_field"
+	}
+}

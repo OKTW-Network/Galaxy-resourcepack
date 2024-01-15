@@ -1,0 +1,8 @@
+{
+	"parent": "galaxy:gui_item/_slot_3x3",
+	"textures": {
+		"main_field": "galaxy:gui_item/sprites/container/main_field",
+		"main_field_top": "galaxy:gui_item/sprites/container/main_field",
+		"main_field_bottom": "galaxy:gui_item/sprites/container/main_field"
+	}
+}

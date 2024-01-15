@@ -6,9 +6,11 @@
 		"button": "galaxy:universal/blank",
 		"slot": "galaxy:universal/blank",
 		"pattern": "galaxy:universal/blank",
-		"sub_field_corner_border": "galaxy:universal/blank",
+		"sub_field_layer_2": "galaxy:universal/blank",
+		"sub_field_layer_1": "galaxy:universal/blank",
 		"sub_field": "galaxy:universal/blank",
-		"main_field_corner_border": "galaxy:universal/blank",
+		"main_field_layer_2": "galaxy:universal/blank",
+		"main_field_layer_1": "galaxy:universal/blank",
 		"main_field": "galaxy:universal/blank",
 		"background": "galaxy:universal/blank",
 		"particle": "galaxy:universal/blank"
@@ -16,8 +18,8 @@
 	"elements": [
 		{
 			"name": "foreground",
-			"from": [-1, 1, -1],
-			"to": [17, 1, 17],
+			"from": [-1, 16, -1],
+			"to": [17, 16, 17],
 			"shade": false,
 			"faces": {
 				"up": {"uv": [0, 0, 9, 9], "texture": "#foreground"}
@@ -60,36 +62,54 @@
 			}
 		},
 		{
-			"name": "sub_field_corner_border",
+			"name": "sub_field_layer_2",
 			"from": [-1, -4, -1],
 			"to": [17, -4, 17],
 			"shade": false,
 			"faces": {
-				"up": {"uv": [0, 0, 9, 9], "texture": "#sub_field_corner_border"}
+				"up": {"uv": [0, 0, 9, 9], "texture": "#sub_field_layer_2"}
+			}
+		},
+		{
+			"name": "sub_field_layer_1",
+			"from": [-1, -5, -1],
+			"to": [17, -5, 17],
+			"shade": false,
+			"faces": {
+				"up": {"uv": [0, 0, 9, 9], "texture": "#sub_field_layer_1"}
 			}
 		},
 		{
 			"name": "sub_field",
-			"from": [-1, -5, -1],
-			"to": [17, -5, 17],
+			"from": [-1, -6, -1],
+			"to": [17, -6, 17],
 			"shade": false,
 			"faces": {
 				"up": {"uv": [0, 0, 9, 9], "texture": "#sub_field"}
 			}
 		},
 		{
-			"name": "main_field_corner_border",
-			"from": [-1, -6, -1],
-			"to": [17, -6, 17],
+			"name": "main_field_layer_2",
+			"from": [-1, -7, -1],
+			"to": [17, -7, 17],
 			"shade": false,
 			"faces": {
-				"up": {"uv": [0, 0, 9, 9], "texture": "#main_field_corner_border"}
+				"up": {"uv": [0, 0, 9, 9], "texture": "#main_field_layer_2"}
+			}
+		},
+		{
+			"name": "main_field_layer_1",
+			"from": [-1, -8, -1],
+			"to": [17, -8, 17],
+			"shade": false,
+			"faces": {
+				"up": {"uv": [0, 0, 9, 9], "texture": "#main_field_layer_1"}
 			}
 		},
 		{
 			"name": "main_field",
-			"from": [-1, -7, -1],
-			"to": [17, -7, 17],
+			"from": [-1, -9, -1],
+			"to": [17, -9, 17],
 			"shade": false,
 			"faces": {
 				"up": {"uv": [0, 0, 9, 9], "texture": "#main_field"}
@@ -97,8 +117,8 @@
 		},
 		{
 			"name": "background",
-			"from": [-1, -8, -1],
-			"to": [17, -8, 17],
+			"from": [-1, -16, -1],
+			"to": [17, -16, 17],
 			"shade": false,
 			"faces": {
 				"up": {"uv": [0, 0, 9, 9], "texture": "#background"}
@@ -123,9 +143,7 @@
 			"scale": [0, 0, 0]
 		},
 		"gui": {
-			"rotation": [90, 0, 0],
-			"translation": [0, 0, -10],
-			"scale": [1, 0.1, 1]
+			"rotation": [90, 0, 0]
 		},
 		"head": {
 			"scale": [0, 0, 0]

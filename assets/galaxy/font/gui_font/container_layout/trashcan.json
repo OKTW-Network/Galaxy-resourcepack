@@ -1,0 +1,13 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "galaxy:gui_font/container_layout/trashcan.png",
+      "height": 108,
+      "ascent": -4,
+      "chars": [
+        "\u0041"
+      ]
+    }
+  ]
+}

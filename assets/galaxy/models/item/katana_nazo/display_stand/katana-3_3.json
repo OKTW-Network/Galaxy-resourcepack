@@ -1,0 +1,11 @@
+{
+	"credit": "Made with Blockbench, model design by OKTW team",
+	"parent": "galaxy:item/katana_nazo/katana",
+	"display": {
+		"fixed": {
+			"rotation": [-90, -73, -90],
+			"translation": [-0.5, 3.25, 0],
+			"scale": [1.35, 1.35, 1.35]
+		}
+	}
+}

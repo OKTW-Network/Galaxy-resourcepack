@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "galaxy:item/katana_draw_strike_flash"
+    }
+}

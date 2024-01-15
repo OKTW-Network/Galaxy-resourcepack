@@ -1,0 +1,11 @@
+{
+	"credit": "Made with Blockbench, model design by OKTW team",
+	"parent": "galaxy:item/katana_steel/blade",
+	"display": {
+		"fixed": {
+			"rotation": [-90, 107.75, -90],
+			"translation": [2.8025, 13.15, 0],
+			"scale": [1.35, 1.35, 1.35]
+		}
+	}
+}
