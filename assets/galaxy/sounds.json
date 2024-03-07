@@ -8,5 +8,215 @@
     "sounds": [
       "galaxy:gun/overheat"
     ]
+  },
+  "katana.store.self": {
+    "subtitle": "subtitles.item.katana.store",
+    "sounds": [
+      {
+        "name": "galaxy:katana/store-self",
+        "volume": 0.25,
+        "pitch": 1.7
+      },
+      {
+        "name": "galaxy:katana/store-self",
+        "volume": 0.25,
+        "pitch": 1.6
+      },
+      {
+        "name": "galaxy:katana/store-self",
+        "volume": 0.25,
+        "pitch": 1.5
+      }
+    ]
+  },
+  "katana.store": {
+    "subtitle": "subtitles.item.katana.store",
+    "sounds": [
+      {
+        "name": "galaxy:katana/store",
+        "volume": 0.7,
+        "pitch": 1.7
+      },
+      {
+        "name": "galaxy:katana/store",
+        "volume": 0.7,
+        "pitch": 1.6
+      },
+      {
+        "name": "galaxy:katana/store",
+        "volume": 0.7,
+        "pitch": 1.5
+      }
+    ]
+  },
+  "katana.draw.self": {
+    "subtitle": "subtitles.item.katana.draw",
+    "sounds": [
+      {
+        "name": "galaxy:katana/draw-self",
+        "volume": 0.25,
+        "pitch": 1.6
+      },
+      {
+        "name": "galaxy:katana/draw-self",
+        "volume": 0.25,
+        "pitch": 1.5
+      },
+      {
+        "name": "galaxy:katana/draw-self",
+        "volume": 0.25,
+        "pitch": 1.4
+      }
+    ]
+  },
+  "katana.draw": {
+    "subtitle": "subtitles.item.katana.draw",
+    "sounds": [
+      {
+        "name": "galaxy:katana/draw",
+        "volume": 0.65,
+        "pitch": 1.6
+      },
+      {
+        "name": "galaxy:katana/draw",
+        "volume": 0.65,
+        "pitch": 1.5
+      },
+      {
+        "name": "galaxy:katana/draw",
+        "volume": 0.65,
+        "pitch": 1.4
+      }
+    ]
+  },
+  "katana.draw_ready.self": {
+    "sounds": [
+      {
+        "name": "galaxy:katana/draw_ready-self",
+        "volume": 0.5,
+        "pitch": 1.1
+      }
+    ]
+  },
+  "katana.draw_ready": {
+    "sounds": [
+      {
+        "name": "galaxy:katana/draw_ready",
+        "volume": 0.75,
+        "pitch": 1.1
+      }
+    ]
+  },
+  "katana.soop.self": {
+    "sounds": [
+      {
+        "name": "galaxy:katana/soop-self",
+        "volume": 0.5,
+        "pitch": 1.0
+      },
+      {
+        "name": "galaxy:katana/soop-self",
+        "volume": 0.5,
+        "pitch": 0.9
+      },
+      {
+        "name": "galaxy:katana/soop-self",
+        "volume": 0.5,
+        "pitch": 0.8
+      }
+    ]
+  },
+  "katana.soop": {
+    "sounds": [
+      {
+        "name": "galaxy:katana/soop",
+        "volume": 0.95,
+        "pitch": 1.0
+      },
+      {
+        "name": "galaxy:katana/soop",
+        "volume": 0.95,
+        "pitch": 0.9
+      },
+      {
+        "name": "galaxy:katana/soop",
+        "volume": 0.95,
+        "pitch": 0.8
+      }
+    ]
+  },
+  "katana.block.self": {
+    "sounds": [
+      {
+        "name": "galaxy:katana/block-self",
+        "volume": 0.45,
+        "pitch": 1.8
+      },
+      {
+        "name": "galaxy:katana/block-self",
+        "volume": 0.45,
+        "pitch": 1.7
+      },
+      {
+        "name": "galaxy:katana/block-self",
+        "volume": 0.45,
+        "pitch": 1.6
+      }
+    ]
+  },
+  "katana.block": {
+    "sounds": [
+      {
+        "name": "galaxy:katana/block",
+        "volume": 0.65,
+        "pitch": 1.8
+      },
+      {
+        "name": "galaxy:katana/block",
+        "volume": 0.65,
+        "pitch": 1.7
+      },
+      {
+        "name": "galaxy:katana/block",
+        "volume": 0.65,
+        "pitch": 1.6
+      }
+    ]
+  },
+  "energy_saber.turn_on.self": {
+    "sounds": [
+      {
+        "name": "galaxy:energy_saber/turn_on-self",
+        "volume": 0.3,
+        "pitch": 1.0
+      }
+    ]
+  },
+  "energy_saber.turn_on": {
+    "sounds": [
+      {
+        "name": "galaxy:energy_saber/turn_on",
+        "volume": 0.75,
+        "pitch": 1.0
+      }
+    ]
+  },
+  "energy_saber.turn_off.self": {
+    "sounds": [
+      {
+        "name": "galaxy:energy_saber/turn_off-self",
+        "volume": 0.3,
+        "pitch": 1.0
+      }
+    ]
+  },
+  "energy_saber.turn_off": {
+    "sounds": [
+      {
+        "name": "galaxy:energy_saber/turn_off",
+        "volume": 0.75,
+        "pitch": 1.0
+      }
+    ]
   }
 }
