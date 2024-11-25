@@ -1,7 +1,6 @@
 ﻿{
   "pack": {
-    "pack_format": 34,
-    "supported_formats": {"min_inclusive": 15, "max_inclusive": 34},
+    "pack_format": 42,
     "description": "OKTW Galaxy Resource Pack\nUsed for in-game"
   }
 }
