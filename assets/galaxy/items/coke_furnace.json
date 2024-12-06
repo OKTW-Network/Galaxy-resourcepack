@@ -1,0 +1,59 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "cases": [
+      {
+        "when": "face-front",
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:custom_model_data",
+          "index": 0,
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "galaxy:block/face/coke_furnace_front_on"
+          },
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "galaxy:block/face/coke_furnace_front"
+          }
+        }
+      },
+      {
+        "when": "face-side",
+        "model": {
+          "type": "minecraft:model",
+          "model": "galaxy:block/face/coke_furnace_side"
+        }
+      },
+      {
+        "when": "face-top",
+        "model": {
+          "type": "minecraft:model",
+          "model": "galaxy:block/face/coke_furnace_top"
+        }
+      },
+      {
+        "when": "face-bottom",
+        "model": {
+          "type": "minecraft:model",
+          "model": "galaxy:block/face/coke_furnace_top"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:condition",
+      "property": "minecraft:custom_model_data",
+      "index": 0,
+      "on_true": {
+        "type": "minecraft:model",
+        "model": "galaxy:block/coke_furnace_on"
+      },
+      "on_false": {
+        "type": "minecraft:model",
+        "model": "galaxy:block/coke_furnace"
+      }
+    }
+  }
+}
