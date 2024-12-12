@@ -1,0 +1,34 @@
+{
+	"parent": "minecraft:block/orientable",
+	"textures": {
+		"outer": "galaxy:universal/blank",
+		"inner": "galaxy:universal/blank",
+		"particle": "galaxy:universal/blank"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [4, 4, 8, 8], "texture": "#outer"},
+				"east": {"uv": [0, 4, 4, 8], "texture": "#outer"},
+				"south": {"uv": [0, 8, 4, 12], "texture": "#outer"},
+				"west": {"uv": [8, 4, 12, 8], "texture": "#outer"},
+				"up": {"uv": [4, 0, 8, 4], "texture": "#outer"},
+				"down": {"uv": [4, 8, 8, 12], "texture": "#outer"}
+			}
+		},
+		{
+			"from": [16, 16, 16],
+			"to": [0, 0, 0],
+			"faces": {
+				"north": {"uv": [0, 12, 4, 8], "texture": "#inner"},
+				"east": {"uv": [8, 8, 12, 4], "texture": "#inner"},
+				"south": {"uv": [4, 8, 8, 4], "texture": "#inner"},
+				"west": {"uv": [0, 8, 4, 4], "texture": "#inner"},
+				"up": {"uv": [8, 8, 4, 12], "texture": "#inner"},
+				"down": {"uv": [8, 0, 4, 4], "texture": "#inner"}
+			}
+		}
+	]
+}
