@@ -1,0 +1,51 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "cases": [
+      {
+        "when": "plasum",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:custom_model_data",
+          "index": 1,
+          "cases": [
+            {
+              "when": "active",
+              "model": {
+                "type": "minecraft:model",
+                "model": "galaxy:item/energy_saber_plasum/on"
+              }
+            }
+          ],
+          "fallback": {
+          "type": "minecraft:model",
+          "model": "galaxy:item/energy_saber_plasum/off"
+          }
+        }
+      },
+      {
+        "when": "ranbo",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:custom_model_data",
+          "index": 1,
+          "cases": [
+            {
+              "when": "active",
+              "model": {
+                "type": "minecraft:model",
+                "model": "galaxy:item/energy_saber_ranbo/on"
+              }
+            }
+          ],
+          "fallback": {
+          "type": "minecraft:model",
+          "model": "galaxy:item/energy_saber_ranbo/off"
+          }
+        }
+      }
+    ]
+  }
+}
