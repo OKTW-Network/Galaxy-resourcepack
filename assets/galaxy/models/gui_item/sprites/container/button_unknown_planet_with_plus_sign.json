@@ -1,6 +1,0 @@
-{
-	"parent": "galaxy:gui_item/sprites/container/button",
-	"textures": {
-		"icon": "galaxy:gui_item/sprites/icon/unknown_planet_with_plus_sign"
-	}
-}

@@ -1,0 +1,684 @@
+{
+  "model": {
+    "type": "minecraft:composite",
+    "models": [
+      {
+        "type": "minecraft:select",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "cases": [
+          {
+            "when": "background_layer",
+            "model": {
+              "type": "minecraft:empty"
+            }
+          }
+        ],
+        "fallback": {
+          "type": "minecraft:empty"
+        }
+      },
+      {
+        "type": "minecraft:select",
+        "property": "minecraft:custom_model_data",
+        "index": 1,
+        "cases": [
+          {
+            "when": "main_field",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/field_layer/main_field"
+            }
+          },
+          {
+            "when": "3xbr1_main_field",
+            "model": {
+              "type": "minecraft:model",
+              "model": "galaxy:gui_item/field_layer/3xbr1_main_field"
+            }
+          }
+        ],
+        "fallback": {
+          "type": "minecraft:empty"
+        }
+      },
+      {
+        "type": "minecraft:select",
+        "property": "minecraft:custom_model_data",
+        "index": 2,
+        "cases": [
+          {
+            "when": "info",
+            "model": {
+              "type": "minecraft:model",
+              "model": "galaxy:gui_item/pattern_layer/info"
+            }
+          }
+        ],
+        "fallback": {
+          "type": "minecraft:empty"
+        }
+      },
+      {
+        "type": "minecraft:select",
+        "property": "minecraft:custom_model_data",
+        "index": 3,
+        "cases": [
+          {
+            "when": "alternative",
+            "model": {
+              "type": "minecraft:model",
+              "model": "galaxy:gui_item/slot_layer/alternative"
+            }
+          },
+          {
+            "when": "color_lens",
+            "model": {
+              "type": "minecraft:model",
+              "model": "galaxy:gui_item/slot_layer/color_lens"
+            }
+          },
+          {
+            "when": "component_symbol_addon",
+            "model": {
+              "type": "minecraft:model",
+              "model": "galaxy:gui_item/slot_layer/component_symbol_addon"
+            }
+          },
+          {
+            "when": "component_symbol_coil",
+            "model": {
+              "type": "minecraft:model",
+              "model": "galaxy:gui_item/slot_layer/component_symbol_coil"
+            }
+          },
+          {
+            "when": "component_symbol_cosmetic",
+            "model": {
+              "type": "minecraft:model",
+              "model": "galaxy:gui_item/slot_layer/component_symbol_cosmetic"
+            }
+          },
+          {
+            "when": "component_symbol_gun_barrel",
+            "model": {
+              "type": "minecraft:model",
+              "model": "galaxy:gui_item/slot_layer/component_symbol_gun_barrel"
+            }
+          },
+          {
+            "when": "component_symbol_gun_sight",
+            "model": {
+              "type": "minecraft:model",
+              "model": "galaxy:gui_item/slot_layer/component_symbol_gun_sight"
+            }
+          },
+          {
+            "when": "component_symbol_katana_blade",
+            "model": {
+              "type": "minecraft:model",
+              "model": "galaxy:gui_item/slot_layer/component_symbol_katana_blade"
+            }
+          },
+          {
+            "when": "component_symbol_katana_draw_strike",
+            "model": {
+              "type": "minecraft:model",
+              "model": "galaxy:gui_item/slot_layer/component_symbol_katana_draw_strike"
+            }
+          },
+          {
+            "when": "component_symbol_katana_scabbard",
+            "model": {
+              "type": "minecraft:model",
+              "model": "galaxy:gui_item/slot_layer/component_symbol_katana_scabbard"
+            }
+          },
+          {
+            "when": "component_symbol_katana_skill",
+            "model": {
+              "type": "minecraft:model",
+              "model": "galaxy:gui_item/slot_layer/component_symbol_katana_skill"
+            }
+          },
+          {
+            "when": "component_symbol_magnet_muzzle",
+            "model": {
+              "type": "minecraft:model",
+              "model": "galaxy:gui_item/slot_layer/component_symbol_magnet_muzzle"
+            }
+          },
+          {
+            "when": "cooling_system",
+            "model": {
+              "type": "minecraft:model",
+              "model": "galaxy:gui_item/slot_layer/cooling_system"
+            }
+          },
+          {
+            "when": "gun_casing",
+            "model": {
+              "type": "minecraft:model",
+              "model": "galaxy:gui_item/slot_layer/gun_casing"
+            }
+          },
+          {
+            "when": "handle",
+            "model": {
+              "type": "minecraft:model",
+              "model": "galaxy:gui_item/slot_layer/handle"
+            }
+          },
+          {
+            "when": "laser_core",
+            "model": {
+              "type": "minecraft:model",
+              "model": "galaxy:gui_item/slot_layer/laser_core"
+            }
+          },
+          {
+            "when": "magnet_frame",
+            "model": {
+              "type": "minecraft:model",
+              "model": "galaxy:gui_item/slot_layer/magnet_frame"
+            }
+          },
+          {
+            "when": "upgrade",
+            "model": {
+              "type": "minecraft:model",
+              "model": "galaxy:gui_item/slot_layer/upgrade"
+            }
+          }
+        ],
+        "fallback": {
+          "type": "minecraft:empty"
+        }
+      },
+      {
+        "type": "minecraft:select",
+        "property": "minecraft:custom_model_data",
+        "index": 4,
+        "cases": [
+          {
+            "when": "button",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/button_layer/button"
+            }
+          },
+          {
+            "when": "button_unavailable",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/button_layer/button_unavailable"
+            }
+          },
+          {
+            "when": "3x_button",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/button_layer/3x_button"
+            }
+          },
+          {
+            "when": "3x_button_unavailable",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/button_layer/3x_button_unavailable"
+            }
+          }
+        ],
+        "fallback": {
+          "type": "minecraft:empty"
+        }
+      },
+      {
+        "type": "minecraft:select",
+        "property": "minecraft:custom_model_data",
+        "index": 5,
+        "cases": [
+          {
+            "when": "3x_hammer",
+            "model": {
+              "type": "minecraft:model",
+              "model": "galaxy:gui_item/icon_layer/3x_hammer"
+            }
+          },
+          {
+            "when": "3x_magnifier",
+            "model": {
+              "type": "minecraft:model",
+              "model": "galaxy:gui_item/icon_layer/3x_magnifier"
+            }
+          },
+          {
+            "when": "3x_pen",
+            "model": {
+              "type": "minecraft:model",
+              "model": "galaxy:gui_item/icon_layer/3x_pen"
+            }
+          },
+          {
+            "when": "a_to_z",
+            "model": {
+              "type": "minecraft:model",
+              "model": "galaxy:gui_item/icon_layer/a_to_z"
+            }
+          },
+          {
+            "when": "administrator",
+            "model": {
+              "type": "minecraft:model",
+              "model": "galaxy:gui_item/icon_layer/administrator"
+            }
+          },
+          {
+            "when": "aim",
+            "model": {
+              "type": "minecraft:model",
+              "model": "galaxy:gui_item/icon_layer/aim"
+            }
+          },
+          {
+            "when": "bloody_sword",
+            "model": {
+              "type": "minecraft:model",
+              "model": "galaxy:gui_item/icon_layer/bloody_sword"
+            }
+          },
+          {
+            "when": "cog",
+            "model": {
+              "type": "minecraft:model",
+              "model": "galaxy:gui_item/icon_layer/cog"
+            }
+          },
+          {
+            "when": "comparing_distance",
+            "model": {
+              "type": "minecraft:model",
+              "model": "galaxy:gui_item/icon_layer/comparing_distance"
+            }
+          },
+          {
+            "when": "diamond_shape",
+            "model": {
+              "type": "minecraft:model",
+              "model": "galaxy:gui_item/icon_layer/diamond_shape"
+            }
+          },
+          {
+            "when": "enter",
+            "model": {
+              "type": "minecraft:model",
+              "model": "galaxy:gui_item/icon_layer/enter"
+            }
+          },
+          {
+            "when": "flash",
+            "model": {
+              "type": "minecraft:model",
+              "model": "galaxy:gui_item/icon_layer/flash"
+            }
+          },
+          {
+            "when": "flying_bullet",
+            "model": {
+              "type": "minecraft:model",
+              "model": "galaxy:gui_item/icon_layer/flying_bullet"
+            }
+          },
+          {
+            "when": "galaxy",
+            "model": {
+              "type": "minecraft:model",
+              "model": "galaxy:gui_item/icon_layer/galaxy"
+            }
+          },
+          {
+            "when": "galaxy_delta",
+            "model": {
+              "type": "minecraft:model",
+              "model": "galaxy:gui_item/icon_layer/galaxy_delta"
+            }
+          },
+          {
+            "when": "galaxy_with_check_mark",
+            "model": {
+              "type": "minecraft:model",
+              "model": "galaxy:gui_item/icon_layer/galaxy_with_check_mark"
+            }
+          },
+          {
+            "when": "galaxy_with_cog",
+            "model": {
+              "type": "minecraft:model",
+              "model": "galaxy:gui_item/icon_layer/galaxy_with_cog"
+            }
+          },
+          {
+            "when": "galaxy_with_exclamation_mark",
+            "model": {
+              "type": "minecraft:model",
+              "model": "galaxy:gui_item/icon_layer/galaxy_with_exclamation_mark"
+            }
+          },
+          {
+            "when": "galaxy_with_minus_sign",
+            "model": {
+              "type": "minecraft:model",
+              "model": "galaxy:gui_item/icon_layer/galaxy_with_minus_sign"
+            }
+          },
+          {
+            "when": "galaxy_with_plus_sign",
+            "model": {
+              "type": "minecraft:model",
+              "model": "galaxy:gui_item/icon_layer/galaxy_with_plus_sign"
+            }
+          },
+          {
+            "when": "galaxy_with_question_mark",
+            "model": {
+              "type": "minecraft:model",
+              "model": "galaxy:gui_item/icon_layer/galaxy_with_question_mark"
+            }
+          },
+          {
+            "when": "impact",
+            "model": {
+              "type": "minecraft:model",
+              "model": "galaxy:gui_item/icon_layer/impact"
+            }
+          },
+          {
+            "when": "in_and_out",
+            "model": {
+              "type": "minecraft:model",
+              "model": "galaxy:gui_item/icon_layer/in_and_out"
+            }
+          },
+          {
+            "when": "info",
+            "model": {
+              "type": "minecraft:model",
+              "model": "galaxy:gui_item/icon_layer/info"
+            }
+          },
+          {
+            "when": "leave",
+            "model": {
+              "type": "minecraft:model",
+              "model": "galaxy:gui_item/icon_layer/leave"
+            }
+          },
+          {
+            "when": "list",
+            "model": {
+              "type": "minecraft:model",
+              "model": "galaxy:gui_item/icon_layer/list"
+            }
+          },
+          {
+            "when": "magic",
+            "model": {
+              "type": "minecraft:model",
+              "model": "galaxy:gui_item/icon_layer/magic"
+            }
+          },
+          {
+            "when": "magnifier",
+            "model": {
+              "type": "minecraft:model",
+              "model": "galaxy:gui_item/icon_layer/magnifier"
+            }
+          },
+          {
+            "when": "member",
+            "model": {
+              "type": "minecraft:model",
+              "model": "galaxy:gui_item/icon_layer/member"
+            }
+          },
+          {
+            "when": "message",
+            "model": {
+              "type": "minecraft:model",
+              "model": "galaxy:gui_item/icon_layer/message"
+            }
+          },
+          {
+            "when": "open_chest",
+            "model": {
+              "type": "minecraft:model",
+              "model": "galaxy:gui_item/icon_layer/open_chest"
+            }
+          },
+          {
+            "when": "pen",
+            "model": {
+              "type": "minecraft:model",
+              "model": "galaxy:gui_item/icon_layer/pen"
+            }
+          },
+          {
+            "when": "penetrate",
+            "model": {
+              "type": "minecraft:model",
+              "model": "galaxy:gui_item/icon_layer/penetrate"
+            }
+          },
+          {
+            "when": "period_of_temperature_change",
+            "model": {
+              "type": "minecraft:model",
+              "model": "galaxy:gui_item/icon_layer/period_of_temperature_change"
+            }
+          },
+          {
+            "when": "person_with_cog",
+            "model": {
+              "type": "minecraft:model",
+              "model": "galaxy:gui_item/icon_layer/person_with_cog"
+            }
+          },
+          {
+            "when": "person_with_exclamation_mark",
+            "model": {
+              "type": "minecraft:model",
+              "model": "galaxy:gui_item/icon_layer/person_with_exclamation_mark"
+            }
+          },
+          {
+            "when": "person_with_minus_sign",
+            "model": {
+              "type": "minecraft:model",
+              "model": "galaxy:gui_item/icon_layer/person_with_minus_sign"
+            }
+          },
+          {
+            "when": "person_with_plus_sign",
+            "model": {
+              "type": "minecraft:model",
+              "model": "galaxy:gui_item/icon_layer/person_with_plus_sign"
+            }
+          },
+          {
+            "when": "person_with_question_mark",
+            "model": {
+              "type": "minecraft:model",
+              "model": "galaxy:gui_item/icon_layer/person_with_question_mark"
+            }
+          },
+          {
+            "when": "planet_dark",
+            "model": {
+              "type": "minecraft:model",
+              "model": "galaxy:gui_item/icon_layer/planet_dark"
+            }
+          },
+          {
+            "when": "planet_hot",
+            "model": {
+              "type": "minecraft:model",
+              "model": "galaxy:gui_item/icon_layer/planet_hot"
+            }
+          },
+          {
+            "when": "planet_neutral",
+            "model": {
+              "type": "minecraft:model",
+              "model": "galaxy:gui_item/icon_layer/planet_neutral"
+            }
+          },
+          {
+            "when": "planet_with_list",
+            "model": {
+              "type": "minecraft:model",
+              "model": "galaxy:gui_item/icon_layer/planet_with_list"
+            }
+          },
+          {
+            "when": "power_off",
+            "model": {
+              "type": "minecraft:model",
+              "model": "galaxy:gui_item/icon_layer/power_off"
+            }
+          },
+          {
+            "when": "power_on",
+            "model": {
+              "type": "minecraft:model",
+              "model": "galaxy:gui_item/icon_layer/power_on"
+            }
+          },
+          {
+            "when": "rise",
+            "model": {
+              "type": "minecraft:model",
+              "model": "galaxy:gui_item/icon_layer/rise"
+            }
+          },
+          {
+            "when": "squares",
+            "model": {
+              "type": "minecraft:model",
+              "model": "galaxy:gui_item/icon_layer/squares"
+            }
+          },
+          {
+            "when": "stardust_jar",
+            "model": {
+              "type": "minecraft:model",
+              "model": "galaxy:gui_item/icon_layer/stardust_jar"
+            }
+          },
+          {
+            "when": "stars",
+            "model": {
+              "type": "minecraft:model",
+              "model": "galaxy:gui_item/icon_layer/stars"
+            }
+          },
+          {
+            "when": "stun",
+            "model": {
+              "type": "minecraft:model",
+              "model": "galaxy:gui_item/icon_layer/stun"
+            }
+          },
+          {
+            "when": "temperature_decrease",
+            "model": {
+              "type": "minecraft:model",
+              "model": "galaxy:gui_item/icon_layer/temperature_decrease"
+            }
+          },
+          {
+            "when": "temperature_increase",
+            "model": {
+              "type": "minecraft:model",
+              "model": "galaxy:gui_item/icon_layer/temperature_increase"
+            }
+          },
+          {
+            "when": "temperature_maximum",
+            "model": {
+              "type": "minecraft:model",
+              "model": "galaxy:gui_item/icon_layer/temperature_maximum"
+            }
+          },
+          {
+            "when": "temperature_minimum",
+            "model": {
+              "type": "minecraft:model",
+              "model": "galaxy:gui_item/icon_layer/temperature_minimum"
+            }
+          },
+          {
+            "when": "trigger",
+            "model": {
+              "type": "minecraft:model",
+              "model": "galaxy:gui_item/icon_layer/trigger"
+            }
+          },
+          {
+            "when": "typing",
+            "model": {
+              "type": "minecraft:model",
+              "model": "galaxy:gui_item/icon_layer/typing"
+            }
+          },
+          {
+            "when": "unknown_planet",
+            "model": {
+              "type": "minecraft:model",
+              "model": "galaxy:gui_item/icon_layer/unknown_planet"
+            }
+          },
+          {
+            "when": "unknown_planet_with_plus_sign",
+            "model": {
+              "type": "minecraft:model",
+              "model": "galaxy:gui_item/icon_layer/unknown_planet_with_plus_sign"
+            }
+          },
+          {
+            "when": "upgrade",
+            "model": {
+              "type": "minecraft:model",
+              "model": "galaxy:gui_item/icon_layer/upgrade"
+            }
+          },
+          {
+            "when": "zero_to_nine",
+            "model": {
+              "type": "minecraft:model",
+              "model": "galaxy:gui_item/icon_layer/zero_to_nine"
+            }
+          }
+        ],
+        "fallback": {
+          "type": "minecraft:empty"
+        }
+      },
+      {
+        "type": "minecraft:select",
+        "property": "minecraft:custom_model_data",
+        "index": 6,
+        "cases": [
+          {
+            "when": "foreground_layer",
+            "model": {
+              "type": "minecraft:empty"
+            }
+          }
+        ],
+        "fallback": {
+          "type": "minecraft:empty"
+        }
+      }
+    ]
+  }
+}

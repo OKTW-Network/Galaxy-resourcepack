@@ -1,0 +1,6 @@
+{
+	"parent": "guitem:gui_item/slot_layer/_1x_compact",
+	"textures": {
+		"complete": "galaxy:gui_item/slot/upgrade"
+	}
+}

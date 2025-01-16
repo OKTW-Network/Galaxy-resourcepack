@@ -1,0 +1,40 @@
+{
+	"parent": "guitem:gui_item/_display",
+	"textures": {
+		"1": "galaxy:universal/gui_colors"
+	},
+	"elements": [
+		{
+			"from": [4.46447, 0, 4.46447],
+			"to": [9.53554, 0, 6.46446],
+			"rotation": {"angle": -45, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"up": {"uv": [15.25, 2.25, 15.75, 2.75], "texture": "#1"}
+			}
+		},
+		{
+			"from": [9.53554, 0, 4.46447],
+			"to": [11.53553, 0, 9.53554],
+			"rotation": {"angle": -45, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"up": {"uv": [15.25, 2.25, 15.75, 2.75], "texture": "#1"}
+			}
+		},
+		{
+			"from": [6.46446, 0, 9.53554],
+			"to": [11.53553, 0, 11.53553],
+			"rotation": {"angle": -45, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"up": {"uv": [15.25, 2.25, 15.75, 2.75], "texture": "#1"}
+			}
+		},
+		{
+			"from": [4.46447, 0, 6.46446],
+			"to": [6.46446, 0, 11.53553],
+			"rotation": {"angle": -45, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"up": {"uv": [15.25, 2.25, 15.75, 2.75], "texture": "#1"}
+			}
+		}
+	]
+}

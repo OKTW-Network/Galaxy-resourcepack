@@ -1,0 +1,21 @@
+{
+	"parent": "guitem:gui_item/field_layer/_3x",
+	"textures": {
+		"1x_center": "guitem:gui_item/main_field",
+		"1x_top": "guitem:gui_item/main_field",
+		"1x_top_left": "guitem:gui_item/main_field",
+		"1x_top_right": "guitem:gui_item/main_field",
+		"1x_bottom": "guitem:gui_item/main_field",
+		"1x_bottom_left": "guitem:gui_item/main_field",
+		"1x_bottom_right": "guitem:gui_item/main_field",
+		"1x_left": "guitem:gui_item/main_field",
+		"1x_right": "guitem:gui_item/main_field"
+	},
+	"display": {
+		"gui": {
+			"rotation": [90, 0, 0],
+			"translation": [-36, 18, 0],
+			"scale": [4, 1, 4]
+		}
+	}
+}

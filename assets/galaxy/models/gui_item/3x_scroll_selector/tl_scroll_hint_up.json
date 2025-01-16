@@ -1,0 +1,6 @@
+{
+	"parent": "guitem:gui_item/foreground_layer/_3x",
+	"textures": {
+		"1x_top_left": "galaxy:gui_item/scroll_hint_up"
+	}
+}

@@ -1,0 +1,6 @@
+{
+	"parent": "guitem:gui_item/pattern_layer/_3x",
+	"textures": {
+		"1x_center": "guitem:gui_item/small_progress_right_0"
+	}
+}

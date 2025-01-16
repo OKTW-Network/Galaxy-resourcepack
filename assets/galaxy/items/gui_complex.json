@@ -1,0 +1,80 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "cases": [
+      {
+        "when": "3x_scroll_selector_right",
+        "model": {
+          "type": "minecraft:composite",
+          "models": [
+            {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/field_layer/1x3_main_field"
+            },
+            {
+              "type": "minecraft:model",
+              "model": "galaxy:gui_item/3x_scroll_selector/small_progress_right"
+            },
+            {
+              "type": "minecraft:model",
+              "model": "galaxy:gui_item/3x_scroll_selector/l_slot_highlight"
+            },
+            {
+              "type": "minecraft:model",
+              "model": "galaxy:gui_item/3x_scroll_selector/tl_scroll_hint_up"
+            },
+            {
+              "type": "minecraft:model",
+              "model": "galaxy:gui_item/3x_scroll_selector/bl_scroll_hint_down"
+            }
+          ]
+        }
+      },
+      {
+        "when": "3x_scroll_selector_down",
+        "model": {
+          "type": "minecraft:composite",
+          "models": [
+            {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/field_layer/3x1_main_field"
+            },
+            {
+              "type": "minecraft:model",
+              "model": "galaxy:gui_item/3x_scroll_selector/small_progress_down"
+            },
+            {
+              "type": "minecraft:model",
+              "model": "galaxy:gui_item/3x_scroll_selector/t_slot_highlight"
+            },
+            {
+              "type": "minecraft:model",
+              "model": "galaxy:gui_item/3x_scroll_selector/tl_scroll_hint_left"
+            },
+            {
+              "type": "minecraft:model",
+              "model": "galaxy:gui_item/3x_scroll_selector/tr_scroll_hint_right"
+            }
+          ]
+        }
+      },
+      {
+        "when": "anvil_search",
+        "model": {
+          "type": "minecraft:composite",
+          "models": [
+            {
+              "type": "minecraft:model",
+              "model": "galaxy:gui_item/anvil_search"
+            }
+          ]
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:empty"
+    }
+  }
+}

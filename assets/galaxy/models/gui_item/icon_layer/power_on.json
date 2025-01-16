@@ -1,0 +1,6 @@
+{
+	"parent": "guitem:gui_item/icon_layer/_1x_compact",
+	"textures": {
+		"complete": "galaxy:gui_item/icon/power_on"
+	}
+}

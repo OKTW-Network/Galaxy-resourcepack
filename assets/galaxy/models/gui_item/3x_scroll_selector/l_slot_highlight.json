@@ -1,0 +1,6 @@
+{
+	"parent": "guitem:gui_item/slot_layer/_3x",
+	"textures": {
+		"1x_left": "galaxy:gui_item/slot_highlight"
+	}
+}
