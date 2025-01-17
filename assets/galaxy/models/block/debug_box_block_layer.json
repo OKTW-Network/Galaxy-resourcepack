@@ -1,6 +1,9 @@
 {
 	"parent": "minecraft:block/orientable",
 	"textures": {
+    "front": "galaxy:universal/blank",
+    "side": "galaxy:universal/blank",
+    "top": "galaxy:universal/blank",
 		"outer": "galaxy:universal/blank",
 		"inner": "galaxy:universal/blank",
 		"particle": "galaxy:universal/blank"
