@@ -20,7 +20,7 @@
     { "predicate": {"custom_model_data": 1000114}, "model": "galaxy:block/armor_stand/teleport_station_bottom_edge_clear_2"},
     { "predicate": {"custom_model_data": 1000115}, "model": "galaxy:block/armor_stand/teleport_station_bottom_edge_vent_1"},
     { "predicate": {"custom_model_data": 1000116}, "model": "galaxy:block/armor_stand/teleport_station_bottom_edge_vent_2"},
-    { "predicate": {"custom_model_data": 1010100}, "model": "galaxy:block/armor_stand/hi_tech_crafting_table"},
+    { "predicate": {"custom_model_data": 1010100}, "model": "galaxy:block/armor_stand/ht_crafting_table"},
     { "predicate": {"custom_model_data": 1010200}, "model": "galaxy:block/armor_stand/elevator"},
     { "predicate": {"custom_model_data": 1010300}, "model": "galaxy:block/armor_stand/teleporter_core_basic"},
     { "predicate": {"custom_model_data": 1010301}, "model": "galaxy:block/armor_stand/teleporter_core_advance"},

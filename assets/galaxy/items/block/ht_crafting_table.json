@@ -8,27 +8,27 @@
         "when": "face-side",
         "model": {
           "type": "minecraft:model",
-          "model": "galaxy:block/face/hi_tech_crafting_table_side"
+          "model": "galaxy:block/face/ht_crafting_table_side"
         }
       },
       {
         "when": "face-top",
         "model": {
           "type": "minecraft:model",
-          "model": "galaxy:block/face/hi_tech_crafting_table_top"
+          "model": "galaxy:block/face/ht_crafting_table_top"
         }
       },
       {
         "when": "face-bottom",
         "model": {
           "type": "minecraft:model",
-          "model": "galaxy:block/face/hi_tech_crafting_table_bottom"
+          "model": "galaxy:block/face/ht_crafting_table_bottom"
         }
       }
     ],
     "fallback": {
       "type": "minecraft:model",
-      "model": "galaxy:block/hi_tech_crafting_table"
+      "model": "galaxy:block/ht_crafting_table"
     }
   }
 }
