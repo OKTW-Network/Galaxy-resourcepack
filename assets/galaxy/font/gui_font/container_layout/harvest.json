@@ -1,0 +1,13 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "galaxy:gui_font/container_layout/harvest.png",
+      "height": 54,
+      "ascent": -4,
+      "chars": [
+        "\u0041"
+      ]
+    }
+  ]
+}
