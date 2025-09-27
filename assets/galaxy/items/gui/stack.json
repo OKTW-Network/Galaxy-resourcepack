@@ -8,9 +8,38 @@
         "index": 0,
         "cases": [
           {
-            "when": "background_layer",
+            "when": "debug",
             "model": {
-              "type": "minecraft:empty"
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/background_layer/debug"
+            }
+          },
+          {
+            "when": "3xtl_debug",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/background_layer/3xtl_debug"
+            }
+          },
+          {
+            "when": "3xbr_debug",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/background_layer/3xbr_debug"
+            }
+          },
+          {
+            "when": "main_field",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/background_layer/main_field"
+            }
+          },
+          {
+            "when": "sub_field",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/background_layer/sub_field"
             }
           }
         ],
@@ -24,6 +53,69 @@
         "index": 1,
         "cases": [
           {
+            "when": "3xbr1_main_field",
+            "model": {
+              "type": "minecraft:model",
+              "model": "galaxy:gui_item/field_layer/3xbr1_main_field"
+            }
+          },
+          {
+            "when": "3x1_main_field",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/field_layer/3x1_main_field"
+            }
+          },
+          {
+            "when": "1x3_main_field",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/field_layer/1x3_main_field"
+            }
+          },
+          {
+            "when": "3xtl_main_field",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/field_layer/3xtl_main_field"
+            }
+          },
+          {
+            "when": "3xbr_main_field",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/field_layer/3xbr_main_field"
+            }
+          },
+          {
+            "when": "3xtl_hollow_main_field",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/field_layer/3xtl_hollow_main_field"
+            }
+          },
+          {
+            "when": "3xbr_hollow_main_field",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/field_layer/3xbr_hollow_main_field"
+            }
+          },
+          {
+            "when": "3xtl_hollow_main_field_card",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/field_layer/3xtl_hollow_main_field_card"
+            }
+          },
+          {
+            "when": "3xbr_hollow_main_field_card",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/field_layer/3xbr_hollow_main_field_card"
+            }
+          },
+          {
             "when": "main_field",
             "model": {
               "type": "minecraft:model",
@@ -31,10 +123,1094 @@
             }
           },
           {
-            "when": "3xbr1_main_field",
+            "when": "main_field_top",
+            "model": {
+              "type": "minecraft:composite",
+              "models": [
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/main_field_horizontal_top_left"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/main_field_horizontal_top_right"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/main_field"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/main_field"
+                }
+              ]
+            }
+          },
+          {
+            "when": "main_field_top_inner_corner",
+            "model": {
+              "type": "minecraft:composite",
+              "models": [
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/main_field_horizontal_top_left"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/main_field_horizontal_top_right"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/main_field_inner_corner_bottom_left"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/main_field_inner_corner_bottom_right"
+                }
+              ]
+            }
+          },
+          {
+            "when": "main_field_bottom",
+            "model": {
+              "type": "minecraft:composite",
+              "models": [
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/main_field_top_left"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/main_field_top_right"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/main_field_horizontal_bottom_left"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/main_field_horizontal_bottom_right"
+                }
+              ]
+            }
+          },
+          {
+            "when": "main_field_bottom_inner_corner",
+            "model": {
+              "type": "minecraft:composite",
+              "models": [
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/main_field_inner_corner_top_left"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/main_field_inner_corner_top_right"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/main_field_horizontal_bottom_left"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/main_field_horizontal_bottom_right"
+                }
+              ]
+            }
+          },
+          {
+            "when": "main_field_left",
+            "model": {
+              "type": "minecraft:composite",
+              "models": [
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/main_field_vertical_top_left"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/main_field_top_right"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/main_field_vertical_bottom_left"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/main_field_bottom_right"
+                }
+              ]
+            }
+          },
+          {
+            "when": "main_field_left_inner_corner",
+            "model": {
+              "type": "minecraft:composite",
+              "models": [
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/main_field_vertical_top_left"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/main_field_inner_corner_top_right"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/main_field_vertical_bottom_left"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/main_field_inner_corner_bottom_right"
+                }
+              ]
+            }
+          },
+          {
+            "when": "main_field_right",
+            "model": {
+              "type": "minecraft:composite",
+              "models": [
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/main_field_top_left"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/main_field_vertical_top_right"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/main_field_bottom_left"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/main_field_vertical_bottom_right"
+                }
+              ]
+            }
+          },
+          {
+            "when": "main_field_right_inner_corner",
+            "model": {
+              "type": "minecraft:composite",
+              "models": [
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/main_field_inner_corner_top_left"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/main_field_vertical_top_right"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/main_field_inner_corner_bottom_left"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/main_field_vertical_bottom_right"
+                }
+              ]
+            }
+          },
+          {
+            "when": "main_field_top_bottom",
+            "model": {
+              "type": "minecraft:composite",
+              "models": [
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/main_field_horizontal"
+                }
+              ]
+            }
+          },
+          {
+            "when": "main_field_left_right",
+            "model": {
+              "type": "minecraft:composite",
+              "models": [
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/main_field_vertical"
+                }
+              ]
+            }
+          },
+          {
+            "when": "main_field_top_left",
+            "model": {
+              "type": "minecraft:composite",
+              "models": [
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/main_field_corner_top_left"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/main_field_horizontal_top_right"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/main_field_vertical_bottom_left"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/main_field_bottom_right"
+                }
+              ]
+            }
+          },
+          {
+            "when": "main_field_top_left_inner_corner",
+            "model": {
+              "type": "minecraft:composite",
+              "models": [
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/main_field_corner_top_left"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/main_field_horizontal_top_right"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/main_field_vertical_bottom_left"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/main_field_inner_corner_bottom_right"
+                }
+              ]
+            }
+          },
+          {
+            "when": "main_field_top_right",
+            "model": {
+              "type": "minecraft:composite",
+              "models": [
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/main_field_horizontal_top_left"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/main_field_corner_top_right"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/main_field_bottom_left"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/main_field_vertical_bottom_right"
+                }
+              ]
+            }
+          },
+          {
+            "when": "main_field_top_right_inner_corner",
+            "model": {
+              "type": "minecraft:composite",
+              "models": [
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/main_field_horizontal_top_left"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/main_field_corner_top_right"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/main_field_inner_corner_bottom_left"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/main_field_vertical_bottom_right"
+                }
+              ]
+            }
+          },
+          {
+            "when": "main_field_bottom_left",
+            "model": {
+              "type": "minecraft:composite",
+              "models": [
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/main_field_vertical_top_left"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/main_field_top_right"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/main_field_corner_bottom_left"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/main_field_horizontal_bottom_right"
+                }
+              ]
+            }
+          },
+          {
+            "when": "main_field_bottom_left_inner_corner",
+            "model": {
+              "type": "minecraft:composite",
+              "models": [
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/main_field_vertical_top_left"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/main_field_inner_corner_top_right"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/main_field_corner_bottom_left"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/main_field_horizontal_bottom_right"
+                }
+              ]
+            }
+          },
+          {
+            "when": "main_field_bottom_right",
+            "model": {
+              "type": "minecraft:composite",
+              "models": [
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/main_field_top_left"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/main_field_vertical_top_right"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/main_field_horizontal_bottom_left"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/main_field_corner_bottom_right"
+                }
+              ]
+            }
+          },
+          {
+            "when": "main_field_bottom_right_inner_corner",
+            "model": {
+              "type": "minecraft:composite",
+              "models": [
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/main_field_inner_corner_top_left"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/main_field_vertical_top_right"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/main_field_horizontal_bottom_left"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/main_field_corner_bottom_right"
+                }
+              ]
+            }
+          },
+          {
+            "when": "main_field_top_bottom_left",
+            "model": {
+              "type": "minecraft:composite",
+              "models": [
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/main_field_corner_top_left"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/main_field_horizontal_top_right"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/main_field_corner_bottom_left"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/main_field_horizontal_bottom_right"
+                }
+              ]
+            }
+          },
+          {
+            "when": "main_field_top_bottom_right",
+            "model": {
+              "type": "minecraft:composite",
+              "models": [
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/main_field_horizontal_top_left"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/main_field_corner_top_right"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/main_field_horizontal_bottom_left"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/main_field_corner_bottom_right"
+                }
+              ]
+            }
+          },
+          {
+            "when": "main_field_top_left_right",
+            "model": {
+              "type": "minecraft:composite",
+              "models": [
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/main_field_corner_top_left"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/main_field_corner_top_right"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/main_field_vertical_bottom_left"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/main_field_vertical_bottom_right"
+                }
+              ]
+            }
+          },
+          {
+            "when": "main_field_bottom_left_right",
+            "model": {
+              "type": "minecraft:composite",
+              "models": [
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/main_field_vertical_top_left"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/main_field_vertical_top_right"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/main_field_corner_bottom_left"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/main_field_corner_bottom_right"
+                }
+              ]
+            }
+          },
+          {
+            "when": "main_field_top_bottom_left_right",
+            "model": {
+              "type": "minecraft:composite",
+              "models": [
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/main_field_corner_top_left"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/main_field_corner_top_right"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/main_field_corner_bottom_left"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/main_field_corner_bottom_right"
+                }
+              ]
+            }
+          },
+          {
+            "when": "3x1_sub_field",
             "model": {
               "type": "minecraft:model",
-              "model": "galaxy:gui_item/field_layer/3xbr1_main_field"
+              "model": "guitem:gui_item/field_layer/3x1_sub_field"
+            }
+          },
+          {
+            "when": "1x3_sub_field",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/field_layer/1x3_sub_field"
+            }
+          },
+          {
+            "when": "3xtl_sub_field",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/field_layer/3xtl_sub_field"
+            }
+          },
+          {
+            "when": "3xbr_sub_field",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/field_layer/3xbr_sub_field"
+            }
+          },
+          {
+            "when": "sub_field",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/background_layer/sub_field"
+            }
+          },
+          {
+            "when": "sub_field_top",
+            "model": {
+              "type": "minecraft:composite",
+              "models": [
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/sub_field_horizontal_top_left"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/sub_field_horizontal_top_right"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/sub_field"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/sub_field"
+                }
+              ]
+            }
+          },
+          {
+            "when": "sub_field_top_inner_corner",
+            "model": {
+              "type": "minecraft:composite",
+              "models": [
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/sub_field_horizontal_top_left"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/sub_field_horizontal_top_right"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/sub_field_inner_corner_bottom_left"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/sub_field_inner_corner_bottom_right"
+                }
+              ]
+            }
+          },
+          {
+            "when": "sub_field_bottom",
+            "model": {
+              "type": "minecraft:composite",
+              "models": [
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/sub_field_top_left"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/sub_field_top_right"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/sub_field_horizontal_bottom_left"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/sub_field_horizontal_bottom_right"
+                }
+              ]
+            }
+          },
+          {
+            "when": "sub_field_bottom_inner_corner",
+            "model": {
+              "type": "minecraft:composite",
+              "models": [
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/sub_field_inner_corner_top_left"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/sub_field_inner_corner_top_right"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/sub_field_horizontal_bottom_left"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/sub_field_horizontal_bottom_right"
+                }
+              ]
+            }
+          },
+          {
+            "when": "sub_field_left",
+            "model": {
+              "type": "minecraft:composite",
+              "models": [
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/sub_field_vertical_top_left"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/sub_field_top_right"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/sub_field_vertical_bottom_left"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/sub_field_bottom_right"
+                }
+              ]
+            }
+          },
+          {
+            "when": "sub_field_left_inner_corner",
+            "model": {
+              "type": "minecraft:composite",
+              "models": [
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/sub_field_vertical_top_left"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/sub_field_inner_corner_top_right"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/sub_field_vertical_bottom_left"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/sub_field_inner_corner_bottom_right"
+                }
+              ]
+            }
+          },
+          {
+            "when": "sub_field_right",
+            "model": {
+              "type": "minecraft:composite",
+              "models": [
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/sub_field_top_left"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/sub_field_vertical_top_right"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/sub_field_bottom_left"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/sub_field_vertical_bottom_right"
+                }
+              ]
+            }
+          },
+          {
+            "when": "sub_field_right_inner_corner",
+            "model": {
+              "type": "minecraft:composite",
+              "models": [
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/sub_field_inner_corner_top_left"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/sub_field_vertical_top_right"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/sub_field_inner_corner_bottom_left"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/sub_field_vertical_bottom_right"
+                }
+              ]
+            }
+          },
+          {
+            "when": "sub_field_top_bottom",
+            "model": {
+              "type": "minecraft:composite",
+              "models": [
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/sub_field_horizontal"
+                }
+              ]
+            }
+          },
+          {
+            "when": "sub_field_left_right",
+            "model": {
+              "type": "minecraft:composite",
+              "models": [
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/sub_field_vertical"
+                }
+              ]
+            }
+          },
+          {
+            "when": "sub_field_top_left",
+            "model": {
+              "type": "minecraft:composite",
+              "models": [
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/sub_field_corner_top_left"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/sub_field_horizontal_top_right"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/sub_field_vertical_bottom_left"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/sub_field_bottom_right"
+                }
+              ]
+            }
+          },
+          {
+            "when": "sub_field_top_left_inner_corner",
+            "model": {
+              "type": "minecraft:composite",
+              "models": [
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/sub_field_corner_top_left"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/sub_field_horizontal_top_right"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/sub_field_vertical_bottom_left"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/sub_field_inner_corner_bottom_right"
+                }
+              ]
+            }
+          },
+          {
+            "when": "sub_field_top_right",
+            "model": {
+              "type": "minecraft:composite",
+              "models": [
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/sub_field_horizontal_top_left"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/sub_field_corner_top_right"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/sub_field_bottom_left"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/sub_field_vertical_bottom_right"
+                }
+              ]
+            }
+          },
+          {
+            "when": "sub_field_top_right_inner_corner",
+            "model": {
+              "type": "minecraft:composite",
+              "models": [
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/sub_field_horizontal_top_left"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/sub_field_corner_top_right"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/sub_field_inner_corner_bottom_left"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/sub_field_vertical_bottom_right"
+                }
+              ]
+            }
+          },
+          {
+            "when": "sub_field_bottom_left",
+            "model": {
+              "type": "minecraft:composite",
+              "models": [
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/sub_field_vertical_top_left"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/sub_field_top_right"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/sub_field_corner_bottom_left"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/sub_field_horizontal_bottom_right"
+                }
+              ]
+            }
+          },
+          {
+            "when": "sub_field_bottom_left_inner_corner",
+            "model": {
+              "type": "minecraft:composite",
+              "models": [
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/sub_field_vertical_top_left"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/sub_field_inner_corner_top_right"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/sub_field_corner_bottom_left"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/sub_field_horizontal_bottom_right"
+                }
+              ]
+            }
+          },
+          {
+            "when": "sub_field_bottom_right",
+            "model": {
+              "type": "minecraft:composite",
+              "models": [
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/sub_field_top_left"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/sub_field_vertical_top_right"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/sub_field_horizontal_bottom_left"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/sub_field_corner_bottom_right"
+                }
+              ]
+            }
+          },
+          {
+            "when": "sub_field_bottom_right_inner_corner",
+            "model": {
+              "type": "minecraft:composite",
+              "models": [
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/sub_field_inner_corner_top_left"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/sub_field_vertical_top_right"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/sub_field_horizontal_bottom_left"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/sub_field_corner_bottom_right"
+                }
+              ]
+            }
+          },
+          {
+            "when": "sub_field_top_bottom_left",
+            "model": {
+              "type": "minecraft:composite",
+              "models": [
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/sub_field_corner_top_left"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/sub_field_horizontal_top_right"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/sub_field_corner_bottom_left"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/sub_field_horizontal_bottom_right"
+                }
+              ]
+            }
+          },
+          {
+            "when": "sub_field_top_bottom_right",
+            "model": {
+              "type": "minecraft:composite",
+              "models": [
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/sub_field_horizontal_top_left"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/sub_field_corner_top_right"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/sub_field_horizontal_bottom_left"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/sub_field_corner_bottom_right"
+                }
+              ]
+            }
+          },
+          {
+            "when": "sub_field_top_left_right",
+            "model": {
+              "type": "minecraft:composite",
+              "models": [
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/sub_field_corner_top_left"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/sub_field_corner_top_right"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/sub_field_vertical_bottom_left"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/sub_field_vertical_bottom_right"
+                }
+              ]
+            }
+          },
+          {
+            "when": "sub_field_bottom_left_right",
+            "model": {
+              "type": "minecraft:composite",
+              "models": [
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/sub_field_vertical_top_left"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/sub_field_vertical_top_right"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/sub_field_corner_bottom_left"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/sub_field_corner_bottom_right"
+                }
+              ]
+            }
+          },
+          {
+            "when": "sub_field_top_bottom_left_right",
+            "model": {
+              "type": "minecraft:composite",
+              "models": [
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/sub_field_corner_top_left"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/sub_field_corner_top_right"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/sub_field_corner_bottom_left"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "guitem:gui_item/field_layer/sub_field_corner_bottom_right"
+                }
+              ]
             }
           }
         ],
@@ -52,6 +1228,468 @@
             "model": {
               "type": "minecraft:model",
               "model": "galaxy:gui_item/pattern_layer/info"
+            }
+          },
+          {
+            "when": "progress_right_0",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/pattern_layer/progress_right_0"
+            }
+          },
+          {
+            "when": "progress_right_1",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/pattern_layer/progress_right_1"
+            }
+          },
+          {
+            "when": "progress_right_2",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/pattern_layer/progress_right_2"
+            }
+          },
+          {
+            "when": "progress_right_3",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/pattern_layer/progress_right_3"
+            }
+          },
+          {
+            "when": "progress_right_4",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/pattern_layer/progress_right_4"
+            }
+          },
+          {
+            "when": "progress_right_5",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/pattern_layer/progress_right_5"
+            }
+          },
+          {
+            "when": "progress_right_6",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/pattern_layer/progress_right_6"
+            }
+          },
+          {
+            "when": "progress_right_7",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/pattern_layer/progress_right_7"
+            }
+          },
+          {
+            "when": "progress_right_8",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/pattern_layer/progress_right_8"
+            }
+          },
+          {
+            "when": "progress_right_9",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/pattern_layer/progress_right_9"
+            }
+          },
+          {
+            "when": "progress_right_10",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/pattern_layer/progress_right_10"
+            }
+          },
+          {
+            "when": "progress_right_11",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/pattern_layer/progress_right_11"
+            }
+          },
+          {
+            "when": "progress_right_12",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/pattern_layer/progress_right_12"
+            }
+          },
+          {
+            "when": "progress_right_13",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/pattern_layer/progress_right_13"
+            }
+          },
+          {
+            "when": "progress_right_14",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/pattern_layer/progress_right_14"
+            }
+          },
+          {
+            "when": "progress_right_15",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/pattern_layer/progress_right_15"
+            }
+          },
+          {
+            "when": "progress_right_16",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/pattern_layer/progress_right_16"
+            }
+          },
+          {
+            "when": "progress_right_17",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/pattern_layer/progress_right_17"
+            }
+          },
+          {
+            "when": "progress_right_18",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/pattern_layer/progress_right_18"
+            }
+          },
+          {
+            "when": "progress_right_19",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/pattern_layer/progress_right_19"
+            }
+          },
+          {
+            "when": "progress_right_20",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/pattern_layer/progress_right_20"
+            }
+          },
+          {
+            "when": "progress_right_21",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/pattern_layer/progress_right_21"
+            }
+          },
+          {
+            "when": "progress_right_22",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/pattern_layer/progress_right_22"
+            }
+          },
+          {
+            "when": "progress_right_blocked",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/pattern_layer/progress_right_blocked"
+            }
+          },
+          {
+            "when": "lit_progress_0",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/pattern_layer/lit_progress_0"
+            }
+          },
+          {
+            "when": "lit_progress_1",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/pattern_layer/lit_progress_1"
+            }
+          },
+          {
+            "when": "lit_progress_2",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/pattern_layer/lit_progress_2"
+            }
+          },
+          {
+            "when": "lit_progress_3",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/pattern_layer/lit_progress_3"
+            }
+          },
+          {
+            "when": "lit_progress_4",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/pattern_layer/lit_progress_4"
+            }
+          },
+          {
+            "when": "lit_progress_5",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/pattern_layer/lit_progress_5"
+            }
+          },
+          {
+            "when": "lit_progress_6",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/pattern_layer/lit_progress_6"
+            }
+          },
+          {
+            "when": "lit_progress_7",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/pattern_layer/lit_progress_7"
+            }
+          },
+          {
+            "when": "lit_progress_8",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/pattern_layer/lit_progress_8"
+            }
+          },
+          {
+            "when": "lit_progress_9",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/pattern_layer/lit_progress_9"
+            }
+          },
+          {
+            "when": "lit_progress_10",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/pattern_layer/lit_progress_10"
+            }
+          },
+          {
+            "when": "lit_progress_11",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/pattern_layer/lit_progress_11"
+            }
+          },
+          {
+            "when": "lit_progress_12",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/pattern_layer/lit_progress_12"
+            }
+          },
+          {
+            "when": "lit_progress_13",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/pattern_layer/lit_progress_13"
+            }
+          },
+          {
+            "when": "small_progress_down_0",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/pattern_layer/small_progress_down_0"
+            }
+          },
+          {
+            "when": "small_progress_down_1",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/pattern_layer/small_progress_down_1"
+            }
+          },
+          {
+            "when": "small_progress_down_2",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/pattern_layer/small_progress_down_2"
+            }
+          },
+          {
+            "when": "small_progress_down_3",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/pattern_layer/small_progress_down_3"
+            }
+          },
+          {
+            "when": "small_progress_down_4",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/pattern_layer/small_progress_down_4"
+            }
+          },
+          {
+            "when": "small_progress_down_5",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/pattern_layer/small_progress_down_5"
+            }
+          },
+          {
+            "when": "small_progress_down_6",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/pattern_layer/small_progress_down_6"
+            }
+          },
+          {
+            "when": "small_progress_down_7",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/pattern_layer/small_progress_down_7"
+            }
+          },
+          {
+            "when": "small_progress_down_8",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/pattern_layer/small_progress_down_8"
+            }
+          },
+          {
+            "when": "small_progress_down_9",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/pattern_layer/small_progress_down_9"
+            }
+          },
+          {
+            "when": "small_progress_down_10",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/pattern_layer/small_progress_down_10"
+            }
+          },
+          {
+            "when": "small_progress_down_11",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/pattern_layer/small_progress_down_11"
+            }
+          },
+          {
+            "when": "small_progress_down_12",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/pattern_layer/small_progress_down_12"
+            }
+          },
+          {
+            "when": "small_progress_down_blocked",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/pattern_layer/small_progress_down_blocked"
+            }
+          },
+          {
+            "when": "small_progress_right_0",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/pattern_layer/small_progress_right_0"
+            }
+          },
+          {
+            "when": "small_progress_right_1",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/pattern_layer/small_progress_right_1"
+            }
+          },
+          {
+            "when": "small_progress_right_2",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/pattern_layer/small_progress_right_2"
+            }
+          },
+          {
+            "when": "small_progress_right_3",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/pattern_layer/small_progress_right_3"
+            }
+          },
+          {
+            "when": "small_progress_right_4",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/pattern_layer/small_progress_right_4"
+            }
+          },
+          {
+            "when": "small_progress_right_5",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/pattern_layer/small_progress_right_5"
+            }
+          },
+          {
+            "when": "small_progress_right_6",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/pattern_layer/small_progress_right_6"
+            }
+          },
+          {
+            "when": "small_progress_right_7",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/pattern_layer/small_progress_right_7"
+            }
+          },
+          {
+            "when": "small_progress_right_8",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/pattern_layer/small_progress_right_8"
+            }
+          },
+          {
+            "when": "small_progress_right_9",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/pattern_layer/small_progress_right_9"
+            }
+          },
+          {
+            "when": "small_progress_right_10",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/pattern_layer/small_progress_right_10"
+            }
+          },
+          {
+            "when": "small_progress_right_11",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/pattern_layer/small_progress_right_11"
+            }
+          },
+          {
+            "when": "small_progress_right_12",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/pattern_layer/small_progress_right_12"
+            }
+          },
+          {
+            "when": "small_progress_right_blocked",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/pattern_layer/small_progress_right_blocked"
             }
           }
         ],
@@ -188,6 +1826,209 @@
             "model": {
               "type": "minecraft:model",
               "model": "galaxy:gui_item/slot_layer/upgrade"
+            }
+          },
+          {
+            "when": "3xtl_extended_slot",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/slot_layer/3xtl_extended_slot"
+            }
+          },
+          {
+            "when": "3xbr_extended_slot",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/slot_layer/3xbr_extended_slot"
+            }
+          },
+          {
+            "when": "helmet",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/slot_layer/helmet"
+            }
+          },
+          {
+            "when": "chestplate",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/slot_layer/chestplate"
+            }
+          },
+          {
+            "when": "leggings",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/slot_layer/leggings"
+            }
+          },
+          {
+            "when": "boots",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/slot_layer/boots"
+            }
+          },
+          {
+            "when": "shield",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/slot_layer/shield"
+            }
+          },
+          {
+            "when": "sword",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/slot_layer/sword"
+            }
+          },
+          {
+            "when": "pickaxe",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/slot_layer/pickaxe"
+            }
+          },
+          {
+            "when": "shovel",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/slot_layer/shovel"
+            }
+          },
+          {
+            "when": "axe",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/slot_layer/axe"
+            }
+          },
+          {
+            "when": "hoe",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/slot_layer/hoe"
+            }
+          },
+          {
+            "when": "ingot",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/slot_layer/ingot"
+            }
+          },
+          {
+            "when": "diamond",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/slot_layer/diamond"
+            }
+          },
+          {
+            "when": "emerald",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/slot_layer/emerald"
+            }
+          },
+          {
+            "when": "lapis_lazuli",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/slot_layer/lapis_lazuli"
+            }
+          },
+          {
+            "when": "redstone_dust",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/slot_layer/redstone_dust"
+            }
+          },
+          {
+            "when": "quartz",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/slot_layer/quartz"
+            }
+          },
+          {
+            "when": "amethyst_shard",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/slot_layer/amethyst_shard"
+            }
+          },
+          {
+            "when": "smithing_template_netherite_upgrade",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/slot_layer/smithing_template_netherite_upgrade"
+            }
+          },
+          {
+            "when": "smithing_template_armor_trim",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/slot_layer/smithing_template_armor_trim"
+            }
+          },
+          {
+            "when": "banner",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/slot_layer/banner"
+            }
+          },
+          {
+            "when": "banner_pattern",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/slot_layer/banner_pattern"
+            }
+          },
+          {
+            "when": "dye",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/slot_layer/dye"
+            }
+          },
+          {
+            "when": "saddle",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/slot_layer/saddle"
+            }
+          },
+          {
+            "when": "horse_armor",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/slot_layer/horse_armor"
+            }
+          },
+          {
+            "when": "llama_armor",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/slot_layer/llama_armor"
+            }
+          },
+          {
+            "when": "brewing_fuel",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/slot_layer/brewing_fuel"
+            }
+          },
+          {
+            "when": "potion",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/slot_layer/potion"
             }
           }
         ],
@@ -657,6 +2498,286 @@
               "type": "minecraft:model",
               "model": "galaxy:gui_item/icon_layer/zero_to_nine"
             }
+          },
+          {
+            "when": "arrowhead_up",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/icon_layer/arrowhead_up"
+            }
+          },
+          {
+            "when": "arrowhead_down",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/icon_layer/arrowhead_down"
+            }
+          },
+          {
+            "when": "arrowhead_left",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/icon_layer/arrowhead_left"
+            }
+          },
+          {
+            "when": "arrowhead_right",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/icon_layer/arrowhead_right"
+            }
+          },
+          {
+            "when": "grayed_arrowhead_up",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/icon_layer/grayed_arrowhead_up"
+            }
+          },
+          {
+            "when": "grayed_arrowhead_down",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/icon_layer/grayed_arrowhead_down"
+            }
+          },
+          {
+            "when": "grayed_arrowhead_left",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/icon_layer/grayed_arrowhead_left"
+            }
+          },
+          {
+            "when": "grayed_arrowhead_right",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/icon_layer/grayed_arrowhead_right"
+            }
+          },
+          {
+            "when": "arrow_up",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/icon_layer/arrow_up"
+            }
+          },
+          {
+            "when": "arrow_down",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/icon_layer/arrow_down"
+            }
+          },
+          {
+            "when": "arrow_left",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/icon_layer/arrow_left"
+            }
+          },
+          {
+            "when": "arrow_right",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/icon_layer/arrow_right"
+            }
+          },
+          {
+            "when": "grayed_arrow_up",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/icon_layer/grayed_arrow_up"
+            }
+          },
+          {
+            "when": "grayed_arrow_down",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/icon_layer/grayed_arrow_down"
+            }
+          },
+          {
+            "when": "grayed_arrow_left",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/icon_layer/grayed_arrow_left"
+            }
+          },
+          {
+            "when": "grayed_arrow_right",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/icon_layer/grayed_arrow_right"
+            }
+          },
+          {
+            "when": "check_mark",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/icon_layer/check_mark"
+            }
+          },
+          {
+            "when": "cross_mark",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/icon_layer/cross_mark"
+            }
+          },
+          {
+            "when": "grayed_check_mark",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/icon_layer/grayed_check_mark"
+            }
+          },
+          {
+            "when": "grayed_cross_mark",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/icon_layer/grayed_cross_mark"
+            }
+          },
+          {
+            "when": "plus_sign",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/icon_layer/plus_sign"
+            }
+          },
+          {
+            "when": "minus_sign",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/icon_layer/minus_sign"
+            }
+          },
+          {
+            "when": "exclamation_mark",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/icon_layer/exclamation_mark"
+            }
+          },
+          {
+            "when": "question_mark",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/icon_layer/question_mark"
+            }
+          },
+          {
+            "when": "anonymous",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/icon_layer/anonymous"
+            }
+          },
+          {
+            "when": "person",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/icon_layer/person"
+            }
+          },
+          {
+            "when": "people",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/icon_layer/people"
+            }
+          },
+          {
+            "when": "number_0",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/icon_layer/number_0"
+            }
+          },
+          {
+            "when": "number_1",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/icon_layer/number_1"
+            }
+          },
+          {
+            "when": "number_2",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/icon_layer/number_2"
+            }
+          },
+          {
+            "when": "number_3",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/icon_layer/number_3"
+            }
+          },
+          {
+            "when": "number_4",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/icon_layer/number_4"
+            }
+          },
+          {
+            "when": "number_5",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/icon_layer/number_5"
+            }
+          },
+          {
+            "when": "number_6",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/icon_layer/number_6"
+            }
+          },
+          {
+            "when": "number_7",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/icon_layer/number_7"
+            }
+          },
+          {
+            "when": "number_8",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/icon_layer/number_8"
+            }
+          },
+          {
+            "when": "number_9",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/icon_layer/number_9"
+            }
+          },
+          {
+            "when": "underscore",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/icon_layer/underscore"
+            }
+          },
+          {
+            "when": "positive",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/icon_layer/positive"
+            }
+          },
+          {
+            "when": "negative",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/icon_layer/negative"
+            }
           }
         ],
         "fallback": {
@@ -669,9 +2790,24 @@
         "index": 6,
         "cases": [
           {
-            "when": "foreground_layer",
+            "when": "debug",
             "model": {
-              "type": "minecraft:empty"
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/foreground_layer/debug"
+            }
+          },
+          {
+            "when": "3xtl_debug",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/foreground_layer/3xtl_debug"
+            }
+          },
+          {
+            "when": "3xbr_debug",
+            "model": {
+              "type": "minecraft:model",
+              "model": "guitem:gui_item/foreground_layer/3xbr_debug"
             }
           }
         ],
