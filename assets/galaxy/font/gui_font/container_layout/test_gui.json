@@ -9,6 +9,15 @@
         "\u0041",
         "\u0042"
       ]
+    },
+    {
+      "type": "bitmap",
+      "file": "galaxy:gui_font/container_layout/test_gui3.png",
+      "height": 108,
+      "ascent": 7,
+      "chars": [
+        "\u0043"
+      ]
     }
   ]
 }
