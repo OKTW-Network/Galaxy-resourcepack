@@ -2,7 +2,7 @@
   "providers": [
     {
       "type": "bitmap",
-      "file": "galaxy:gui_font/container_layout/trashcan.png",
+      "file": "galaxy:gui_font/container_layout/trashcan_.png",
       "height": 108,
       "ascent": -4,
       "chars": [
