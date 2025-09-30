@@ -2151,6 +2151,20 @@
             }
           },
           {
+            "when": "erase",
+            "model": {
+              "type": "minecraft:model",
+              "model": "galaxy:gui_item/icon_layer/erase"
+            }
+          },
+          {
+            "when": "eraser",
+            "model": {
+              "type": "minecraft:model",
+              "model": "galaxy:gui_item/icon_layer/eraser"
+            }
+          },
+          {
             "when": "enter",
             "model": {
               "type": "minecraft:model",
