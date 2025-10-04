@@ -1,0 +1,342 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "cases": [
+      {
+        "when": "blade",
+        "model": {
+          "type": "minecraft:model",
+          "model": "galaxy:item/katana_nazo/blade"
+        }
+      },
+      {
+        "when": "scabbard",
+        "model": {
+          "type": "minecraft:model",
+          "model": "galaxy:item/katana_nazo/scabbard"
+        }
+      },
+      {
+        "when": "exhibition",
+        "model": {
+          "type": "minecraft:model",
+          "model": "galaxy:item/katana_nazo/exhibition"
+        }
+      },
+      {
+        "when": "display_katana_2_1",
+        "model": {
+          "type": "minecraft:model",
+          "model": "galaxy:item/katana_nazo/display_stand/katana-2_1"
+        }
+      },
+      {
+        "when": "display_katana_2_2",
+        "model": {
+          "type": "minecraft:model",
+          "model": "galaxy:item/katana_nazo/display_stand/katana-2_2"
+        }
+      },
+      {
+        "when": "display_katana_2_3",
+        "model": {
+          "type": "minecraft:model",
+          "model": "galaxy:item/katana_nazo/display_stand/katana-2_3"
+        }
+      },
+      {
+        "when": "display_katana_2_4",
+        "model": {
+          "type": "minecraft:model",
+          "model": "galaxy:item/katana_nazo/display_stand/katana-2_4"
+        }
+      },
+      {
+        "when": "display_katana_3_1",
+        "model": {
+          "type": "minecraft:model",
+          "model": "galaxy:item/katana_nazo/display_stand/katana-3_1"
+        }
+      },
+      {
+        "when": "display_katana_3_2",
+        "model": {
+          "type": "minecraft:model",
+          "model": "galaxy:item/katana_nazo/display_stand/katana-3_2"
+        }
+      },
+      {
+        "when": "display_katana_3_3",
+        "model": {
+          "type": "minecraft:model",
+          "model": "galaxy:item/katana_nazo/display_stand/katana-3_3"
+        }
+      },
+      {
+        "when": "display_katana_3_4",
+        "model": {
+          "type": "minecraft:model",
+          "model": "galaxy:item/katana_nazo/display_stand/katana-3_4"
+        }
+      },
+      {
+        "when": "display_katana_4_1",
+        "model": {
+          "type": "minecraft:model",
+          "model": "galaxy:item/katana_nazo/display_stand/katana-4_1"
+        }
+      },
+      {
+        "when": "display_katana_4_2",
+        "model": {
+          "type": "minecraft:model",
+          "model": "galaxy:item/katana_nazo/display_stand/katana-4_2"
+        }
+      },
+      {
+        "when": "display_katana_4_3",
+        "model": {
+          "type": "minecraft:model",
+          "model": "galaxy:item/katana_nazo/display_stand/katana-4_3"
+        }
+      },
+      {
+        "when": "display_katana_4_4",
+        "model": {
+          "type": "minecraft:model",
+          "model": "galaxy:item/katana_nazo/display_stand/katana-4_4"
+        }
+      },
+      {
+        "when": "display_blade_1_1",
+        "model": {
+          "type": "minecraft:model",
+          "model": "galaxy:item/katana_nazo/display_stand/blade-1_1"
+        }
+      },
+      {
+        "when": "display_blade_1_2",
+        "model": {
+          "type": "minecraft:model",
+          "model": "galaxy:item/katana_nazo/display_stand/blade-1_2"
+        }
+      },
+      {
+        "when": "display_blade_1_3",
+        "model": {
+          "type": "minecraft:model",
+          "model": "galaxy:item/katana_nazo/display_stand/blade-1_3"
+        }
+      },
+      {
+        "when": "display_blade_1_4",
+        "model": {
+          "type": "minecraft:model",
+          "model": "galaxy:item/katana_nazo/display_stand/blade-1_4"
+        }
+      },
+      {
+        "when": "display_blade_2_1",
+        "model": {
+          "type": "minecraft:model",
+          "model": "galaxy:item/katana_nazo/display_stand/blade-2_1"
+        }
+      },
+      {
+        "when": "display_blade_2_2",
+        "model": {
+          "type": "minecraft:model",
+          "model": "galaxy:item/katana_nazo/display_stand/blade-2_2"
+        }
+      },
+      {
+        "when": "display_blade_2_3",
+        "model": {
+          "type": "minecraft:model",
+          "model": "galaxy:item/katana_nazo/display_stand/blade-2_3"
+        }
+      },
+      {
+        "when": "display_blade_2_4",
+        "model": {
+          "type": "minecraft:model",
+          "model": "galaxy:item/katana_nazo/display_stand/blade-2_4"
+        }
+      },
+      {
+        "when": "display_blade_3_1",
+        "model": {
+          "type": "minecraft:model",
+          "model": "galaxy:item/katana_nazo/display_stand/blade-3_1"
+        }
+      },
+      {
+        "when": "display_blade_3_2",
+        "model": {
+          "type": "minecraft:model",
+          "model": "galaxy:item/katana_nazo/display_stand/blade-3_2"
+        }
+      },
+      {
+        "when": "display_blade_3_3",
+        "model": {
+          "type": "minecraft:model",
+          "model": "galaxy:item/katana_nazo/display_stand/blade-3_3"
+        }
+      },
+      {
+        "when": "display_blade_3_4",
+        "model": {
+          "type": "minecraft:model",
+          "model": "galaxy:item/katana_nazo/display_stand/blade-3_4"
+        }
+      },
+      {
+        "when": "display_blade_4_1",
+        "model": {
+          "type": "minecraft:model",
+          "model": "galaxy:item/katana_nazo/display_stand/blade-4_1"
+        }
+      },
+      {
+        "when": "display_blade_4_2",
+        "model": {
+          "type": "minecraft:model",
+          "model": "galaxy:item/katana_nazo/display_stand/blade-4_2"
+        }
+      },
+      {
+        "when": "display_blade_4_3",
+        "model": {
+          "type": "minecraft:model",
+          "model": "galaxy:item/katana_nazo/display_stand/blade-4_3"
+        }
+      },
+      {
+        "when": "display_blade_4_4",
+        "model": {
+          "type": "minecraft:model",
+          "model": "galaxy:item/katana_nazo/display_stand/blade-4_4"
+        }
+      },
+      {
+        "when": "display_scabbard_1_1",
+        "model": {
+          "type": "minecraft:model",
+          "model": "galaxy:item/katana_nazo/display_stand/scabbard-1_1"
+        }
+      },
+      {
+        "when": "display_scabbard_1_2",
+        "model": {
+          "type": "minecraft:model",
+          "model": "galaxy:item/katana_nazo/display_stand/scabbard-1_2"
+        }
+      },
+      {
+        "when": "display_scabbard_1_3",
+        "model": {
+          "type": "minecraft:model",
+          "model": "galaxy:item/katana_nazo/display_stand/scabbard-1_3"
+        }
+      },
+      {
+        "when": "display_scabbard_1_4",
+        "model": {
+          "type": "minecraft:model",
+          "model": "galaxy:item/katana_nazo/display_stand/scabbard-1_4"
+        }
+      },
+      {
+        "when": "display_scabbard_2_1",
+        "model": {
+          "type": "minecraft:model",
+          "model": "galaxy:item/katana_nazo/display_stand/scabbard-2_1"
+        }
+      },
+      {
+        "when": "display_scabbard_2_2",
+        "model": {
+          "type": "minecraft:model",
+          "model": "galaxy:item/katana_nazo/display_stand/scabbard-2_2"
+        }
+      },
+      {
+        "when": "display_scabbard_2_3",
+        "model": {
+          "type": "minecraft:model",
+          "model": "galaxy:item/katana_nazo/display_stand/scabbard-2_3"
+        }
+      },
+      {
+        "when": "display_scabbard_2_4",
+        "model": {
+          "type": "minecraft:model",
+          "model": "galaxy:item/katana_nazo/display_stand/scabbard-2_4"
+        }
+      },
+      {
+        "when": "display_scabbard_3_1",
+        "model": {
+          "type": "minecraft:model",
+          "model": "galaxy:item/katana_nazo/display_stand/scabbard-3_1"
+        }
+      },
+      {
+        "when": "display_scabbard_3_2",
+        "model": {
+          "type": "minecraft:model",
+          "model": "galaxy:item/katana_nazo/display_stand/scabbard-3_2"
+        }
+      },
+      {
+        "when": "display_scabbard_3_3",
+        "model": {
+          "type": "minecraft:model",
+          "model": "galaxy:item/katana_nazo/display_stand/scabbard-3_3"
+        }
+      },
+      {
+        "when": "display_scabbard_3_4",
+        "model": {
+          "type": "minecraft:model",
+          "model": "galaxy:item/katana_nazo/display_stand/scabbard-3_4"
+        }
+      },
+      {
+        "when": "display_scabbard_4_1",
+        "model": {
+          "type": "minecraft:model",
+          "model": "galaxy:item/katana_nazo/display_stand/scabbard-4_1"
+        }
+      },
+      {
+        "when": "display_scabbard_4_2",
+        "model": {
+          "type": "minecraft:model",
+          "model": "galaxy:item/katana_nazo/display_stand/scabbard-4_2"
+        }
+      },
+      {
+        "when": "display_scabbard_4_3",
+        "model": {
+          "type": "minecraft:model",
+          "model": "galaxy:item/katana_nazo/display_stand/scabbard-4_3"
+        }
+      },
+      {
+        "when": "display_scabbard_4_4",
+        "model": {
+          "type": "minecraft:model",
+          "model": "galaxy:item/katana_nazo/display_stand/scabbard-4_4"
+        }
+      }
+    ],
+    "fallback": {
+    "type": "minecraft:model",
+    "model": "galaxy:item/katana_nazo/katana"
+    }
+  }
+}

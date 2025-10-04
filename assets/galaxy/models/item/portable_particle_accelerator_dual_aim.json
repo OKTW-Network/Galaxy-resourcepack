@@ -1,5 +1,5 @@
 {
-	"parent": "galaxy:item/pistol_laser",
+	"parent": "galaxy:item/portable_particle_accelerator",
 	"display": {
 		"firstperson_righthand": {
 			"rotation": [3, 0, 38],

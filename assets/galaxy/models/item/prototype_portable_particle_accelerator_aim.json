@@ -1,6 +1,5 @@
 {
-	"credit": "Made with Blockbench, model design by OKTW team",
-	"parent": "galaxy:item/pistol",
+	"parent": "galaxy:item/prototype_portable_particle_accelerator",
 	"display": {
 		"firstperson_righthand": {
 			"rotation": [3, 0, 38],
