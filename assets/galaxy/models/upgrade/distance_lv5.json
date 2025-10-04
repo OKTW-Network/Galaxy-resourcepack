@@ -1,0 +1,12 @@
+{
+	"parent": "galaxy:upgrade/_card_5_leg",
+	"textures": {
+		"icon": "galaxy:item/distance_upgrade",
+		"card": "galaxy:item/upgrade_card_item",
+		"leg1": "galaxy:item/upgrade_leg_activated",
+		"leg2": "galaxy:item/upgrade_leg_activated",
+		"leg3": "galaxy:item/upgrade_leg_activated",
+		"leg4": "galaxy:item/upgrade_leg_activated",
+		"leg5": "galaxy:item/upgrade_leg_activated"
+	}
+}

@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "galaxy:item/empower_lens"
+    "model": "galaxy:entity/empower_lens"
   }
 }

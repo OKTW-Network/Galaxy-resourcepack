@@ -1,6 +1,0 @@
-{
-    "parent": "galaxy:item/_template_katana_blade",
-    "textures": {
-        "blade": "galaxy:item/katana_blade_wood"
-    }
-}

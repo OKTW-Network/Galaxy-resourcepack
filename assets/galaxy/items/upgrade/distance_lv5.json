@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "galaxy:item/distance_upgrade_lv5"
+    "model": "galaxy:upgrade/distance_lv5"
   }
 }

@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "galaxy:item/book_galaxy_delta"
+    "model": "galaxy:tool/book_galaxy_delta"
   }
 }

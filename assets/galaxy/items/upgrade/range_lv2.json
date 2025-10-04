@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "galaxy:item/range_upgrade_lv2"
+    "model": "galaxy:upgrade/range_lv2"
   }
 }

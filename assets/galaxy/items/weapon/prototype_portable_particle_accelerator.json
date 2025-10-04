@@ -24,7 +24,7 @@
           "models": [
             {
               "type": "minecraft:model",
-              "model": "galaxy:item/prototype_portable_particle_accelerator"
+              "model": "galaxy:weapon/prototype_portable_particle_accelerator"
             },
             {
               "type": "minecraft:select",
@@ -110,7 +110,7 @@
                 "models": [
                   {
                     "type": "minecraft:model",
-                    "model": "galaxy:item/prototype_portable_particle_accelerator_aim"
+                    "model": "galaxy:weapon/prototype_portable_particle_accelerator_aim"
                   },
                   {
                     "type": "minecraft:select",
@@ -137,7 +137,7 @@
             "models": [
               {
                 "type": "minecraft:model",
-                "model": "galaxy:item/prototype_portable_particle_accelerator"
+                "model": "galaxy:weapon/prototype_portable_particle_accelerator"
               },
               {
                 "type": "minecraft:select",

@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "galaxy:item/bee_balloon"
+    "model": "galaxy:tool/bee_balloon"
   }
 }

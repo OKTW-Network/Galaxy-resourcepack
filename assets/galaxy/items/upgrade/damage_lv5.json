@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "galaxy:item/damage_upgrade_lv5"
+    "model": "galaxy:upgrade/damage_lv5"
   }
 }

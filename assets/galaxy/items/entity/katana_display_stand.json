@@ -8,28 +8,28 @@
         "when": "type_1",
         "model": {
           "type": "minecraft:model",
-          "model": "galaxy:entity/katana_showcase-1"
+          "model": "galaxy:entity/katana_showcase_1"
         }
       },
       {
         "when": "type_2",
         "model": {
           "type": "minecraft:model",
-          "model": "galaxy:entity/katana_showcase-2"
+          "model": "galaxy:entity/katana_showcase_2"
         }
       },
       {
         "when": "type_3",
         "model": {
           "type": "minecraft:model",
-          "model": "galaxy:entity/katana_showcase-3"
+          "model": "galaxy:entity/katana_showcase_3"
         }
       },
       {
         "when": "type_4",
         "model": {
           "type": "minecraft:model",
-          "model": "galaxy:entity/katana_showcase-4"
+          "model": "galaxy:entity/katana_showcase_4"
         }
       }
     ]

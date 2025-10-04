@@ -1,0 +1,6 @@
+{
+    "parent": "galaxy:part/katana_blade/_template",
+    "textures": {
+        "blade": "galaxy:item/katana_blade_steel"
+    }
+}

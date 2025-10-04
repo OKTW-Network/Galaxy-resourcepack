@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "galaxy:item/speed_upgrade_lv5"
+    "model": "galaxy:upgrade/speed_lv5"
   }
 }

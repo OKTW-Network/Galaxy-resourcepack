@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "galaxy:item/coke"
+    "model": "galaxy:material/coke"
   }
 }

@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "galaxy:item/fire_resistance_upgrade_lv2"
+    "model": "galaxy:upgrade/fire_resistance_lv2"
   }
 }
