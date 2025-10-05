@@ -2,23 +2,8 @@
   "sources": [
     {
       "type": "directory",
-      "source": "origin",
-      "prefix": "origin/"
-    },
-    {
-      "type": "directory",
-      "source": "universal",
-      "prefix": "universal/"
-    },
-    {
-      "type": "directory",
-      "source": "gui_item",
-      "prefix": "gui_item/"
-    },
-    {
-      "type": "directory",
-      "source": "animation",
-      "prefix": "animation/"
+      "source": "custom_block_atlas",
+      "prefix": ""
     }
   ]
 }

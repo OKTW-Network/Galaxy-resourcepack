@@ -5,7 +5,7 @@
 		"1": "galaxy:block/pipe_port",
 		"2": "galaxy:block/pipe_port_hole",
 		"3": "galaxy:block/pipe_port_light",
-		"4": "galaxy:universal/colors",
+		"4": "galaxy:misc/colors",
 		"particle": "galaxy:block/pipe"
 	},
 	"elements": [

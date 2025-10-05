@@ -1,6 +1,6 @@
 {
     "parent": "minecraft:item/generated",
     "textures": {
-        "layer0": "galaxy:item/laser_core_t1"
+        "layer0": "galaxy:part/laser_core/t1"
     }
 }

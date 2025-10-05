@@ -1,5 +1,8 @@
 {
 	"credit": "Made with Blockbench",
+	"textures": {
+		"particle": "galaxy:misc/blank"
+	},
 	"elements": [
 		{
 			"from": [16.0125, 16.0125, 15.9875],

@@ -1,0 +1,55 @@
+{
+  "model": {
+    "type": "composite",
+    "models": [
+      {
+        "type": "minecraft:model",
+        "model": "galaxy:magnet_body"
+      },
+      {
+        "type": "minecraft:condition",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "on_true": {
+          "type": "minecraft:model",
+          "model": "galaxy:magnet_head_activated"
+        },
+        "on_false": {
+          "type": "minecraft:model",
+          "model": "galaxy:magnet_head"
+        }
+      },
+      {
+        "type": "minecraft:select",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "cases": [
+          {
+            "when": "item",
+            "model": {
+              "type": "minecraft:model",
+              "model": "galaxy:magnet_ring_item"
+            }
+          },
+          {
+            "when": "exp",
+            "model": {
+              "type": "minecraft:model",
+              "model": "galaxy:magnet_ring_exp"
+            }
+          },
+          {
+            "when": "universal",
+            "model": {
+              "type": "minecraft:model",
+              "model": "galaxy:magnet_ring_universal"
+            }
+          }
+        ],
+        "fallback": {
+          "type": "minecraft:empty"
+        }
+      }
+    ]
+  }
+}

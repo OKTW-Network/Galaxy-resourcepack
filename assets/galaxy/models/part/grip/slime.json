@@ -1,6 +1,6 @@
 {
     "parent": "minecraft:item/generated",
     "textures": {
-        "layer0": "galaxy:item/handle_slime"
+        "layer0": "galaxy:part/grip/slime"
     }
 }

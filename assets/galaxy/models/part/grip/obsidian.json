@@ -1,6 +1,6 @@
 {
     "parent": "minecraft:item/generated",
     "textures": {
-        "layer0": "galaxy:item/handle_obsidian"
+        "layer0": "galaxy:part/grip/obsidian"
     }
 }

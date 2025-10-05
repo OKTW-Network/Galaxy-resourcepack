@@ -1,6 +1,7 @@
 {
-    "parent": "minecraft:item/generated",
-    "textures": {
-        "layer0": "galaxy:item/gun_addon_sequence"
-    }
+  "parent": "galaxy:upgrade/card",
+  "textures": {
+    "icon": "galaxy:upgrade/icon/arranging",
+    "leg1": "galaxy:upgrade/card_leg_gold"
+  }
 }

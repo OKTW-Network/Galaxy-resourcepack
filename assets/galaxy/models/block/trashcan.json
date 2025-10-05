@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench, model design by OKTW team",
 	"textures": {
-		"2": "galaxy:universal/glass_with_hole",
-		"3": "galaxy:universal/clear_glass",
+		"2": "galaxy:misc/glass_with_hole",
+		"3": "galaxy:misc/clear_glass",
 		"trashcan": "galaxy:block/trashcan",
 		"particle": "galaxy:origin/glass",
 		"glass": "galaxy:origin/glass"

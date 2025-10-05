@@ -1,11 +1,11 @@
 {
 	"credit": "Made with Blockbench, model design by OKTW team",
-    "gui_light": "side",
+	"parent": "galaxy:side_light",
 	"textures": {
-		"0": "galaxy:universal/colors",
-		"1": "galaxy:item/structure_empower/blaze",
-		"2": "galaxy:item/structure_empower/glass",
-		"particle": "galaxy:universal/colors"
+		"0": "galaxy:misc/colors",
+		"1": "galaxy:entity/structure_empower/blaze",
+		"2": "galaxy:entity/structure_empower/glass",
+		"particle": "galaxy:misc/colors"
 	},
 	"elements": [
 		{

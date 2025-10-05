@@ -1,11 +1,10 @@
 {
 	"credit": "Made with Blockbench, model design by OKTW team",
-    "gui_light": "front",
+	"parent": "galaxy:front_light",
 	"textures": {
-		"0": "galaxy:universal/colors",
-		"2": "galaxy:item/ghost_cutter_energy",
-		"3": "galaxy:item/ghost_cutter_crystal",
-		"particle": "galaxy:universal/colors"
+		"0": "galaxy:misc/colors",
+		"2": "galaxy:weapon/ghost_cutter/energy",
+		"3": "galaxy:weapon/ghost_cutter/crystal"
 	},
 	"elements": [
 		{

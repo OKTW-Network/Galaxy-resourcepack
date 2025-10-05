@@ -1,10 +1,10 @@
 {
-	"parent": "galaxy:upgrade/_card_5_leg",
+	"parent": "galaxy:upgrade/card_5_leg",
 	"textures": {
-		"icon": "galaxy:item/penetrate_upgrade",
-		"card": "galaxy:item/upgrade_card_item",
-		"leg1": "galaxy:item/upgrade_leg_activated",
-		"leg2": "galaxy:item/upgrade_leg_activated",
-		"leg3": "galaxy:item/upgrade_leg_activated"
+		"icon": "galaxy:upgrade/icon/penetrate",
+		"card": "galaxy:upgrade/card_item",
+		"leg1": "galaxy:upgrade/card_leg_gold",
+		"leg2": "galaxy:upgrade/card_leg_gold",
+		"leg3": "galaxy:upgrade/card_leg_gold"
 	}
 }

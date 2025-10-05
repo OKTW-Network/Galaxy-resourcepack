@@ -1,13 +1,13 @@
 {
 	"parent": "minecraft:block/orientable",
 	"textures": {
-    "front": "galaxy:universal/blank",
-    "side": "galaxy:universal/blank",
-    "top": "galaxy:universal/blank",
-		"outside": "galaxy:universal/blank",
-		"inside": "galaxy:universal/blank",
-		"inside_swapped": "galaxy:universal/blank",
-		"particle": "galaxy:universal/blank"
+    "front": "galaxy:misc/blank",
+    "side": "galaxy:misc/blank",
+    "top": "galaxy:misc/blank",
+		"outside": "galaxy:misc/blank",
+		"inside": "galaxy:misc/blank",
+		"inside_swapped": "galaxy:misc/blank",
+		"particle": "galaxy:misc/blank"
 	},
 	"elements": [
 		{

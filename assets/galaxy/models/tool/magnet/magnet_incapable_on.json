@@ -1,0 +1,6 @@
+{
+    "parent": "galaxy:tool/magnet/template",
+    "textures": {
+		"head": "galaxy:tool/magnet/head_activated"
+    }
+}

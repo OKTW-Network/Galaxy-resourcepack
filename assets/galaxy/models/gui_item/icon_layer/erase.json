@@ -1,7 +1,7 @@
 {
 	"parent": "guitem:gui_item/_display",
 	"textures": {
-		"0": "galaxy:universal/container_gui_colors"
+		"0": "galaxy:misc/container_gui_colors"
 	},
 	"elements": [
 		{

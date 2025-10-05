@@ -1,0 +1,6 @@
+{
+    "parent": "galaxy:tool/magnet/template",
+    "textures": {
+        "ring": "galaxy:tool/magnet/ring_universal"
+    }
+}

@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "galaxy:part/portable_particle_accelerator_assembly/netherite"
+    }
+}

@@ -1,6 +1,6 @@
 {
     "parent": "minecraft:item/generated",
     "textures": {
-        "layer0": "galaxy:item/cooling_system_t1"
+        "layer0": "galaxy:part/cooling_system/t1"
     }
 }

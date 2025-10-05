@@ -1,8 +1,9 @@
 {
 	"credit": "Made with Blockbench, model design by OKTW team",
+	"parent": "galaxy:front_light",
 	"textures": {
-		"0": "galaxy:item/katana_nazo_colors",
-		"particle": "galaxy:item/katana_nazo_colors"
+		"0": "galaxy:weapon/nazo_katana/colors",
+		"particle": "galaxy:weapon/nazo_katana/colors"
 	},
 	"elements": [
 		{
@@ -742,7 +743,6 @@
 			}
 		}
 	],
-	"gui_light": "front",
 	"display": {
 		"thirdperson_righthand": {
 			"rotation": [3.5, 0, 3.5],

@@ -1,7 +1,7 @@
 {
   "parent": "item/generated",
   "textures": {
-      "layer0": "galaxy:item/bee_balloon"
+    "layer0": "galaxy:tool/bee_balloon"
   },
   "display": {
     "thirdperson_righthand": {

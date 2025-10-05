@@ -1,0 +1,367 @@
+{
+  "model": {
+    "type": "composite",
+    "models": [
+      {
+        "type": "minecraft:select",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "cases": [
+          {
+            "when": "extension",
+            "model": {
+              "type": "minecraft:model",
+              "model": "galaxy:block/pipe_extension_west"
+            }
+          },
+          {
+            "when": "exporter",
+            "model": {
+              "type": "minecraft:model",
+              "model": "galaxy:block/pipe_exporter_west"
+            }
+          },
+          {
+            "when": "importer",
+            "model": {
+              "type": "minecraft:model",
+              "model": "galaxy:block/pipe_importer_west"
+            }
+          },
+          {
+            "when": "interface",
+            "model": {
+              "type": "minecraft:model",
+              "model": "galaxy:block/pipe_interface_west"
+            }
+          }
+        ],
+        "fallback": {
+          "type": "minecraft:select",
+          "property": "minecraft:custom_model_data",
+          "index": 6,
+          "cases": [
+            {
+              "when": "z",
+              "model": {
+                "type": "minecraft:model",
+                "model": "galaxy:block/pipe_face_horizontal_west"
+              }
+            },
+            {
+              "when": "y",
+              "model": {
+                "type": "minecraft:model",
+                "model": "galaxy:block/pipe_face_vertical_west"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "galaxy:block/pipe_face_west"
+          }
+        }
+      },
+      {
+        "type": "minecraft:select",
+        "property": "minecraft:custom_model_data",
+        "index": 1,
+        "cases": [
+          {
+            "when": "extension",
+            "model": {
+              "type": "minecraft:model",
+              "model": "galaxy:block/pipe_extension_north"
+            }
+          },
+          {
+            "when": "exporter",
+            "model": {
+              "type": "minecraft:model",
+              "model": "galaxy:block/pipe_exporter_north"
+            }
+          },
+          {
+            "when": "importer",
+            "model": {
+              "type": "minecraft:model",
+              "model": "galaxy:block/pipe_importer_north"
+            }
+          },
+          {
+            "when": "interface",
+            "model": {
+              "type": "minecraft:model",
+              "model": "galaxy:block/pipe_interface_north"
+            }
+          }
+        ],
+        "fallback": {
+          "type": "minecraft:select",
+          "property": "minecraft:custom_model_data",
+          "index": 6,
+          "cases": [
+            {
+              "when": "x",
+              "model": {
+                "type": "minecraft:model",
+                "model": "galaxy:block/pipe_face_horizontal_north"
+              }
+            },
+            {
+              "when": "y",
+              "model": {
+                "type": "minecraft:model",
+                "model": "galaxy:block/pipe_face_vertical_north"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "galaxy:block/pipe_face_north"
+          }
+        }
+      },
+      {
+        "type": "minecraft:select",
+        "property": "minecraft:custom_model_data",
+        "index": 2,
+        "cases": [
+          {
+            "when": "extension",
+            "model": {
+              "type": "minecraft:model",
+              "model": "galaxy:block/pipe_extension_east"
+            }
+          },
+          {
+            "when": "exporter",
+            "model": {
+              "type": "minecraft:model",
+              "model": "galaxy:block/pipe_exporter_east"
+            }
+          },
+          {
+            "when": "importer",
+            "model": {
+              "type": "minecraft:model",
+              "model": "galaxy:block/pipe_importer_east"
+            }
+          },
+          {
+            "when": "interface",
+            "model": {
+              "type": "minecraft:model",
+              "model": "galaxy:block/pipe_interface_east"
+            }
+          }
+        ],
+        "fallback": {
+          "type": "minecraft:select",
+          "property": "minecraft:custom_model_data",
+          "index": 6,
+          "cases": [
+            {
+              "when": "z",
+              "model": {
+                "type": "minecraft:model",
+                "model": "galaxy:block/pipe_face_horizontal_east"
+              }
+            },
+            {
+              "when": "y",
+              "model": {
+                "type": "minecraft:model",
+                "model": "galaxy:block/pipe_face_vertical_east"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "galaxy:block/pipe_face_east"
+          }
+        }
+      },
+      {
+        "type": "minecraft:select",
+        "property": "minecraft:custom_model_data",
+        "index": 3,
+        "cases": [
+          {
+            "when": "extension",
+            "model": {
+              "type": "minecraft:model",
+              "model": "galaxy:block/pipe_extension_south"
+            }
+          },
+          {
+            "when": "exporter",
+            "model": {
+              "type": "minecraft:model",
+              "model": "galaxy:block/pipe_exporter_south"
+            }
+          },
+          {
+            "when": "importer",
+            "model": {
+              "type": "minecraft:model",
+              "model": "galaxy:block/pipe_importer_south"
+            }
+          },
+          {
+            "when": "interface",
+            "model": {
+              "type": "minecraft:model",
+              "model": "galaxy:block/pipe_interface_south"
+            }
+          }
+        ],
+        "fallback": {
+          "type": "minecraft:select",
+          "property": "minecraft:custom_model_data",
+          "index": 6,
+          "cases": [
+            {
+              "when": "x",
+              "model": {
+                "type": "minecraft:model",
+                "model": "galaxy:block/pipe_face_horizontal_south"
+              }
+            },
+            {
+              "when": "y",
+              "model": {
+                "type": "minecraft:model",
+                "model": "galaxy:block/pipe_face_vertical_south"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "galaxy:block/pipe_face_south"
+          }
+        }
+      },
+      {
+        "type": "minecraft:select",
+        "property": "minecraft:custom_model_data",
+        "index": 4,
+        "cases": [
+          {
+            "when": "extension",
+            "model": {
+              "type": "minecraft:model",
+              "model": "galaxy:block/pipe_extension_top"
+            }
+          },
+          {
+            "when": "exporter",
+            "model": {
+              "type": "minecraft:model",
+              "model": "galaxy:block/pipe_exporter_top"
+            }
+          },
+          {
+            "when": "importer",
+            "model": {
+              "type": "minecraft:model",
+              "model": "galaxy:block/pipe_importer_top"
+            }
+          },
+          {
+            "when": "interface",
+            "model": {
+              "type": "minecraft:model",
+              "model": "galaxy:block/pipe_interface_top"
+            }
+          }
+        ],
+        "fallback": {
+          "type": "minecraft:select",
+          "property": "minecraft:custom_model_data",
+          "index": 6,
+          "cases": [
+            {
+              "when": "x",
+              "model": {
+                "type": "minecraft:model",
+                "model": "galaxy:block/pipe_face_horizontal_top"
+              }
+            },
+            {
+              "when": "z",
+              "model": {
+                "type": "minecraft:model",
+                "model": "galaxy:block/pipe_face_vertical_top"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "galaxy:block/pipe_face_top"
+          }
+        }
+      },
+      {
+        "type": "minecraft:select",
+        "property": "minecraft:custom_model_data",
+        "index": 5,
+        "cases": [
+          {
+            "when": "extension",
+            "model": {
+              "type": "minecraft:model",
+              "model": "galaxy:block/pipe_extension_bottom"
+            }
+          },
+          {
+            "when": "exporter",
+            "model": {
+              "type": "minecraft:model",
+              "model": "galaxy:block/pipe_exporter_bottom"
+            }
+          },
+          {
+            "when": "importer",
+            "model": {
+              "type": "minecraft:model",
+              "model": "galaxy:block/pipe_importer_bottom"
+            }
+          },
+          {
+            "when": "interface",
+            "model": {
+              "type": "minecraft:model",
+              "model": "galaxy:block/pipe_interface_bottom"
+            }
+          }
+        ],
+        "fallback": {
+          "type": "minecraft:select",
+          "property": "minecraft:custom_model_data",
+          "index": 6,
+          "cases": [
+            {
+              "when": "x",
+              "model": {
+                "type": "minecraft:model",
+                "model": "galaxy:block/pipe_face_horizontal_bottom"
+              }
+            },
+            {
+              "when": "z",
+              "model": {
+                "type": "minecraft:model",
+                "model": "galaxy:block/pipe_face_vertical_bottom"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "galaxy:block/pipe_face_bottom"
+          }
+        }
+      }
+    ]
+  }
+}

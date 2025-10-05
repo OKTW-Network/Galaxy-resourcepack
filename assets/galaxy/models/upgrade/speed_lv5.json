@@ -1,12 +1,12 @@
 {
-	"parent": "galaxy:upgrade/_card_5_leg",
+	"parent": "galaxy:upgrade/card_5_leg",
 	"textures": {
-		"icon": "galaxy:item/speed_upgrade",
-		"card": "galaxy:item/upgrade_card_generic",
-		"leg1": "galaxy:item/upgrade_leg_activated",
-		"leg2": "galaxy:item/upgrade_leg_activated",
-		"leg3": "galaxy:item/upgrade_leg_activated",
-		"leg4": "galaxy:item/upgrade_leg_activated",
-		"leg5": "galaxy:item/upgrade_leg_activated"
+		"icon": "galaxy:upgrade/icon/speed",
+		"card": "galaxy:upgrade/card_generic",
+		"leg1": "galaxy:upgrade/card_leg_gold",
+		"leg2": "galaxy:upgrade/card_leg_gold",
+		"leg3": "galaxy:upgrade/card_leg_gold",
+		"leg4": "galaxy:upgrade/card_leg_gold",
+		"leg5": "galaxy:upgrade/card_leg_gold"
 	}
 }

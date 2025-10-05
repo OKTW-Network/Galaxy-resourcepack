@@ -1,0 +1,7 @@
+{
+  "parent": "galaxy:upgrade/card",
+  "textures": {
+    "icon": "galaxy:upgrade/icon/katana_draw_strike_flash",
+    "leg1": "galaxy:upgrade/card_leg_gold"
+  }
+}

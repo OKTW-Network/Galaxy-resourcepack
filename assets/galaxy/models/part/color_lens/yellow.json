@@ -1,6 +1,6 @@
 {
     "parent": "minecraft:item/generated",
     "textures": {
-        "layer0": "galaxy:item/color_lens_yellow"
+        "layer0": "galaxy:part/color_lens/yellow"
     }
 }

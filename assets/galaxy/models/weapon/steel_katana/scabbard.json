@@ -1,7 +1,8 @@
 {
 	"credit": "Made with Blockbench, model design by OKTW team",
+	"parent": "galaxy:front_light",
 	"textures": {
-		"0": "galaxy:item/katana_steel_colors"
+		"0": "galaxy:weapon/steel_katana/colors"
 	},
 	"elements": [
 		{
@@ -389,7 +390,6 @@
 			}
 		}
 	],
-	"gui_light": "front",
 	"display": {
 		"thirdperson_righthand": {
 			"rotation": [-175, 4, -3],

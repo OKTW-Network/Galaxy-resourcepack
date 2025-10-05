@@ -1,0 +1,82 @@
+{
+  "hand_animation_on_swap": true,
+  "model": {
+    "type": "minecraft:composite",
+    "models": [
+      {
+        "type": "select",
+        "property": "minecraft:display_context",
+        "cases": [
+          {
+            "when": "firstperson_lefthand",
+            "model": {
+              "type": "minecraft:empty"
+            }
+          },
+          {
+            "when": "firstperson_righthand",
+            "model": {
+              "type": "minecraft:empty"
+            }
+          }
+        ],
+        "fallback": {
+          "type": "minecraft:model",
+          "model": "item/coal"
+        }
+      },
+      {
+        "type": "select",
+        "property": "minecraft:display_context",
+        "cases": [
+          {
+            "when": "none",
+            "model": {
+              "type": "minecraft:empty"
+            }
+          },
+          {
+            "when": "thirdperson_lefthand",
+            "model": {
+              "type": "minecraft:empty"
+            }
+          },
+          {
+            "when": "thirdperson_righthand",
+            "model": {
+              "type": "minecraft:empty"
+            }
+          },
+          {
+            "when": "head",
+            "model": {
+              "type": "minecraft:empty"
+            }
+          },
+          {
+            "when": "gui",
+            "model": {
+              "type": "minecraft:empty"
+            }
+          },
+          {
+            "when": "ground",
+            "model": {
+              "type": "minecraft:empty"
+            }
+          },
+          {
+            "when": "fixed",
+            "model": {
+              "type": "minecraft:empty"
+            }
+          }
+        ],
+        "fallback": {
+          "type": "minecraft:model",
+          "model": "item/diamond"
+        }
+      }
+    ]
+  }
+}

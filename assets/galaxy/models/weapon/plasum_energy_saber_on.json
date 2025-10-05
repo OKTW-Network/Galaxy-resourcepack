@@ -1,10 +1,10 @@
 {
 	"credit": "Made with Blockbench, model design by OKTW team",
+	"parent": "galaxy:front_light",
 	"textures": {
-		"0": "galaxy:universal/colors",
-		"2": "galaxy:item/energy_saber_plasum_energy",
-		"3": "galaxy:item/energy_saber_plasum_crystal",
-		"particle": "galaxy:universal/colors"
+		"0": "galaxy:misc/colors",
+		"2": "galaxy:weapon/plasum_energy_saber/energy",
+		"3": "galaxy:weapon/plasum_energy_saber/crystal"
 	},
 	"elements": [
 		{
@@ -359,7 +359,6 @@
 			}
 		}
 	],
-	"gui_light": "front",
 	"display": {
 		"thirdperson_righthand": {
 			"rotation": [1, 0, 0],

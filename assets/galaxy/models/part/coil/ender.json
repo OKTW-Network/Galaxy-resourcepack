@@ -1,0 +1,6 @@
+{
+    "parent": "galaxy:part/coil/template",
+    "textures": {
+        "coil": "galaxy:part/coil/ender_wire"
+    }
+}

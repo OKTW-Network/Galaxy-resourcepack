@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench, model design by OKTW team",
+	"parent": "galaxy:front_light",
 	"textures": {
-		"0": "galaxy:universal/colors",
-		"particle": "galaxy:universal/colors"
+		"0": "galaxy:misc/colors"
 	},
 	"elements": [
 		{
@@ -410,7 +410,6 @@
 			}
 		}
 	],
-	"gui_light": "front",
 	"display": {
 		"thirdperson_righthand": {
 			"rotation": [-7.5, 90, 0],
