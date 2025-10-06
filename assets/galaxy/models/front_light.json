@@ -1,4 +1,4 @@
 {
-	"parent": "galaxy:blank",
+	"parent": "galaxy:no_particle",
 	"gui_light": "front"
 }
