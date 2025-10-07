@@ -6,7 +6,6 @@
 	},
 	"elements": [
 		{
-			"name": "cube inverted",
 			"from": [9, 12, 9],
 			"to": [7, 0, 7],
 			"rotation": {"angle": 0, "axis": "y", "origin": [8, 7, 8]},
@@ -18,7 +17,6 @@
 			}
 		},
 		{
-			"name": "cube inverted",
 			"from": [12.00083, 15.79582, 9],
 			"to": [11.2, 15.14967, 7],
 			"rotation": {"angle": 22.5, "axis": "z", "origin": [9.5, 16, 8]},
@@ -29,7 +27,6 @@
 			}
 		},
 		{
-			"name": "cube inverted",
 			"from": [11.65648, 16.46107, 9],
 			"to": [10.50519, 15.44107, 7],
 			"rotation": {"angle": -45, "axis": "z", "origin": [11.08084, 16.20107, 8]},
@@ -40,7 +37,6 @@
 			}
 		},
 		{
-			"name": "cube inverted",
 			"from": [12.00083, 16.49582, 9],
 			"to": [11.05, 15.79582, 7],
 			"rotation": {"angle": 22.5, "axis": "z", "origin": [9.5, 16, 8]},
@@ -51,7 +47,6 @@
 			}
 		},
 		{
-			"name": "cube inverted",
 			"from": [12.00083, 15.14967, 9],
 			"to": [11.2, 14.575, 7],
 			"rotation": {"angle": 22.5, "axis": "z", "origin": [9.5, 16, 8]},
@@ -62,7 +57,6 @@
 			}
 		},
 		{
-			"name": "cube inverted",
 			"from": [11.8, 17.21, 9],
 			"to": [11.05129, 16.5, 7],
 			"rotation": {"angle": -45, "axis": "z", "origin": [9.5, 16, 8]},
@@ -73,7 +67,6 @@
 			}
 		},
 		{
-			"name": "cube inverted",
 			"from": [12.00083, 14.575, 9],
 			"to": [11.4, 13.7659, 7],
 			"rotation": {"angle": 22.5, "axis": "z", "origin": [9.5, 16, 8]},
@@ -84,7 +77,6 @@
 			}
 		},
 		{
-			"name": "cube inverted",
 			"from": [12.52107, 17.45551, 9],
 			"to": [11.8, 16.5, 7],
 			"rotation": {"angle": -45, "axis": "z", "origin": [9.5, 16, 8]},
@@ -96,7 +88,6 @@
 			}
 		},
 		{
-			"name": "cube inverted",
 			"from": [11.8, 17.21, 8.4],
 			"to": [11.05129, 17, 7],
 			"rotation": {"angle": -45, "axis": "z", "origin": [9.5, 16, 8]},
@@ -107,7 +98,6 @@
 			}
 		},
 		{
-			"name": "cube inverted",
 			"from": [10, 18.5, 9],
 			"to": [9.25, 16.5, 7],
 			"rotation": {"angle": -45, "axis": "z", "origin": [9.5, 16, 8]},
@@ -119,7 +109,6 @@
 			}
 		},
 		{
-			"name": "cube inverted",
 			"from": [9.74402, 18.50059, 9],
 			"to": [9.25171, 16.5, 7],
 			"rotation": {"angle": -33.75, "axis": "z", "origin": [9.5, 16, 8]},
@@ -131,7 +120,6 @@
 			}
 		},
 		{
-			"name": "cube inverted",
 			"from": [9.74582, 18.50083, 9],
 			"to": [9.25418, 16.5, 7],
 			"rotation": {"angle": -22.5, "axis": "z", "origin": [9.5, 16, 8]},
@@ -143,7 +131,6 @@
 			}
 		},
 		{
-			"name": "cube inverted",
 			"from": [9.74829, 18.50059, 9],
 			"to": [9.25598, 16.5, 7],
 			"rotation": {"angle": -11.25, "axis": "z", "origin": [9.5, 16, 8]},
@@ -155,7 +142,6 @@
 			}
 		},
 		{
-			"name": "cube inverted",
 			"from": [9.75, 18.5, 9],
 			"to": [9.25, 16.5, 7],
 			"rotation": {"angle": 0, "axis": "y", "origin": [9.5, 16, 8]},
@@ -167,7 +153,6 @@
 			}
 		},
 		{
-			"name": "cube inverted",
 			"from": [9.74402, 18.50059, 9],
 			"to": [9.25171, 16.5, 7],
 			"rotation": {"angle": 11.25, "axis": "z", "origin": [9.5, 16, 8]},
@@ -179,7 +164,6 @@
 			}
 		},
 		{
-			"name": "cube inverted",
 			"from": [9.74582, 18.50083, 9],
 			"to": [9.25418, 16.5, 7],
 			"rotation": {"angle": 22.5, "axis": "z", "origin": [9.5, 16, 8]},
@@ -191,7 +175,6 @@
 			}
 		},
 		{
-			"name": "cube inverted",
 			"from": [9.74829, 18.50059, 9],
 			"to": [9.25598, 16.5, 7],
 			"rotation": {"angle": 33.75, "axis": "z", "origin": [9.5, 16, 8]},
@@ -203,7 +186,6 @@
 			}
 		},
 		{
-			"name": "cube inverted",
 			"from": [9.75, 18.5, 9],
 			"to": [9.25, 16.5, 7],
 			"rotation": {"angle": 45, "axis": "z", "origin": [9.5, 16, 8]},
@@ -215,7 +197,6 @@
 			}
 		},
 		{
-			"name": "cube inverted",
 			"from": [9, 16.24402, 9],
 			"to": [6.99941, 15.75171, 7],
 			"rotation": {"angle": -33.75, "axis": "z", "origin": [9.5, 16, 8]},
@@ -227,7 +208,6 @@
 			}
 		},
 		{
-			"name": "cube inverted",
 			"from": [9, 16.24582, 9],
 			"to": [6.99917, 15.75418, 7],
 			"rotation": {"angle": -22.5, "axis": "z", "origin": [9.5, 16, 8]},
@@ -239,7 +219,6 @@
 			}
 		},
 		{
-			"name": "cube inverted",
 			"from": [9, 16.24829, 9],
 			"to": [6.99941, 15.75598, 7],
 			"rotation": {"angle": -11.25, "axis": "z", "origin": [9.5, 16, 8]},
@@ -251,7 +230,6 @@
 			}
 		},
 		{
-			"name": "cube inverted",
 			"from": [9, 16.25, 9],
 			"to": [7, 12, 7],
 			"rotation": {"angle": 0, "axis": "z", "origin": [9.5, 16, 8]},
@@ -263,7 +241,6 @@
 			}
 		},
 		{
-			"name": "cube inverted",
 			"from": [7.25495, -2.52761, 9],
 			"to": [6.32695, -3.26292, 7],
 			"rotation": {"angle": -45, "axis": "z", "origin": [6.79095, -2.89526, 8]},
@@ -275,7 +252,6 @@
 			}
 		},
 		{
-			"name": "cube inverted",
 			"from": [9, 0, 9],
 			"to": [7, -0.9, 7],
 			"rotation": {"angle": 0, "axis": "y", "origin": [8, -0.5, 8]},
@@ -287,7 +263,6 @@
 			}
 		},
 		{
-			"name": "cube inverted",
 			"from": [8.95787, -0.86178, 9],
 			"to": [8.35787, -1.31178, 7],
 			"rotation": {"angle": -22.5, "axis": "z", "origin": [8.38287, -1.08678, 8]},
@@ -298,7 +273,6 @@
 			}
 		},
 		{
-			"name": "cube inverted",
 			"from": [9, -0.9, 9],
 			"to": [7, -1.1, 7],
 			"rotation": {"angle": 0, "axis": "y", "origin": [8.04783, -1.01548, 8]},
@@ -309,7 +283,6 @@
 			}
 		},
 		{
-			"name": "cube inverted",
 			"from": [7.91272, -0.80822, 9],
 			"to": [7.05272, -2.07822, 7],
 			"rotation": {"angle": -37.5, "axis": "z", "origin": [7.64772, -1.85322, 8]},
@@ -319,7 +292,6 @@
 			}
 		},
 		{
-			"name": "cube inverted",
 			"from": [7.50627, -1.10125, 9],
 			"to": [6.72127, -2.40125, 7],
 			"rotation": {"angle": -22.5, "axis": "z", "origin": [7.36377, -1.70125, 8]},
@@ -330,7 +302,6 @@
 			}
 		},
 		{
-			"name": "cube inverted",
 			"from": [8.24272, -0.77822, 9],
 			"to": [7.55272, -2.82822, 7],
 			"rotation": {"angle": -45, "axis": "z", "origin": [7.64772, -1.85322, 8]},
@@ -341,7 +312,6 @@
 			}
 		},
 		{
-			"name": "cube inverted",
 			"from": [6.97433, -2.29544, 9],
 			"to": [6.37516, -3.07987, 7],
 			"rotation": {"angle": -22.5, "axis": "z", "origin": [6.92433, -2.52044, 8]},
