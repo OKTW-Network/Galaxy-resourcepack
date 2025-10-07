@@ -3,8 +3,8 @@
 	"textures": {
 		"icon": "galaxy:upgrade/icon/range",
 		"card": "galaxy:upgrade/card_block",
-		"leg1": "galaxy:upgrade/card_leg_copper",
-		"leg2": "galaxy:upgrade/card_leg_copper",
+		"leg1": "galaxy:upgrade/card_leg_iron",
+		"leg2": "galaxy:upgrade/card_leg_iron",
 		"leg3": "galaxy:upgrade/card_leg_copper",
 		"leg4": "galaxy:upgrade/card_leg_copper",
 		"leg5": "galaxy:upgrade/card_leg_copper"

@@ -3,8 +3,8 @@
 	"textures": {
 		"icon": "galaxy:upgrade/icon/cooling",
 		"card": "galaxy:upgrade/card_item",
-		"leg1": "galaxy:upgrade/card_leg_gold",
-		"leg2": "galaxy:upgrade/card_leg_gold",
-		"leg3": "galaxy:upgrade/card_leg_gold"
+		"leg1": "galaxy:upgrade/card_leg_copper",
+		"leg2": "galaxy:upgrade/card_leg_copper",
+		"leg3": "galaxy:upgrade/card_leg_copper"
 	}
 }

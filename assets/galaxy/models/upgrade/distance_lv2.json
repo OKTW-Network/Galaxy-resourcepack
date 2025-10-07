@@ -3,7 +3,7 @@
 	"textures": {
 		"icon": "galaxy:upgrade/icon/distance",
 		"card": "galaxy:upgrade/card_item",
-		"leg1": "galaxy:upgrade/card_leg_gold",
-		"leg2": "galaxy:upgrade/card_leg_gold"
+		"leg1": "galaxy:upgrade/card_leg_copper",
+		"leg2": "galaxy:upgrade/card_leg_copper"
 	}
 }

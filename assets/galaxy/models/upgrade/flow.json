@@ -2,6 +2,6 @@
   "parent": "galaxy:upgrade/card",
   "textures": {
     "icon": "galaxy:upgrade/icon/flow",
-    "leg1": "galaxy:upgrade/card_leg_gold"
+    "leg1": "galaxy:upgrade/card_leg_copper"
   }
 }
