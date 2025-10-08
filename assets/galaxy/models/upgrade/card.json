@@ -3,7 +3,7 @@
 	"parent": "galaxy:front_light",
 	"textures": {
 		"icon": "galaxy:misc/blank",
-		"card": "galaxy:upgrade/card_unique",
+		"card": "galaxy:upgrade/card_unassigned",
 		"leg1": "#card",
 		"leg2": "#card",
 		"leg3": "#card",

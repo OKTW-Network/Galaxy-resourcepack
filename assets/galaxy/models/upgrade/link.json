@@ -2,6 +2,7 @@
   "parent": "galaxy:upgrade/card",
   "textures": {
     "icon": "galaxy:upgrade/icon/link",
+		"card": "galaxy:upgrade/card_unique",
     "leg1": "galaxy:upgrade/card_leg_copper"
   }
 }
