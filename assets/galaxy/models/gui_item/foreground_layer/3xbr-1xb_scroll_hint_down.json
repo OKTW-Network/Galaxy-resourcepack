@@ -1,0 +1,6 @@
+{
+	"parent": "guitem:gui_item/foreground_layer/_3xbr",
+	"textures": {
+		"1x_bottom": "galaxy:gui_item/scroll_hint_down"
+	}
+}

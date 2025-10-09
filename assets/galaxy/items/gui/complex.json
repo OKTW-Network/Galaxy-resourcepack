@@ -1704,6 +1704,20 @@
         "index": 3,
         "cases": [
           {
+            "when": "3x-1xb_highlight",
+            "model": {
+              "type": "minecraft:model",
+              "model": "galaxy:gui_item/slot_layer/3x-1xb_highlight"
+            }
+          },
+          {
+            "when": "3x-1xr_highlight",
+            "model": {
+              "type": "minecraft:model",
+              "model": "galaxy:gui_item/slot_layer/3x-1xr_highlight"
+            }
+          },
+          {
             "when": "alternative",
             "model": {
               "type": "minecraft:model",
@@ -2811,6 +2825,34 @@
         "property": "minecraft:custom_model_data",
         "index": 6,
         "cases": [
+          {
+            "when": "3xbr-1xt_scroll_hint_up",
+            "model": {
+              "type": "minecraft:model",
+              "model": "galaxy:gui_item/foreground_layer/3xbr-1xt_scroll_hint_up"
+            }
+          },
+          {
+            "when": "3xbr-1xb_scroll_hint_down",
+            "model": {
+              "type": "minecraft:model",
+              "model": "galaxy:gui_item/foreground_layer/3xbr-1xb_scroll_hint_down"
+            }
+          },
+          {
+            "when": "3xbr-1xl_scroll_hint_left",
+            "model": {
+              "type": "minecraft:model",
+              "model": "galaxy:gui_item/foreground_layer/3xbr-1xl_scroll_hint_left"
+            }
+          },
+          {
+            "when": "3xbr-1xr_scroll_hint_right",
+            "model": {
+              "type": "minecraft:model",
+              "model": "galaxy:gui_item/foreground_layer/3xbr-1xr_scroll_hint_right"
+            }
+          },
           {
             "when": "debug",
             "model": {
