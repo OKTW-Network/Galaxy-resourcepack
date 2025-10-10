@@ -36,18 +36,6 @@
             }
           ]
         }
-      },
-      {
-        "when": "anvil_search",
-        "model": {
-          "type": "minecraft:composite",
-          "models": [
-            {
-              "type": "minecraft:model",
-              "model": "galaxy:gui_item/anvil_search"
-            }
-          ]
-        }
       }
     ],
     "fallback": {
