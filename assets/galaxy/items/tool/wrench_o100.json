@@ -10,7 +10,7 @@
             "when": "gui",
             "model": {
               "type": "minecraft:model",
-              "model": "galaxy:tool/wrench_outline"
+              "model": "galaxy:tool/wrench_o100_outline"
             }
           }
         ],
@@ -20,7 +20,7 @@
       },
       {
         "type": "minecraft:model",
-        "model": "galaxy:tool/wrench"
+        "model": "galaxy:tool/wrench_o100"
       }
     ]
   }

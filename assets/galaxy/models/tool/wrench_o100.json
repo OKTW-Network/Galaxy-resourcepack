@@ -1,0 +1,10 @@
+{
+	"parent": "galaxy:tool/wrench",
+	"display": {
+		"gui": {
+			"rotation": [0, -180, 45],
+			"translation": [0.0625, 0.0625, 0],
+			"scale": [0.9625, 0.9625, 0.9625]
+		}
+	}
+}
