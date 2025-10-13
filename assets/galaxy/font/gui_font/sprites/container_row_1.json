@@ -16,7 +16,7 @@
     },
     {
       "type": "bitmap",
-      "file": "galaxy:gui_font/sprites/container/main_field.png",
+      "file": "galaxy:font/gui_imitation/sprites/container/main_field.png",
       "height": 18,
       "ascent": -4,
       "chars": [
@@ -29,7 +29,7 @@
     },
     {
       "type": "bitmap",
-      "file": "galaxy:gui_font/sprites/container/sub_field.png",
+      "file": "galaxy:font/gui_imitation/sprites/container/sub_field.png",
       "height": 18,
       "ascent": -4,
       "chars": [

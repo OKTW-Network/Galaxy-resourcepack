@@ -16,7 +16,7 @@
     },
     {
       "type": "bitmap",
-      "file": "galaxy:gui_font/sprites/container/info.png",
+      "file": "galaxy:font/gui_imitation/sprites/container/info.png",
       "height": 18,
       "ascent": -94,
       "chars": [
@@ -25,7 +25,7 @@
     },
     {
       "type": "bitmap",
-      "file": "galaxy:gui_font/sprites/container/progress_right.png",
+      "file": "galaxy:font/gui_imitation/sprites/container/progress_right.png",
       "height": 18,
       "ascent": -94,
       "chars": [
@@ -34,7 +34,7 @@
     },
     {
       "type": "bitmap",
-      "file": "galaxy:gui_font/sprites/container/progress_down.png",
+      "file": "galaxy:font/gui_imitation/sprites/container/progress_down.png",
       "height": 18,
       "ascent": -94,
       "chars": [

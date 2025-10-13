@@ -2,7 +2,7 @@
   "providers": [
     {
       "type": "bitmap",
-      "file": "galaxy:gui_font/container_layout/ht_crafting_table_.png",
+      "file": "galaxy:font/gui_imitation/container_layout/ht_crafting_table_.png",
       "height": 54,
       "ascent": -4,
       "chars": [

@@ -2,7 +2,7 @@
   "providers": [
     {
       "type": "bitmap",
-      "file": "galaxy:gui_font/container_layout/test_gui_.png",
+      "file": "galaxy:font/gui_imitation/container_layout/test_gui_.png",
       "height": 108,
       "ascent": -4,
       "chars": [
@@ -12,7 +12,7 @@
     },
     {
       "type": "bitmap",
-      "file": "galaxy:gui_font/container_layout/test_gui3_.png",
+      "file": "galaxy:font/gui_imitation/container_layout/test_gui3_.png",
       "height": 108,
       "ascent": 7,
       "chars": [
