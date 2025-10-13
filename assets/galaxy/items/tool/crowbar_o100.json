@@ -10,7 +10,7 @@
             "when": "gui",
             "model": {
               "type": "minecraft:model",
-              "model": "galaxy:tool/crowbar_outline_100"
+              "model": "galaxy:tool/crowbar_o100_outline"
             }
           }
         ],
@@ -20,7 +20,7 @@
       },
       {
         "type": "minecraft:model",
-        "model": "galaxy:tool/crowbar_100"
+        "model": "galaxy:tool/crowbar_o100"
       }
     ]
   }
