@@ -389,6 +389,9 @@
 		},
 		"fixed": {
 			"rotation": [0, 0, 45]
+		},
+		"on_shelf": {
+			"rotation": [0, -180, 45]
 		}
 	},
 	"groups": [
