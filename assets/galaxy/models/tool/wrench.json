@@ -437,7 +437,8 @@
 			"rotation": [0, 0, 45]
 		},
 		"on_shelf": {
-			"rotation": [0, -180, 45]
+			"rotation": [0, -180, 45],
+			"translation": [0.325, 0, 0]
 		}
 	},
 	"groups": [
