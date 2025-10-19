@@ -1,20 +1,6 @@
 {
   "model": {
-    "type": "minecraft:select",
-    "property": "minecraft:custom_model_data",
-    "index": 0,
-    "cases": [
-      {
-        "when": "face-all",
-        "model": {
-          "type": "minecraft:model",
-          "model": "galaxy:block/face/elevator_all"
-        }
-      }
-    ],
-    "fallback": {
-      "type": "minecraft:model",
-      "model": "galaxy:block/elevator"
-    }
+    "type": "minecraft:model",
+    "model": "galaxy:block/elevator"
   }
 }

@@ -1,59 +1,19 @@
 {
   "model": {
-    "type": "minecraft:select",
+    "type": "minecraft:range_dispatch",
     "property": "minecraft:custom_model_data",
-    "index": 0,
-    "cases": [
+    "entries": [
       {
-        "when": "face-front",
-        "model": {
-          "type": "minecraft:condition",
-          "property": "minecraft:custom_model_data",
-          "index": 0,
-          "on_true": {
-            "type": "minecraft:model",
-            "model": "galaxy:block/face/reinforced_blast_furnace_front_on"
-          },
-          "on_false": {
-            "type": "minecraft:model",
-            "model": "galaxy:block/face/reinforced_blast_furnace_front"
-          }
-        }
-      },
-      {
-        "when": "face-side",
+        "threshold": 1.0,
         "model": {
           "type": "minecraft:model",
-          "model": "galaxy:block/face/reinforced_blast_furnace_side"
-        }
-      },
-      {
-        "when": "face-top",
-        "model": {
-          "type": "minecraft:model",
-          "model": "galaxy:block/face/reinforced_blast_furnace_top"
-        }
-      },
-      {
-        "when": "face-bottom",
-        "model": {
-          "type": "minecraft:model",
-          "model": "galaxy:block/face/reinforced_blast_furnace_top"
+          "model": "galaxy:block/reinforced_blast_furnace_on"
         }
       }
     ],
     "fallback": {
-      "type": "minecraft:condition",
-      "property": "minecraft:custom_model_data",
-      "index": 0,
-      "on_true": {
-        "type": "minecraft:model",
-        "model": "galaxy:block/reinforced_blast_furnace_on"
-      },
-      "on_false": {
-        "type": "minecraft:model",
-        "model": "galaxy:block/reinforced_blast_furnace"
-      }
+      "type": "minecraft:model",
+      "model": "galaxy:block/reinforced_blast_furnace"
     }
   }
 }

@@ -1,34 +1,6 @@
 {
   "model": {
-    "type": "minecraft:select",
-    "property": "minecraft:custom_model_data",
-    "index": 0,
-    "cases": [
-      {
-        "when": "face-side",
-        "model": {
-          "type": "minecraft:model",
-          "model": "galaxy:block/face/ht_crafting_table_side"
-        }
-      },
-      {
-        "when": "face-top",
-        "model": {
-          "type": "minecraft:model",
-          "model": "galaxy:block/face/ht_crafting_table_top"
-        }
-      },
-      {
-        "when": "face-bottom",
-        "model": {
-          "type": "minecraft:model",
-          "model": "galaxy:block/face/ht_crafting_table_bottom"
-        }
-      }
-    ],
-    "fallback": {
-      "type": "minecraft:model",
-      "model": "galaxy:block/ht_crafting_table"
-    }
+    "type": "minecraft:model",
+    "model": "galaxy:block/ht_crafting_table"
   }
 }

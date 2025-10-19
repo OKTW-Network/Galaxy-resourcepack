@@ -1,0 +1,54 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "cases": [
+      {
+        "when": "front",
+        "model": {
+          "type": "minecraft:model",
+          "model": "galaxy:external_block_face/assembly_table_side"
+        }
+      },
+      {
+        "when": "back",
+        "model": {
+          "type": "minecraft:model",
+          "model": "galaxy:external_block_face/assembly_table_side"
+        }
+      },
+      {
+        "when": "left",
+        "model": {
+          "type": "minecraft:model",
+          "model": "galaxy:external_block_face/assembly_table_side"
+        }
+      },
+      {
+        "when": "right",
+        "model": {
+          "type": "minecraft:model",
+          "model": "galaxy:external_block_face/assembly_table_side"
+        }
+      },
+      {
+        "when": "top",
+        "model": {
+          "type": "minecraft:model",
+          "model": "galaxy:external_block_face/assembly_table_top"
+        }
+      },
+      {
+        "when": "bottom",
+        "model": {
+          "type": "minecraft:model",
+          "model": "galaxy:external_block_face/assembly_table_bottom"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:empty"
+    }
+  }
+}

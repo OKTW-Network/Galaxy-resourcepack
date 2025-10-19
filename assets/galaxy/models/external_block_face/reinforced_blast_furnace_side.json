@@ -1,0 +1,6 @@
+{
+  "parent": "galaxy:external_block_face/_external_block_face",
+  "textures": {
+    "block_face": "galaxy:block/reinforced_blast_furnace_side"
+  }
+}
