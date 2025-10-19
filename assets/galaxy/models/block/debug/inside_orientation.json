@@ -1,0 +1,6 @@
+{
+  "parent": "galaxy:block/debug/_display_layer",
+  "textures": {
+    "inside_swapped": "galaxy:block/debug/orientation"
+  }
+}

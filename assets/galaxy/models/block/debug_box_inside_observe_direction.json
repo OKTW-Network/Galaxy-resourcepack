@@ -1,6 +1,0 @@
-{
-  "parent": "galaxy:block/debug_box_display_layer",
-  "textures": {
-    "inside_swapped": "galaxy:block/debug_box_observe_direction"
-  }
-}

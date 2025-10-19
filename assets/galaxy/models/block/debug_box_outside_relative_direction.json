@@ -1,6 +1,0 @@
-{
-  "parent": "galaxy:block/debug_box_display_layer",
-  "textures": {
-    "outside": "galaxy:block/debug_box_relative_direction"
-  }
-}

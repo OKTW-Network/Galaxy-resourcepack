@@ -1,6 +1,0 @@
-{
-  "parent": "galaxy:block/debug_box_block_layer",
-  "textures": {
-    "outer": "galaxy:block/debug_box_reduced_background"
-  }
-}

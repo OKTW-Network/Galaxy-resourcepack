@@ -1,0 +1,6 @@
+{
+  "parent": "galaxy:block/debug/_display_layer",
+  "textures": {
+    "inside": "galaxy:block/debug/opaque/observe_direction"
+  }
+}

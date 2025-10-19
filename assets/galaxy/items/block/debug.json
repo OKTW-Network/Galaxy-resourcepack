@@ -1,0 +1,398 @@
+{
+  "model": {
+    "type": "minecraft:composite",
+    "models": [
+      {
+        "type": "minecraft:condition",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "on_true": {
+          "type": "minecraft:composite",
+          "models": [
+            {
+              "type": "minecraft:range_dispatch",
+              "property": "minecraft:custom_model_data",
+              "index": 0,
+              "entries": [
+                {
+                  "threshold": 1.0,
+                  "model": {
+                    "type": "minecraft:range_dispatch",
+                    "property": "minecraft:custom_model_data",
+                    "index": 1,
+                    "entries": [
+                      {
+                        "threshold": 1.0,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "galaxy:block/debug/outer_reduced_background"
+                        }
+                      },
+                      {
+                        "threshold": 1.1,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "galaxy:block/debug/outer_opaque_reduced_background"
+                        }
+                      }
+                    ],
+                    "fallback": {
+                      "type": "minecraft:range_dispatch",
+                      "property": "minecraft:custom_model_data",
+                      "index": 1,
+                      "entries": [
+                        {
+                          "threshold": 1.0,
+                          "model": {
+                            "type": "minecraft:model",
+                            "model": "galaxy:block/debug/outer_background"
+                          }
+                        },
+                        {
+                          "threshold": 1.1,
+                          "model": {
+                            "type": "minecraft:model",
+                            "model": "galaxy:block/debug/outer_opaque_background"
+                          }
+                        }
+                      ],
+                      "fallback": {
+                        "type": "minecraft:empty"
+                      }
+                    }
+                  }
+                }
+              ],
+              "fallback": {
+                "type": "minecraft:empty"
+              }
+            },
+            {
+              "type": "minecraft:range_dispatch",
+              "property": "minecraft:custom_model_data",
+              "index": 1,
+              "entries": [
+                {
+                  "threshold": 1.0,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "galaxy:block/debug/outer_border"
+                  }
+                },
+                {
+                  "threshold": 1.1,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "galaxy:block/debug/outer_opaque_border"
+                  }
+                }
+              ],
+              "fallback": {
+                "type": "minecraft:empty"
+              }
+            },
+            {
+              "type": "minecraft:range_dispatch",
+              "property": "minecraft:custom_model_data",
+              "index": 2,
+              "entries": [
+                {
+                  "threshold": 1.0,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "galaxy:block/debug/outside_orientation"
+                  }
+                },
+                {
+                  "threshold": 1.1,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "galaxy:block/debug/outside_opaque_orientation"
+                  }
+                }
+              ],
+              "fallback": {
+                "type": "minecraft:empty"
+              }
+            },
+            {
+              "type": "minecraft:range_dispatch",
+              "property": "minecraft:custom_model_data",
+              "index": 3,
+              "entries": [
+                {
+                  "threshold": 1.0,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "galaxy:block/debug/outside_facing_direction"
+                  }
+                },
+                {
+                  "threshold": 1.1,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "galaxy:block/debug/outside_opaque_facing_direction"
+                  }
+                },
+                {
+                  "threshold": 2.0,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "galaxy:block/debug/outside_observe_direction"
+                  }
+                },
+                {
+                  "threshold": 2.1,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "galaxy:block/debug/outside_opaque_observe_direction"
+                  }
+                }
+              ],
+              "fallback": {
+                "type": "minecraft:empty"
+              }
+            }
+          ]
+        },
+        "on_false": {
+          "type": "minecraft:empty"
+        }
+      },
+      {
+        "type": "minecraft:condition",
+        "property": "minecraft:custom_model_data",
+        "index": 1,
+        "on_true": {
+          "type": "minecraft:composite",
+          "models": [
+            {
+              "type": "minecraft:range_dispatch",
+              "property": "minecraft:custom_model_data",
+              "index": 0,
+              "entries": [
+                {
+                  "threshold": 1.0,
+                  "model": {
+                    "type": "minecraft:range_dispatch",
+                    "property": "minecraft:custom_model_data",
+                    "index": 1,
+                    "entries": [
+                      {
+                        "threshold": 1.0,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "galaxy:block/debug/inner_reduced_background"
+                        }
+                      },
+                      {
+                        "threshold": 1.1,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "galaxy:block/debug/inner_opaque_reduced_background"
+                        }
+                      }
+                    ],
+                    "fallback": {
+                      "type": "minecraft:range_dispatch",
+                      "property": "minecraft:custom_model_data",
+                      "index": 1,
+                      "entries": [
+                        {
+                          "threshold": 1.0,
+                          "model": {
+                            "type": "minecraft:model",
+                            "model": "galaxy:block/debug/inner_background"
+                          }
+                        },
+                        {
+                          "threshold": 1.1,
+                          "model": {
+                            "type": "minecraft:model",
+                            "model": "galaxy:block/debug/inner_opaque_background"
+                          }
+                        }
+                      ],
+                      "fallback": {
+                        "type": "minecraft:empty"
+                      }
+                    }
+                  }
+                }
+              ],
+              "fallback": {
+                "type": "minecraft:empty"
+              }
+            },
+            {
+              "type": "minecraft:range_dispatch",
+              "property": "minecraft:custom_model_data",
+              "index": 1,
+              "entries": [
+                {
+                  "threshold": 1.0,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "galaxy:block/debug/inner_border"
+                  }
+                },
+                {
+                  "threshold": 1.1,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "galaxy:block/debug/inner_opaque_border"
+                  }
+                }
+              ],
+              "fallback": {
+                "type": "minecraft:empty"
+              }
+            },
+            {
+              "type": "minecraft:condition",
+              "property": "minecraft:custom_model_data",
+              "index": 2,
+              "on_true": {
+                "type": "minecraft:composite",
+                "models": [
+                  {
+                    "type": "minecraft:range_dispatch",
+                    "property": "minecraft:custom_model_data",
+                    "index": 2,
+                    "entries": [
+                      {
+                        "threshold": 1.0,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "galaxy:block/debug/see_through_orientation"
+                        }
+                      },
+                      {
+                        "threshold": 1.1,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "galaxy:block/debug/see_through_opaque_orientation"
+                        }
+                      }
+                    ],
+                    "fallback": {
+                      "type": "minecraft:empty"
+                    }
+                  },
+                  {
+                    "type": "minecraft:range_dispatch",
+                    "property": "minecraft:custom_model_data",
+                    "index": 3,
+                    "entries": [
+                      {
+                        "threshold": 1.0,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "galaxy:block/debug/see_through_facing_direction"
+                        }
+                      },
+                      {
+                        "threshold": 1.1,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "galaxy:block/debug/see_through_opaque_facing_direction"
+                        }
+                      },
+                      {
+                        "threshold": 2.0,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "galaxy:block/debug/see_through_observe_direction"
+                        }
+                      },
+                      {
+                        "threshold": 2.1,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "galaxy:block/debug/see_through_opaque_observe_direction"
+                        }
+                      }
+                    ],
+                    "fallback": {
+                      "type": "minecraft:empty"
+                    }
+                  }
+                ]
+              },
+              "on_false": {
+                "type": "minecraft:composite",
+                "models": [
+                  {
+                    "type": "minecraft:range_dispatch",
+                    "property": "minecraft:custom_model_data",
+                    "index": 2,
+                    "entries": [
+                      {
+                        "threshold": 1.0,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "galaxy:block/debug/inside_orientation"
+                        }
+                      },
+                      {
+                        "threshold": 1.1,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "galaxy:block/debug/inside_opaque_orientation"
+                        }
+                      }
+                    ],
+                    "fallback": {
+                      "type": "minecraft:empty"
+                    }
+                  },
+                  {
+                    "type": "minecraft:range_dispatch",
+                    "property": "minecraft:custom_model_data",
+                    "index": 3,
+                    "entries": [
+                      {
+                        "threshold": 1.0,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "galaxy:block/debug/inside_facing_direction"
+                        }
+                      },
+                      {
+                        "threshold": 1.1,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "galaxy:block/debug/inside_opaque_facing_direction"
+                        }
+                      },
+                      {
+                        "threshold": 2.0,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "galaxy:block/debug/inside_observe_direction"
+                        }
+                      },
+                      {
+                        "threshold": 2.1,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "galaxy:block/debug/inside_opaque_observe_direction"
+                        }
+                      }
+                    ],
+                    "fallback": {
+                      "type": "minecraft:empty"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "on_false": {
+          "type": "minecraft:empty"
+        }
+      }
+    ]
+  }
+}

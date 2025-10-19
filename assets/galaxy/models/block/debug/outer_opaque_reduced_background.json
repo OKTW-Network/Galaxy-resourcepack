@@ -1,0 +1,6 @@
+{
+  "parent": "galaxy:block/debug/_block_layer",
+  "textures": {
+    "outer": "galaxy:block/debug/opaque/reduced_background"
+  }
+}
