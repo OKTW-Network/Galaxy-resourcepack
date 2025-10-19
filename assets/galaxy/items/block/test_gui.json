@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "minecraft:composite",
+    "models": [
+      {
+        "type": "minecraft:model",
+        "model": "galaxy:block/debug/outer_opaque_reduced_background"
+      },
+      {
+        "type": "minecraft:model",
+        "model": "galaxy:block/debug/outer_opaque_border"
+      },
+      {
+        "type": "minecraft:model",
+        "model": "galaxy:block/debug/outside_opaque_orientation"
+      }
+    ]
+  }
+}
